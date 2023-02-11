@@ -1,6 +1,6 @@
 Colabrative projects with Trink
 
-[Edit](https://github.com/christrees/blog/edit/master/wip/trinkcolab.md)
+[Edit](https://github.com/christrees/wip/edit/main/trinkcolab/README.md)
 
 ## Trink sync
 
