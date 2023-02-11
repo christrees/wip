@@ -4,6 +4,15 @@ Colabrative projects with Trink
 
 ## Trink sync
 
+### 2023.02.11 3pm PST 5pm CST - delay or reschedule
+- [brave talk - 4:47PM](https://talk.brave.com/2VIGO7s9cGOVop5APtsOUIJ7daEq0zWYaHezLovhDbM)
+- Monitor for trink and cat managed services
+  - services logs (plex servers)
+  - network, storage and compute health
+- trink: update
+- cat: debating home assistant, new freenas, sort data, tuner channel mapps
+
+
 ### 2023.02.10 3pm PST 5pm CST - delay or reschedule
 - [brave talk - 5:56PM](https://talk.brave.com/0eAINwV_92o3jMnzF9Ov5TWO421qxL1B0LADesA2VDQ)
 - Monitor for trink and cat managed services
