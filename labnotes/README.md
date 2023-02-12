@@ -3,13 +3,16 @@
 # WIP labnotes 
 please clear before brain explodes
 
-## cameras
+## home assistant [https://netstack.org/docs/portals/homeassistant/](https://netstack.org/docs/portals/homeassistant/)
+- [ha on synology](https://www.home-assistant.io/installation/alternative/#synology-nas)
+
+### cameras
 - [https://blinkforhome.com/blink-app](https://blinkforhome.com/blink-app)
 - [Using WyzeCam in Home Assistant (with RTSP firmware)](https://www.youtube.com/watch?v=RD6K30ftV24)
 - [How to add Zmodo cameras to Zoneminder and monitor with Home Assistant](https://www.youtube.com/watch?v=3L9_in6LciY&t=116s)
 = [tbd]()
 
-## plex
+## plex [https://netstack.org/docs/portals/plex/](https://netstack.org/docs/portals/plex/)
 - [definitive_plex_pfsense_config_post](https://www.reddit.com/r/PleX/comments/10ud1q9/definitive_plex_pfsense_config_post/)
 - [2_dvr_tuners_hdhr_antenna_iptv_xteve_with_xml_epg](https://www.reddit.com/r/PleX/comments/nqb67e/2_dvr_tuners_hdhr_antenna_iptv_xteve_with_xml_epg/)
 - [integrate_youtubetv_or_plutotv_into_plex_as_livetv](https://www.reddit.com/r/PleX/comments/fc3qod/integrate_youtubetv_or_plutotv_into_plex_as_livetv/)
@@ -17,12 +20,12 @@ please clear before brain explodes
 - Added plexapp to bs01ds411 synology NAS on 192.168.2.105
 = [tbd]()
 
-## stoarge
+## stoarge [https://netstack.org/docs/lan/storage/freenas/](https://netstack.org/docs/lan/storage/freenas/}
 - [zfs-should-belong-to-proxmox-or-truenas](https://forum.proxmox.com/threads/looking-for-advise-zfs-should-belong-to-proxmox-or-truenas.98129/)
 - [http://192.168.2.105/](http://192.168.2.105/) ds
 = [tbd]()
 
-## pfsense
+## pfsense [https://netstack.org/docs/lan/network/pfsense/](https://netstack.org/docs/lan/network/pfsense/}
 - [http://192.168.2.1/diag_arp.php](http://192.168.2.1/diag_arp.php) current arp table for all active devices
 - [tbd]()
 
