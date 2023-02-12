@@ -22,7 +22,8 @@ please clear before brain explodes
 
 ## stoarge [https://netstack.org/docs/lan/storage/freenas/](https://netstack.org/docs/lan/storage/freenas/)
 - [zfs-should-belong-to-proxmox-or-truenas](https://forum.proxmox.com/threads/looking-for-advise-zfs-should-belong-to-proxmox-or-truenas.98129/)
-- [http://192.168.2.105/](http://192.168.2.105/) ds
+- [http://192.168.2.105/](http://192.168.2.105/) bs01ns411
+- [synology fan fail fix](https://www.reddit.com/r/synology/comments/bc90fk/synology_cpu_fan_mainboard_failure_simple/)
 = [tbd]()
 
 ## pfsense [https://netstack.org/docs/lan/network/pfsense/](https://netstack.org/docs/lan/network/pfsense/)
