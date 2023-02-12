@@ -1,4 +1,4 @@
-[edit]()
+[edit](https://github.com/christrees/wip/edit/main/labnotes/README.md)
 
 # WIP labnotes 
 please clear before brain explodes
@@ -10,4 +10,5 @@ please clear before brain explodes
 
 
 ## plex
-- [https://www.reddit.com/r/PleX/comments/10ud1q9/definitive_plex_pfsense_config_post/](https://www.reddit.com/r/PleX/comments/10ud1q9/definitive_plex_pfsense_config_post/}
+- [definitive_plex_pfsense_config_post](https://www.reddit.com/r/PleX/comments/10ud1q9/definitive_plex_pfsense_config_post/)
+- [2_dvr_tuners_hdhr_antenna_iptv_xteve_with_xml_epg](https://www.reddit.com/r/PleX/comments/nqb67e/2_dvr_tuners_hdhr_antenna_iptv_xteve_with_xml_epg/)
