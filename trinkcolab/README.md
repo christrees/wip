@@ -4,6 +4,75 @@ Colabrative projects with Trink
 
 ## Trink sync
 
+### 2023.02.18 3pm PST 5pm CST Sat - maybe earlier
+- [brave talk - 4:47PM tbd]()
+- trink:
+  - tbd
+  - tbd
+- cat: 
+  - tbd
+  - tbd
+
+### 2023.02.17 3pm PST 5pm CST Fri
+- [brave talk - 4:47PM](https://talk.brave.com/U7DIfoomgrh-XR7yh5N4KNxFFVzlAk5N9xHSPn8-kT0)
+- trink: usb still broke working on microwriter demo
+- cat: grasshorse magma working plan cleanup of grasshorse storage
+
+### 2023.02.16 3pm PST 5pm CST Thur
+- [brave talk - 5:03PM](https://talk.brave.com/rU7LJ3z_mZjzLwWPPqzl-ne6gozaPY5kBvF4Nl2tKYc)
+- trink: 
+  - optimize and/or reduce test scripts
+  - convert to new logging
+  - usb broke no git checkin
+- cat: 
+  - grasshorse magma broke on update
+  - video and document magma rebuild joomla 4 / maria / php 7 / ubuntu 22.04
+  - snow
+
+### 2023.02.15 3pm PST 5pm CST Wed
+- [brave talk - 4:47PM](https://talk.brave.com/U7DIfoomgrh-XR7yh5N4KNxFFVzlAk5N9xHSPn8-kT0)
+- trink: 
+  - Spec out Microwriter keyboard project Dan wanted $50 in parts
+  - rtos in C
+- cat: 
+  - grasshorse magma network config
+  - truenas ssh login fail (random hack poke)
+  - find phone, USDA and insurance issues
+
+### 2023.02.14 3pm PST 5pm CST Tue
+- [brave talk - 502PM](https://talk.brave.com/030KJx8bjbPMygGQFQYDFwFWJlWXwj8NV_joj0zWnQw)
+- trink:
+  - Meet with Dan
+  - Clean up commit was last night
+  - add log annotation / screen capture ?
+  - [https://github.com/rust-lang/regex/discussions/775](https://github.com/rust-lang/regex/discussions/775)
+- cat: 
+  - grasshorse magma issue
+  - build ds411
+
+### 2023.02.13 3pm PST 5pm CST Mon 
+- [brave talk - 5:09PM tbd](https://talk.brave.com/8KjgR5hTcna9kk8kR01GDhQQYilcREK0V7rfdUnHri8)
+- trink:
+  - todo (automatic reduction of long crash scripts, analysis of timing data,  capture of screen output with corresponding command)
+  - clean/up refactor
+  - lot of time in rust documentation
+- cat: 
+  - crap broke outside... missed 5pm meetup
+
+### 2023.02.12 3pm PST 5pm CST Sun 
+- [brave talk - 4:47PM tbd]()
+- trink:
+  - test.log.editor.rs-218 is bug 1083
+  - [https://microsoft.github.io/debug-adapter-protocol/](https://microsoft.github.io/debug-adapter-protocol/)
+- cat: 
+  - Moving network things around
+  - pfsense moved to proxmox
+  - windows machine on the 2 networks decided to become a router... had to disable network
+  - all the virtual stuff puts in bridges and routing I think that's what caused issue
+  - fired up 4x4TB ds411
+  - superbowl stream testing ;-)
+  - tried to break cattvwin10 before game... needed to restart
+
 ### 2023.02.11 3pm PST 5pm CST - delay or reschedule
 - [brave talk - 4:47PM](https://talk.brave.com/2VIGO7s9cGOVop5APtsOUIJ7daEq0zWYaHezLovhDbM)
 - Monitor for trink and cat managed services
@@ -11,7 +80,6 @@ Colabrative projects with Trink
   - network, storage and compute health
 - trink: update
 - cat: debating home assistant, new freenas, sort data, tuner channel mapps
-
 
 ### 2023.02.10 3pm PST 5pm CST - delay or reschedule
 - [brave talk - 5:56PM](https://talk.brave.com/0eAINwV_92o3jMnzF9Ov5TWO421qxL1B0LADesA2VDQ)
