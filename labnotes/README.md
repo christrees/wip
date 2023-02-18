@@ -3,6 +3,21 @@
 # WIP labnotes 
 please clear before brain explodes
 
+## plex storage sort
+- setup ds211j to (storageserver ds211j) ssds211j 192.168.6.159 nsadmin What#Time disable admin setup sshauthkey
+- map out storage for plex dvr
+  - target ds411 for plex storage
+  - target ds211j for temp trink dvr ? not sure
+  - setup rsync
+- attempt all tuners to one plex and attempt recording 8 streams to see if it breaks
+- move trinkdvr off cattvwin10
+- move ssh target
+
+## ns document single node
+- document ns proxmox install backup recovery and rebuild cf
+- document ns pfsense install backup recovery and rebuild cf
+- document ns truenas install backup recovery and rebuild cf
+
 ## home assistant [https://netstack.org/docs/portals/homeassistant/](https://netstack.org/docs/portals/homeassistant/)
 - [ha on synology](https://www.home-assistant.io/installation/alternative/#synology-nas)
 
