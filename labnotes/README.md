@@ -3,6 +3,16 @@
 # WIP labnotes 
 please clear before brain explodes
 
+## zerotier 
+- [zerotier on synology](https://docs.zerotier.com/devices/synology/)
+- [tbd]()
+
+## bring down dockerplex
+- [https://cf.christrees.com/ns/](https://cf.christrees.com/ns/)
+- portainer admin page [http://192.168.6.103:9000/#!/auth](http://192.168.6.103:9000/#!/auth)
+- dockerplex plex page [http://192.168.6.103:32400/](http://192.168.6.103:32400/)
+- [tbd]()
+
 ## plex storage sort
 - setup ds211j to (storageserver ds211j) ssds211j 192.168.6.159 nsadmin What#Time disable admin setup sshauthkey
 - map out storage for plex dvr
@@ -12,6 +22,32 @@ please clear before brain explodes
 - attempt all tuners to one plex and attempt recording 8 streams to see if it breaks
 - move trinkdvr off cattvwin10
 - move ssh target
+
+## rsync setup for plex dvr
+- setup buadmin user on bu01ds411 192.168.2.105
+- enable ssh on bu01ds411 
+- enable rsync on bu01ds411
+- ebable user buadmin to use rsync
+- setup ssh keys [ssh key config](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
+  - ghadmin@cattvWin10:~$ ssh-keygen
+  - ghadmin@cattvWin10:~$ ssh-copy-id buadmin@192.168.2.105
+- rsync -rv --chown=mdt:972 -e 'ssh -p 2020' trink@test.christrees.com:/mnt/zpool-01/plex/ /mnt/data/media/video/dvr/
+- rsync -rv -e 'ssh -p 2020' "/mnt/d/cattvDVR/Resident Alien (2021)/" buadmin@192.168.2.105:/volume1/pshare/tvNew/
+- buadmin@bs01ds411:/volume1/pshare$ mv tvNew "Resident Alien (2021)"
+- buadmin@bs01ds411:/volume1/pshare$ chown -R plex Resident\ Alien\ \(2021\)/
+- buadmin@bs01ds411:/volume1/pshare$ mkdir tvNew
+- buadmin@bs01ds411:/volume1/pshare$ mv Resident\ Alien\ \(2021\)/ tvNew/
+- buadmin@bs01ds411:/volume1/pshare/tvNew$ mkdir ghosts
+- buadmin@bs01ds411:/volume1/pshare/tvNew$ mkdir sheldon
+- buadmin@bs01ds411:/volume1/pshare/tvNew$ mkdir nightcourt
+- buadmin@bs01ds411:/volume1/pshare/tvNew$ mkdir qleap
+- buadmin@bs01ds411:/volume1/pshare/tvNew$ mkdir shmtodd
+- rsync -rv -e 'ssh -p 2020' /mnt/d/cattvDVR/Ghosts\ \(2021\)/ buadmin@192.168.2.105:/volume1/pshare/tvNew/ghosts/
+- rsync -rv -e 'ssh -p 2020' /mnt/d/cattvDVR/Young\ Sheldon\ \(2017\)/ buadmin@192.168.2.105:/volume1/pshare/tvNew/sheldon/
+- rsync -rv -e 'ssh -p 2020' /mnt/d/cattvDVR/Night\ Court\ \(2023\)/ buadmin@192.168.2.105:/volume1/pshare/tvNew/nightcourt/
+- rsync -rv -e 'ssh -p 2020' /mnt/d/cattvDVR/Quantum\ Leap\ \(2022\)/ buadmin@192.168.2.105:/volume1/pshare/tvNew/qleap/
+- rsync -rv -e 'ssh -p 2020' /mnt/d/cattvDVR/So\ Help\ Me\ Todd\ \(2022\)/ buadmin@192.168.2.105:/volume1/pshare/tvNew/shmtodd/
+- rsync -rv -e 'ssh -p 2020' /mnt/d/cattvDVR/Hogan* buadmin@192.168.2.105:/volume1/pshare/tvOld/
 
 ## ns document single node
 - document ns proxmox install backup recovery and rebuild cf
