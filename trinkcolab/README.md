@@ -4,13 +4,23 @@ Colabrative projects with Trink
 
 ## Trink sync
 
-### 2023.02.18 3pm PST 5pm CST Sat - maybe earlier
+### 2023.02.18 3pm PST 5pm CST Sun - maybe earlier
 - [brave talk - 4:47PM tbd]()
 - trink:
+  - [https://zmk.dev/docs/customization](https://zmk.dev/docs/customization)
+  - [https://github.com/zmkfirmware/zmk](https://github.com/zmkfirmware/zmk)
+  - build local firmware for demo success
+- cat: 
+  - plex fun bring down non-used dockerplex
   - tbd
+
+### 2023.02.18 3pm PST 5pm CST Sat 
+- [brave talk - canceled]()
+- trink:
+  - layer 4 keymap
   - tbd
 - cat: 
-  - tbd
+  - rsync fun
   - tbd
 
 ### 2023.02.17 3pm PST 5pm CST Fri
