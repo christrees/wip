@@ -9,8 +9,40 @@ please clear before brain explodes
 
 ## bring down dockerplex
 - [https://cf.christrees.com/ns/](https://cf.christrees.com/ns/)
-- portainer admin page [http://192.168.6.103:9000/#!/auth](http://192.168.6.103:9000/#!/auth)
 - dockerplex plex page [http://192.168.6.103:32400/](http://192.168.6.103:32400/)
+- proxmox admin page [https://192.168.6.103:8006/](https://192.168.6.103:8006/)
+- docker container Summary [https://192.168.6.103:8006/#v1:0:=lxc%2F103:4:::::::](https://192.168.6.103:8006/#v1:0:=lxc%2F103:4:::::::)
+- portainer admin page [http://192.168.6.103:9000/#!/auth](http://192.168.6.103:9000/#!/auth)
+- volumes in portainer local env [http://192.168.6.103:9000/#!/2/docker/volumes](http://192.168.6.103:9000/#!/2/docker/volumes)
+- CT-103 (docker) -> Console to find the volumes mapped into plex via portainer
+```
+root@docker ~# ls -alu /var/lib/docker/volumes/
+total 52
+drwx-----x  7 root root  4096 Feb 20 19:44 .
+drwx--x--- 13 root root  4096 Feb 20 19:44 ..
+-rw-------  1 root root 32768 Jan 29 00:24 metadata.db
+drwx-----x  3 root root  4096 Jan 17 23:52 plexConfig
+drwx-----x  3 root root  4096 Jan 30 21:11 plexDVR
+drwx-----x  3 root root  4096 Jan 16 03:09 plexMovies
+drwx-----x  3 root root  4096 Jan 17 23:50 portainer_data
+drwx-----x  3 root root  4096 Jan 30 21:10 zfs2tbplexdvr
+root@docker ~# ls -alu /var/lib/docker/volumes/plexDVR/
+total 12
+drwx-----x 3 root root 4096 Feb 20 19:44 .
+drwx-----x 7 root root 4096 Feb 20 19:44 ..
+drwxr-xr-x 7 1000 1000 4096 Feb  3 00:20 _data
+root@docker ~# ls -alu /var/lib/docker/volumes/plexDVR/_data/
+total 28
+drwxr-xr-x 7 1000 1000 4096 Feb 20 19:44  .
+drwx-----x 3 root root 4096 Feb 20 19:44  ..
+drwxr-xr-x 2 1000 1000 4096 Feb 20 04:43  .grab
+drwxr-xr-x 3 1000 1000 4096 Jan 20 02:03 'Ghosts (2021)'
+drwxr-xr-x 3 1000 1000 4096 Jan 16 23:03 'MacGyver (1985)'
+drwxr-xr-x 4 1000 1000 4096 Jan 16 22:33 'Mom (2013)'
+drwxr-xr-x 3 1000 1000 4096 Jan 17 00:03 'The A-Team (1983)'
+root@docker ~#
+```
+- rsync -rv -e ‘ssh -p 2020’ /var/lib/docker/volumes/plexDVR/_data/ buadmin@192.168.2.105:/volume1/pshare/bs01DVR/
 - [tbd]()
 
 ## plex storage sort
