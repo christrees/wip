@@ -2,9 +2,9 @@
 
 # WIP labnotes 
 please clear before brain explodes
+
 ## wf.2cld.net
 - [http://192.168.254.254/advancedsetup_storagedeviceinfo.html](http://192.168.254.254/advancedsetup_storagedeviceinfo.html)
-- [tbd]()
 - [tbd]()
 - [tbd]()
 - [tbd]()
@@ -13,10 +13,26 @@ please clear before brain explodes
 ## proxmox install doc sync
 - [https://netstack.org/docs/lan/compute/proxmox/](https://netstack.org/docs/lan/compute/proxmox/)
 - [https://gh.2cld.net/docs/proxmox/](https://gh.2cld.net/docs/proxmox/)
-- [https://github.com/tteck/Proxmox/blob/main/misc/post-pve-install.sh](https://github.com/tteck/Proxmox/blob/main/misc/post-pve-install.sh)
-```
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/post-pve-install.sh)"
-```
+- [https://cf.christrees.com/ns/](https://cf.christrees.com/ns/)
+- From [https://tteck.github.io/Proxmox/](https://tteck.github.io/Proxmox/) 
+  - github [https://github.com/tteck/Proxmox/blob/main/misc/post-pve-install.sh](https://github.com/tteck/Proxmox/blob/main/misc/post-pve-install.sh)
+  - ran from cg node console shell
+  ```
+  bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/post-pve-install.sh)"
+  ```
+  - github [https://github.com/tteck/Proxmox/blob/main/ct/ubuntu-v5.sh](https://github.com/tteck/Proxmox/blob/main/ct/ubuntu-v5.sh)
+  - ran from cg node console shell
+  - set static IP 192.168.2.100/24
+  ```
+  bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/ubuntu-v5.sh)"
+  ```
+  - github [https://github.com/tteck/Proxmox/blob/main/ct/docker-v5.sh](https://github.com/tteck/Proxmox/blob/main/ct/docker-v5.sh)
+  - ran from cg node console shell
+  - set static IP 192.168.2.103/24
+  ```
+  bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/docker-v5.sh)"
+  ```
+
 
 - [tbd]()
 - [tbd]()
@@ -25,6 +41,9 @@ bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/post-pve-i
 ## zerotier 
 - [zerotier on synology](https://docs.zerotier.com/devices/synology/)
 - [tbd]()
+
+## QNAP
+- QNAP TS-431 [amazon QNAP-TS-431P-US-Cortex-1-7GHzDual](https://www.amazon.com/QNAP-TS-431P-US-Personal-Cortex-1-7GHzDual/dp/B01N2K147Q)
 
 ## bring down dockerplex
 - [https://cf.christrees.com/ns/](https://cf.christrees.com/ns/)
