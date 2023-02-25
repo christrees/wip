@@ -2,6 +2,25 @@
 
 # WIP labnotes 
 please clear before brain explodes
+## wf.2cld.net
+- [http://192.168.254.254/advancedsetup_storagedeviceinfo.html](http://192.168.254.254/advancedsetup_storagedeviceinfo.html)
+- [tbd]()
+- [tbd]()
+- [tbd]()
+- [tbd]()
+- [tbd]()
+
+## proxmox install doc sync
+- [https://netstack.org/docs/lan/compute/proxmox/](https://netstack.org/docs/lan/compute/proxmox/)
+- [https://gh.2cld.net/docs/proxmox/](https://gh.2cld.net/docs/proxmox/)
+- [https://github.com/tteck/Proxmox/blob/main/misc/post-pve-install.sh](https://github.com/tteck/Proxmox/blob/main/misc/post-pve-install.sh)
+```
+bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/post-pve-install.sh)"
+```
+
+- [tbd]()
+- [tbd]()
+- [tbd]()
 
 ## zerotier 
 - [zerotier on synology](https://docs.zerotier.com/devices/synology/)
