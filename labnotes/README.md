@@ -26,6 +26,17 @@ sequenceDiagram
     iframe->>iframe: render mermaid
 ```
 
+```mermaid
+stateDiagram
+    [*] --> New
+    New --> Active : Activate
+    New --> Closed : Close
+    Active --> Inactive : Deactivate
+    Active --> Closed : Close
+    Inactive --> Active: Activate
+    Inactive --> Closed : Close
+```
+
 ## wf.2cld.net
 - [http://192.168.254.254/advancedsetup_storagedeviceinfo.html](http://192.168.254.254/advancedsetup_storagedeviceinfo.html)
 - [tbd]()
