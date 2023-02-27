@@ -3,6 +3,14 @@
 # WIP labnotes 
 please clear before brain explodes
 
+- get windows machine on proxmox
+- zerotier to something inside wf
+- remote config
+- zerotier in linux container [zerotier-in-lxc-proxmox](https://forum.level1techs.com/t/zerotier-in-lxc-proxmox/155515/11)
+- look at tailscale
+- check firetv recast
+- check gh catmedia transfers
+- add drives to cg.wf.2cld.net
 
 ## wf.2cld.net
 - [Windstream - http://192.168.254.254/](http://192.168.254.254/) 
