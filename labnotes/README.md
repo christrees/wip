@@ -51,7 +51,7 @@ please clear before brain explodes
 ## proxmox windows11 vm
 - References
   - [proxmox-windows11-vm](https://gulowsen.com/post/proxmox/proxmox-windows11-vm/)
-  - [proxmox win11 dirvers iso copy link](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso)
+  - [proxmox win11 drivers iso copy link](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso)
   - [github for win11 driver](https://github.com/virtio-win/virtio-win-pkg-scripts)
 - Create VM
   - Machine
