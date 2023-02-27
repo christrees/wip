@@ -5,8 +5,9 @@ please clear before brain explodes
 
 
 ## wf.2cld.net
-- [http://192.168.254.254/advancedsetup_storagedeviceinfo.html](http://192.168.254.254/advancedsetup_storagedeviceinfo.html)
-- [tbd]()
+- [Windstream - http://192.168.254.254/](http://192.168.254.254/) 
+- [Windstream - http://192.168.254.254/advancedsetup_storagedeviceinfo.html](http://192.168.254.254/advancedsetup_storagedeviceinfo.html)
+- [Mikrotik - https://github.com/2cld/mikrotik](https://github.com/2cld/mikrotik)
 - [tbd]()
 - [tbd]()
 - [tbd]()
