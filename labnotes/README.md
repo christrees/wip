@@ -48,7 +48,7 @@ please clear before brain explodes
 - [tbd]()
 - [tbd]()
 
-## proxmox windows11 vm
+## proxmox windows11 vm nswin11
 - References
   - [proxmox-windows11-vm](https://gulowsen.com/post/proxmox/proxmox-windows11-vm/)
   - [proxmox win11 drivers iso copy link](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso)
@@ -56,24 +56,24 @@ please clear before brain explodes
 - Create VM
   - Machine
     - Machine: Make sure machine is set to q35.
-    - BIOS: Microsoft have it as a requirement to use UEFI so switch over to OVMF (UEFI).
-    - Add EFI Disk and EFI Storage: EFI Disk should to be checked for Windows. You can do without it, but it is a backup in case the boot part of windows gets corrupted. For EFI Disk you Should use the same storage you plan to use for the VM disk.
+    - BIOS: Microsoft requires UEFI so use OVMF (UEFI).
+    - Add EFI Disk and EFI Storage: EFI Disk should to be checked for Windows. It is a backup in case the boot part of windows gets corrupted. For EFI Disk you Should use the same storage as VM disk local-lvm.
     - SCSI Controller: Set this to VirtIO SCSI if not already.
-    - Add TPM TPM is a requirement for Windows 11 and luckily Proxmox can virtualize it. So even if your machine does not have the required hardware, you are able to install Windows 11 as a guest OS.
-    - TPM Storage As EFI Storage this should point to the drive you plan to setup the disk for the VM on.
+    - Add TPM TPM is required for Windows 11 and Proxmox can virtualize it.
+    - TPM Storage As EFI Storage this should point to local-lvm same disk for the VM on.
     - Version Make sure V2.0 is selected if you are installing Windows 11.
   - Drive
-    - Bus Device: I'm setting this to SCSI for compatibility.
-    - Storage: For extra speed I will be using the NVME SSD I have in the system. It is also the same drive as I used in the previous steps.
-    - Disk size: According to Microsoft the minimum required drive size is 64 Gigabytes so give it that or more.
+    - Bus Device: SCSI for compatibility.
+    - Storage: local-lvm SSD same drive used in the previous steps.
+    - Disk size: Microsoft minimum required drive size is 64 Gigabytes so give it that or more.
     - Cache: I set this to "write back" as it is the most stable option according to the Proxmox wiki.
   - CPU
-    - Sockets: My system only have 1 processor so this will be staying at 1 for me. If you have more cores in your system, you can allocate both and give cores from both of them.
-    - Cores: I usually give systems access to half of the cores. That way they should have enough power and I don't have to worry about runaway processor usage.
-    - Type: There is a range of CPU types you can make it look like you have but I will just passthrough host as the type.
-    - Extra CPU Flags: There are loads of other CPU flags you can change, none of which I touch.
+    - Sockets: 1
+    - Cores: 4 (half of the cores)
+    - Type: Use "passthrough host" as the type
+    - Extra CPU Flags: none
   - Memory
-    - Memory: For now I am allocating 8 gigabyte's of memory to this VM. It is double what is needed but installation usually is a bit faster with more memory. This can easily be changed later.
+    - Memory: 8 gigabyte's of memory
     - Minimum memory: This is to make sure a VM will have enough memory for what you wish even if you enable ballooning.
     - Ballooning Device: Check this to enable Ballooning. When enabled, the VM will only be allocated the amount of memory it is actually using. This will give you the possibility to allocate more memory than you actually have, but be aware that this may cause start up problems and crashes.
   - Network
@@ -104,21 +104,29 @@ please clear before brain explodes
     - Click ok then next to install the driver.  You will not see anything extra when this is installed but Windows will be able to do some updates during installation.
     - Next unless you wish to format the drive in a specific way click Next to continue.
 - Setup Windows
-  = Offline User To create an offline account simply click the options below in each menu.
+  - Offline User To create an offline account simply click the options below in each menu.
     - A: Sign-in options
     - B: Offline account
     - C: Skip for now
   - Load Devices
+    - run virtio-win-0.1.229/virtio-win-gt-x64.msi
     - Right click the start menu (Windows logo on the lower bar) Click Device Manager
-    - You should see at least one PCI Device marked with and error.
-    - Right click one of the devices with an error and click update driver.
-    - In the window that opens, click Browse my computer for drivers.
-    - On the next side click Browse.
-    - In the file browser, navigate down to the virtio-win ISO and select it. You do not need to specify any drivers.
-    - Click Next. Windows will go through the ISO and install the drivers it needs.
+    - Verify no PCI Device marked with and error.
+    - If errors
+      - Right click one of the devices with an error and click update driver.
+      - In the window that opens, click Browse my computer for drivers.
+      - On the next side click Browse.
+      - In the file browser, navigate down to the virtio-win ISO and select it. You do not need to specify any drivers.
+      - Click Next. Windows will go through the ISO and install the drivers it needs.
   - Remote Connection Enable
     - Start by right clicking the Windows start menu. Click Settings.
     - The System menu then scroll down to and click Remote Desktop
+  - Guest Agent Install
+    - [https://pve.proxmox.com/wiki/Qemu-guest-agent](https://pve.proxmox.com/wiki/Qemu-guest-agent)
+    - Verify guest agent is enabled
+    - Node (nswin11) Options -> QEMU Guest Agent : Enabled
+    - run virtio-win-0.1.229/guest-agent/qemu-ga-x86-64.msi
+
 - zerotier [https://www.zerotier.com/download/](https://www.zerotier.com/download/)
   - Install
   - join network
@@ -127,7 +135,8 @@ please clear before brain explodes
 
 ## zerotier 
 - [zerotier on synology](https://docs.zerotier.com/devices/synology/)
-- [tbd]()
+- [zerotier on mikrotik download ARM64 extra packages](https://mikrotik.com/download)
+- [zerotier on mikrotik help docs](https://help.mikrotik.com/docs/display/ROS/ZeroTier)
 
 ## iso rip
 - bash "dd if=/dev/sr0 of=name_of_dvd.iso"
