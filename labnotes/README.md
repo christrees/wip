@@ -4,6 +4,8 @@
 please clear before brain explodes
 
 - document nginx proxy install
+- [https://medium.com/@devops.ent/nginx-proxy-manager-how-to-installation-and-configuration-using-docker-portainer-1348c67a392e](https://medium.com/@devops.ent/nginx-proxy-manager-how-to-installation-and-configuration-using-docker-portainer-1348c67a392e)
+- tbd
 - verify documents in proxmox notes.. reflect in a 2cld repo ?
 - get windows machine on proxmox
 - zerotier to something inside wf
