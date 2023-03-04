@@ -24,6 +24,13 @@ please clear before brain explodes
 - [tbd]()
 - [tbd]()
 
+## proxmox firewall [proxmox cg node https://192.168.2.3:8006/](https://192.168.2.3:8006/)
+- [proxmox-firewall-youtube](https://www.youtube.com/watch?v=yA9e7A9v7Xc)
+- [proxmox-NAT](https://bobcares.com/blog/setup-nat-on-proxmox/)
+- [proxmox-firewall-docs](https://pve.proxmox.com/wiki/Firewall)
+- [datacenter firewall https://192.168.2.3:8006/#v1:0:18:4:::::::32](https://192.168.2.3:8006/#v1:0:18:4:::::::32)
+- tbd
+
 ## proxmox install doc sync
 - [https://netstack.org/docs/lan/compute/proxmox/](https://netstack.org/docs/lan/compute/proxmox/)
 - [https://gh.2cld.net/docs/proxmox/](https://gh.2cld.net/docs/proxmox/)
