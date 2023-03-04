@@ -25,11 +25,16 @@ please clear before brain explodes
 - [tbd]()
 
 ## proxmox firewall [proxmox cg node https://192.168.2.3:8006/](https://192.168.2.3:8006/)
+- [proxmox-user-management](https://pve.proxmox.com/wiki/User_Management)
 - [proxmox-firewall-youtube](https://www.youtube.com/watch?v=yA9e7A9v7Xc)
 - [proxmox-NAT](https://bobcares.com/blog/setup-nat-on-proxmox/)
 - [proxmox-firewall-docs](https://pve.proxmox.com/wiki/Firewall)
 - [datacenter firewall https://192.168.2.3:8006/#v1:0:18:4:::::::32](https://192.168.2.3:8006/#v1:0:18:4:::::::32)
-- tbd
+- tracert from cmd - CTRL+C will send a break (stop execution) when no text is selected
+```powershell
+tracert cf.christrees.com
+```
+- [rackn.io provision on proxmox](https://docs.rackn.io/en/latest/doc/content-packages/proxmox.html)
 
 ## proxmox install doc sync
 - [https://netstack.org/docs/lan/compute/proxmox/](https://netstack.org/docs/lan/compute/proxmox/)
