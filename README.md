@@ -5,7 +5,7 @@ Work In Progress for christrees
 ## short notes to read or file
 - [zerotier and tailscale](https://news.ycombinator.com/item?id=27491133)
 - [https://vault.bitwarden.com/#/login](https://vault.bitwarden.com/#/login)
-- [test](https://vault.bitwarden.com/#/login)
+- [win11 key electronicfirst](https://www.electronicfirst.com/ef-weekly-sale)
 - tbd
 - tbd
 
