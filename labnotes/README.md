@@ -59,9 +59,7 @@ please clear before brain explodes
 | ~~tnasplex web~~ | [http://192.168.2.2:32500](http://192.168.2.2:32500) | static | ~~32500 on IP plex on portainer~~ |
 | nswin11 | [http://192.168.2.195](http://192.168.2.195) | static | windows 11 vm-400 |
 
-## proxmox phy and virtio [https://192.168.2.3:8006/](https://192.168.2.3:8006/)
-
-proxmox [https://192.168.2.3:8006/](https://192.168.2.3:8006/)
+## proxmox [https://192.168.2.3:8006/](https://192.168.2.3:8006/) phy and virtio
 
 | cg Name |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
 |---------|-------------------|--------------|-------------|------|----------------|-------------|
@@ -91,25 +89,50 @@ proxmox [https://192.168.2.3:8006/](https://192.168.2.3:8006/)
   ``` 
   - portainer ui [http://192.168.2.103:9000](http://192.168.2.103:9000)
 - nsbuMikrotik
-  - lan 192.168.2.4
+  - lan-> 192.168.2.4
   ```
   ssh -p 22 admin@192.168.2.4
   ``` 
-  - wan
+  - wan-> 192.168.254.195
   ```
   ssh -p 22 admin@192.168.254.195
   ```
 
-nsMikrotik lan > ```ssh -p 22 admin@192.168.2.1``` wan > ```ssh -p 22 admin@192.168.254.194```
+## nsMikrotik [https://192.168.254.194](https://192.168.254.194) 
+
 | msMikrotik |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
 |---------|-------------------|--------------|-------------|------|----------------|-------------|
 | ether1  | 192.168.2.1/24    | 192.168.2.1  | vmbr1       | net0 | vm-101 ether1  | vm-101 (ngMiktrotik) ether1 |
 | ether2  | -                 | -            | vmbr1       | net1 | vm-101 ether2  | vm-101 (ngMiktrotik) ether2 |
 | ether3  | -                 | -            | vmbr0       | net2 | vm-101 ether3  | vm-101 (ngMiktrotik) ether3 |
 
+- nsMikrotik 
+  - lan
+  ```
+  ssh -p 22 admin@192.168.2.1
+  ``` 
+  - wan
+  ```
+  ssh -p 22 admin@192.168.254.194
+  ```
+
 ## VRRP on hw and sw mikrotik
 - [https://help.mikrotik.com/docs/display/ROS/VRRP+Configuration+Examples](https://help.mikrotik.com/docs/display/ROS/VRRP+Configuration+Examples)
-- 
+
+### nsMikrotik
+```
+/ip address add address=192.168.254.194/24 interface=ether1
+/interface vrrp add interface=ether1 vrid=49 priority=254
+/ip address add address=192.168.2.1/32 interface=vrrp1
+```
+
+### nsbuMikrotik
+```
+/ip address add address=192.168.254.195/24 interface=ether1
+/interface vrrp add interface=ether1 vrid=49
+/ip address add address=192.168.2.1/32 interface=vrrp1
+```
+
 ## proxmox install mikrotik CHR on a Proxmox
 - [Virtual Network in Proxmox for MPTCP Test lab](https://www.youtube.com/watch?v=S-Xmcig1ddA)
 - [https://ostechnix.com/import-qcow2-into-proxmox/](https://ostechnix.com/import-qcow2-into-proxmox/)
