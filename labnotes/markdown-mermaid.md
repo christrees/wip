@@ -1,6 +1,9 @@
 markdown-mermaid
 [edit](https://github.com/christrees/wip/edit/main/labnotes/markdown-mermaid.md)
 
+- [mermaid cheatsheet https://jojozhuang.github.io/tutorial/mermaid-cheat-sheet/](https://jojozhuang.github.io/tutorial/mermaid-cheat-sheet/)
+---
+
 ```mermaid
 
   graph TD; 
