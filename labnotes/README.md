@@ -28,6 +28,54 @@ please clear before brain explodes
 - [tbd]()
 - [tbd]()
 
+## wf.christrees.com
+- [https://whatismyipaddress.com/ip/173.191.244.125](https://whatismyipaddress.com/ip/173.191.244.125)
+- [https://whatismyipaddress.com/](https://whatismyipaddress.com/)
+
+## 192.168.254.0/24 gw [http://192.168.254.254/](http://192.168.254.254/)
+
+| web proxy    |   Link  | type | description |
+|--------------|---------|------|-------------|
+| windstream | [https://173.191.244.125/](https://173.191.244.125/) | static | windstream public IP |
+|--------------|---------|------|-------------|
+| windstream | [http://192.168.254.254/](http://192.168.254.254/) | static | windstream gw |
+| nginx default | [http://192.168.6.103/](http://192.168.6.103/) | static | default nginx proxy page running in portainer |
+| nginx proxy admin | [http://192.168.6.103:81](http://192.168.6.103:81) | static | admin for nginx running in portainer |
+|--------------|---------|------|-------------|
+| proxmox admin | [https://192.168.6.103:8006](https://192.168.6.103:8006) | static | proxmox running on metal 192.168.2.3 IP |
+
+
+## 192.168.2.0/24 gw [http://192.168.2.1/](http://192.168.2.1/)
+  
+| web proxy    |   Link  | type | description |
+|--------------|---------|------|-------------|
+| ngMikrotik | [http://192.168.2.1/](http://192.168.2.1/) | static | mikrotik hw ng on subnet |
+| truenas | [http://192.168.2.2/](http://192.168.2.2/) | static | truenas sg on subnet |
+| proxmox | [https://192.168.2.3:8006/](https://192.168.2.3:8006/) | static | proxmox cg subnet |
+| ~~nginx default~~ | [http://192.168.2.103/](http://192.168.2.103/) | static | ~~default nginx proxy page running in portainer~~ |
+| ~~nginx proxy admin~~ | [http://192.168.2.103:81](http://192.168.2.103:81) | macDHCP | ~~admin for nginx running in portainer~~ |
+| portainer admin | [http://192.168.2.103:9000](http://192.168.2.103:9000) | macDHCP | portainer admin on proxmox docker 103 |
+| ~~dockerplex web~~ | [http://192.168.2.103:32400](http://192.168.2.103:32400) | ~~macDHCP | 32400 on IP plex on portainer~~ |
+| ~~tnasplex web~~ | [http://192.168.2.2:32500](http://192.168.2.2:32500) | static | ~~32500 on IP plex on portainer~~ |
+| nswin11 | [http://192.168.2.195](http://192.168.2.195) | static | windows 11 vm-400 |
+
+## proxmox phy and virtio [https://192.168.2.3:8006/](https://192.168.2.3:8006/
+  
+| Name    |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
+|---------|-------------------|--------------|-------------|------|----------------|-------------|
+| enp60f0 | -                 | -            | -           | -    | Network Device | phy port left |
+| enp60f1 | -                 | -            | -           | -    | Network Device | phy port right |
+| vmbr0   | 192.168.2.3/24    | 192.168.2.1  | enp60f0     | -    | Linux Bridge   | vio bridge |
+| vmbr1   | 192.168.254.0/24  | -            | enp60f1     | -    | Linux Bridge   | vio bridge |
+|---------|-------------------|--------------|-------------|------|----------------|-------------|
+| eth0    | 192.168.2.100/24  | 192.168.2.1  | vmbr0       | net0 | ct-100 eth0    | ct-100 (ubuntu) eth0 |
+|---------|-------------------|--------------|-------------|------|----------------|-------------|
+| eth0    | 192.168.2.103/24  | 192.168.2.1  | vmbr0       | net0 | ct-103 eth0    | ct-103 (docker) eth0 |
+|---------|-------------------|--------------|-------------|------|----------------|-------------|
+| ether1  | 192.168.2.4/24    | 192.168.2.1  | vmbr1       | net0 | vm-101 ether1  | vm-101 (ngMiktrotik) ether1 |
+| ether2  | -                 | -            | vmbr1       | net1 | vm-101 ether2  | vm-101 (ngMiktrotik) ether2 |
+| ether3  | -                 | -            | vmbr0       | net2 | vm-101 ether3  | vm-101 (ngMiktrotik) ether3 |
+
 ## proxmox install mikrotik CHR on a Proxmox
 - [https://wiki.mikrotik.com/wiki/Manual:CHR_ProxMox_installation](https://wiki.mikrotik.com/wiki/Manual:CHR_ProxMox_installation)
 - [https://mikrotik.com/download](https://mikrotik.com/download)
