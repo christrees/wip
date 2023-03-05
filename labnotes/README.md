@@ -119,19 +119,58 @@ please clear before brain explodes
 ## VRRP on hw and sw mikrotik
 - [https://help.mikrotik.com/docs/display/ROS/VRRP+Configuration+Examples](https://help.mikrotik.com/docs/display/ROS/VRRP+Configuration+Examples)
 
-### nsMikrotik
+### R1 nsMikrotik
 ```
 /ip address add address=192.168.254.194/24 interface=ether1
 /interface vrrp add interface=ether1 vrid=49 priority=254
 /ip address add address=192.168.2.1/32 interface=vrrp1
 ```
 
-### nsbuMikrotik
+### R2 nsbuMikrotik
 ```
 /ip address add address=192.168.254.195/24 interface=ether1
 /interface vrrp add interface=ether1 vrid=49
 /ip address add address=192.168.2.1/32 interface=vrrp1
 ```
+
+### Testing
+First of all, check if both routers have correct flags at VRRP interfaces. On router R1 it should look like this
+
+#### R1 nsMikrotik
+```
+/interface vrrp print detail
+ 0   RM name="vrrp1" mtu=1500 mac-address=00:00:5E:00:01:31 arp=enabled interface=ether1 vrid=49
+        priority=254 interval=1 preemption-mode=yes authentication=none password="" on-backup=""
+        on-master="" version=3 v3-protocol=ipv4
+```
+
+#### R2 nsbuMikrotik
+```
+/interface vrrp print detail
+ 0    B name="vrrp1" mtu=1500 mac-address=00:00:5E:00:01:31 arp=enabled interface=ether1 vrid=49
+        priority=100 interval=1 preemption-mode=yes authentication=none password=""
+        on-backup="" on-master=" version=3 v3-protocol=ipv4
+```
+
+- MAC addresses are identical on both routers
+- ping the virtual address from a client and check ARP entries:
+
+```
+[admin@client] > /ping 192.168.1.1
+192.168.1.254 64 byte ping: ttl=64 time=10 ms
+192.168.1.254 64 byte ping: ttl=64 time=8 ms
+2 packets transmitted, 2 packets received, 0% packet loss
+round-trip min/avg/max = 8/9.0/10 ms
+[admin@client] /ip arp> print
+Flags: X - disabled, I - invalid, H - DHCP, D - dynamic
+ #   ADDRESS         MAC-ADDRESS       INTERFACE
+ ...
+ 1 D 192.168.1.1   00:00:5E:00:01:31 bridge1
+```
+
+- unplug the ether1 cable on router R1
+- R2 will become VRRP master, and the ARP table on a client will not change
+- traffic will start to flow over the R2 router
 
 ## proxmox install mikrotik CHR on a Proxmox
 - [Virtual Network in Proxmox for MPTCP Test lab](https://www.youtube.com/watch?v=S-Xmcig1ddA)
