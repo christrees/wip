@@ -32,7 +32,7 @@ please clear before brain explodes
 - [https://whatismyipaddress.com/ip/173.191.244.125](https://whatismyipaddress.com/ip/173.191.244.125)
 - [https://whatismyipaddress.com/](https://whatismyipaddress.com/)
 
-## 192.168.254.0/24 gw [http://192.168.254.254/](http://192.168.254.254/)
+## 192.168.254.0/24 gw [http://192.168.254.254/](http://192.168.254.254/) - IPA [http://192.168.254.254/advancedsetup_dhcpreservation.html](http://192.168.254.254/advancedsetup_dhcpreservation.html)
 
 | web proxy    |   Link  | type | description |
 |--------------|---------|------|-------------|
@@ -59,27 +59,52 @@ please clear before brain explodes
 | ~~tnasplex web~~ | [http://192.168.2.2:32500](http://192.168.2.2:32500) | static | ~~32500 on IP plex on portainer~~ |
 | nswin11 | [http://192.168.2.195](http://192.168.2.195) | static | windows 11 vm-400 |
 
-## proxmox phy and virtio [https://192.168.2.3:8006/](https://192.168.2.3:8006/
-  
-| Name    |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
+## proxmox phy and virtio [https://192.168.2.3:8006/](https://192.168.2.3:8006/)
+
+proxmox [https://192.168.2.3:8006/](https://192.168.2.3:8006/)
+| cg Name |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
 |---------|-------------------|--------------|-------------|------|----------------|-------------|
 | enp60f0 | -                 | -            | -           | -    | Network Device | phy port left |
 | enp60f1 | -                 | -            | -           | -    | Network Device | phy port right |
 | vmbr0   | 192.168.2.3/24    | 192.168.2.1  | enp60f0     | -    | Linux Bridge   | vio bridge |
 | vmbr1   | 192.168.254.0/24  | -            | enp60f1     | -    | Linux Bridge   | vio bridge |
+
+ubuntu ```ssh -p 22 admin@192.168.2.100```
+| ct-100  |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
 |---------|-------------------|--------------|-------------|------|----------------|-------------|
 | eth0    | 192.168.2.100/24  | 192.168.2.1  | vmbr0       | net0 | ct-100 eth0    | ct-100 (ubuntu) eth0 |
+
+docker ```ssh -p 22 admin@192.168.2.103``` portainer ui [http://192.168.2.103:9000](http://192.168.2.103:9000)
+| ct-103  |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
 |---------|-------------------|--------------|-------------|------|----------------|-------------|
 | eth0    | 192.168.2.103/24  | 192.168.2.1  | vmbr0       | net0 | ct-103 eth0    | ct-103 (docker) eth0 |
+
+nsbuMikrotik lan > ```ssh -p 22 admin@192.168.2.4``` wan >```ssh -p 22 admin@192.168.254.195```
+| vm-101  |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
 |---------|-------------------|--------------|-------------|------|----------------|-------------|
 | ether1  | 192.168.2.4/24    | 192.168.2.1  | vmbr1       | net0 | vm-101 ether1  | vm-101 (ngMiktrotik) ether1 |
 | ether2  | -                 | -            | vmbr1       | net1 | vm-101 ether2  | vm-101 (ngMiktrotik) ether2 |
 | ether3  | -                 | -            | vmbr0       | net2 | vm-101 ether3  | vm-101 (ngMiktrotik) ether3 |
 
+nsMikrotik lan > ```ssh -p 22 admin@192.168.2.1``` wan > ```ssh -p 22 admin@192.168.254.194```
+| msMikrotik |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
+|---------|-------------------|--------------|-------------|------|----------------|-------------|
+| ether1  | 192.168.2.1/24    | 192.168.2.1  | vmbr1       | net0 | vm-101 ether1  | vm-101 (ngMiktrotik) ether1 |
+| ether2  | -                 | -            | vmbr1       | net1 | vm-101 ether2  | vm-101 (ngMiktrotik) ether2 |
+| ether3  | -                 | -            | vmbr0       | net2 | vm-101 ether3  | vm-101 (ngMiktrotik) ether3 |
+
+## VRRP on hw and sw mikrotik
+- [https://help.mikrotik.com/docs/display/ROS/VRRP+Configuration+Examples](https://help.mikrotik.com/docs/display/ROS/VRRP+Configuration+Examples)
+- 
 ## proxmox install mikrotik CHR on a Proxmox
+- [Virtual Network in Proxmox for MPTCP Test lab](https://www.youtube.com/watch?v=S-Xmcig1ddA)
+- [https://ostechnix.com/import-qcow2-into-proxmox/](https://ostechnix.com/import-qcow2-into-proxmox/)
 - [https://wiki.mikrotik.com/wiki/Manual:CHR_ProxMox_installation](https://wiki.mikrotik.com/wiki/Manual:CHR_ProxMox_installation)
 - [https://mikrotik.com/download](https://mikrotik.com/download)
+- [https://dailymikrotik.blogspot.com/2015/08/commands-in-mikrotik-router-os.html](https://dailymikrotik.blogspot.com/2015/08/commands-in-mikrotik-router-os.html)
+- [https://forum.proxmox.com/threads/vm-disk-location-cant-find-the-vm-disk.101118/](https://forum.proxmox.com/threads/vm-disk-location-cant-find-the-vm-disk.101118/)
 - downloaded raw disk image chr-7.8.img.zip
+- reference [https://gregsowell.com/?p=6051](https://gregsowell.com/?p=6051)
 1. Go to the mikrotik download page (above) and grab the raw disk image chr-7.8.img.zip
 2. Extract the img file and transfer it into your proxmox /root folder.
 3. On proxmox issue the following “qm list”. Pick the next sequential number that isn’t already taken.
@@ -443,36 +468,5 @@ buadmin@bs01ds411:/volume1/pshare/tvNew$ sudo chown -R plex Ghosts\ \(2021\)/
 | LAN	192.168.2.1	| 9e:ac:9e:66:a4:59	| pfSense.home.arpa	Permanent	ethernet	| 
 | LAN	192.168.2.2	| 4a:35:41:f6:ba:c7	| truenas	Expires in 161 seconds	ethernet | 
 
-### Charts in markdown mermaid
-- [https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
 
-```mermaid
-sequenceDiagram
-    participant dotcom
-    participant iframe
-    participant viewscreen
-    dotcom->>iframe: loads html w/ iframe url
-    iframe->>viewscreen: request template
-    viewscreen->>iframe: html & javascript
-    iframe->>dotcom: iframe ready
-    dotcom->>iframe: set mermaid data on iframe
-    iframe->>iframe: render mermaid
-```
-
-```mermaid
-stateDiagram
-    [*] --> New
-    New --> Active : Activate
-    New --> Closed : Close
-    Active --> Inactive : Deactivate
-    Active --> Closed : Close
-    Inactive --> Active: Activate
-    Inactive --> Closed : Close
-```
+the end
