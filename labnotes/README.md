@@ -62,6 +62,7 @@ please clear before brain explodes
 ## proxmox phy and virtio [https://192.168.2.3:8006/](https://192.168.2.3:8006/)
 
 proxmox [https://192.168.2.3:8006/](https://192.168.2.3:8006/)
+
 | cg Name |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
 |---------|-------------------|--------------|-------------|------|----------------|-------------|
 | enp60f0 | -                 | -            | -           | -    | Network Device | phy port left |
