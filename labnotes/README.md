@@ -81,9 +81,24 @@ proxmox [https://192.168.2.3:8006/](https://192.168.2.3:8006/)
 | ether2  | -                 | -            | vmbr1       | net1 | vm-101 ether2  | vm-101 (ngMiktrotik) ether2 |
 | ether3  | -                 | -            | vmbr0       | net2 | vm-101 ether3  | vm-101 (ngMiktrotik) ether3 |
 
-- ubuntu ```ssh -p 22 admin@192.168.2.100```
-- docker ```ssh -p 22 admin@192.168.2.103``` portainer ui [http://192.168.2.103:9000](http://192.168.2.103:9000)
-- nsbuMikrotik lan-> ```ssh -p 22 admin@192.168.2.4``` wan-> ```ssh -p 22 admin@192.168.254.195```
+- ubuntu 192.168.2.100
+  ```
+  ssh -p 22 admin@192.168.2.100
+  ```
+- docker 
+  ```
+  ssh -p 22 admin@192.168.2.103
+  ``` 
+  - portainer ui [http://192.168.2.103:9000](http://192.168.2.103:9000)
+- nsbuMikrotik
+  - lan 192.168.2.4
+  ```
+  ssh -p 22 admin@192.168.2.4
+  ``` 
+  - wan
+  ```
+  ssh -p 22 admin@192.168.254.195
+  ```
 
 nsMikrotik lan > ```ssh -p 22 admin@192.168.2.1``` wan > ```ssh -p 22 admin@192.168.254.194```
 | msMikrotik |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
