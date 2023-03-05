@@ -2,7 +2,11 @@
 
 # WIP labnotes 
 please clear before brain explodes
+## subpages in labnotes
+- [markdown-mermaid.md](./markdown-mermaid.md)
+- [mikrotik-test.md](./mikrotik-test.md)
 
+## quick notes
 - document nginx proxy install
 - [https://medium.com/@devops.ent/nginx-proxy-manager-how-to-installation-and-configuration-using-docker-portainer-1348c67a392e](https://medium.com/@devops.ent/nginx-proxy-manager-how-to-installation-and-configuration-using-docker-portainer-1348c67a392e)
 - tbd
