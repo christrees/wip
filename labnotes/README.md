@@ -69,13 +69,13 @@ proxmox [https://192.168.2.3:8006/](https://192.168.2.3:8006/)
 | vmbr0   | 192.168.2.3/24    | 192.168.2.1  | enp60f0     | -    | Linux Bridge   | vio bridge |
 | vmbr1   | 192.168.254.0/24  | -            | enp60f1     | -    | Linux Bridge   | vio bridge |
 |---------|-------------------|--------------|-------------|------|----------------|-------------|
-| __ct-100__  | ```ssh -p 22 admin@192.168.2.100``` |  gw          | pt/slv/brg  | ID   |  type          | description |
+| __ct-100__  | ssh -p 22 admin@192.168.2.100 |  gw          | pt/slv/brg  | ID   |  type          | description |
 | eth0    | 192.168.2.100/24  | 192.168.2.1  | vmbr0       | net0 | ct-100 eth0    | ct-100 (ubuntu) eth0 |
 |---------|-------------------|--------------|-------------|------|----------------|-------------|
-| __ct-103__  | ```ssh -p 22 admin@192.168.2.103``` |  gw          | pt/slv/brg  | ID   |  type          | description |
+| __ct-103__  | ssh -p 22 admin@192.168.2.103 |  gw          | pt/slv/brg  | ID   |  type          | description |
 | eth0    | 192.168.2.103/24  | 192.168.2.1  | vmbr0       | net0 | ct-103 eth0    | ct-103 (docker) eth0 |
 |---------|-------------------|--------------|-------------|------|----------------|-------------|
-| __vm-101__  | ```ssh -p 22 admin@192.168.2.4``` |  gw          | pt/slv/brg  | ID   |  type          | description |
+| __vm-101__  | ssh -p 22 admin@192.168.2.4 |  gw          | pt/slv/brg  | ID   |  type          | description |
 | ether1  | 192.168.2.4/24    | 192.168.2.1  | vmbr1       | net0 | vm-101 ether1  | vm-101 (ngMiktrotik) ether1 |
 | ether2  | -                 | -            | vmbr1       | net1 | vm-101 ether2  | vm-101 (ngMiktrotik) ether2 |
 | ether3  | -                 | -            | vmbr0       | net2 | vm-101 ether3  | vm-101 (ngMiktrotik) ether3 |
