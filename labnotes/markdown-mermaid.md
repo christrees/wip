@@ -1,5 +1,5 @@
 markdown-mermaid
-
+[edit](https://github.com/christrees/wip/edit/main/labnotes/markdown-mermaid.md)
 
 ```mermaid
 
