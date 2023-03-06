@@ -534,6 +534,7 @@ buadmin@bs01ds411:/volume1/pshare/tvNew$ sudo chown -R plex Ghosts\ \(2021\)/
 - [tbd]()
 
 ## pfsense [https://netstack.org/docs/lan/network/pfsense/](https://netstack.org/docs/lan/network/pfsense/)
+- [https://www.tecmint.com/how-to-setup-failover-and-load-balancing-in-pfsense/](https://www.tecmint.com/how-to-setup-failover-and-load-balancing-in-pfsense/)
 - [http://192.168.2.1/diag_arp.php](http://192.168.2.1/diag_arp.php) current arp table for all active devices
 - [tbd]()
 
