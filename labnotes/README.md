@@ -76,8 +76,15 @@ please clear before brain explodes
 |---------|-------------------|--------------|-------------|------|----------------|-------------|
 | __vm-101__  | ssh -p 22 admin@192.168.2.4 |  gw          | pt/slv/brg  | ID   |  type          | description |
 | ether1  | 192.168.2.4/24    | 192.168.2.1  | vmbr1       | net0 | vm-101 ether1  | vm-101 (ngMiktrotik) ether1 |
-| ether2  | -                 | -            | vmbr1       | net1 | vm-101 ether2  | vm-101 (ngMiktrotik) ether2 |
+| ether2  | 192.168.254.195/24| -            | vmbr1       | net1 | vm-101 ether2  | vm-101 (ngMiktrotik) ether2 |
 | ether3  | -                 | -            | vmbr0       | net2 | vm-101 ether3  | vm-101 (ngMiktrotik) ether3 |
+|---------|-------------------|--------------|-------------|------|----------------|-------------|
+| __vm-102__  | ssh -p 22 admin@192.168.2.2 |  gw          | pt/slv/brg  | ID   |  type          | description |
+| ether1  | 192.168.2.4/24    | 192.168.2.1  | vmbr1       | net0 | vm-101 ether1  | vm-101 (truenas) ether1 |
+| ether2  | -                 | -            | vmbr1       | net1 | vm-101 ether2  | vm-101 (truenas) ether2 |
+|---------|-------------------|--------------|-------------|------|----------------|-------------|
+| __vm-400__  | ssh -p 22 admin@192.168.2.4 |  gw          | pt/slv/brg  | ID   |  type          | description |
+| ether1  | 192.168.2.4/24    | 192.168.2.1  | vmbr1       | net0 | vm-101 ether1  | vm-101 (ngMiktrotik) ether1 |
 
 - ubuntu 192.168.2.100
   ```
@@ -88,7 +95,7 @@ please clear before brain explodes
   ssh -p 22 admin@192.168.2.103
   ``` 
   - portainer ui [http://192.168.2.103:9000](http://192.168.2.103:9000)
-- nsbuMikrotik
+- nsMikrotik
   - lan-> 192.168.2.4
   ```
   ssh -p 22 admin@192.168.2.4
@@ -98,9 +105,9 @@ please clear before brain explodes
   ssh -p 22 admin@192.168.254.195
   ```
 
-## nsMikrotik [https://192.168.254.194](https://192.168.254.194) 
+## nsbuMikrotik h/w [https://192.168.254.194](https://192.168.254.194) 
 
-| msMikrotik |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
+| nsbuMikrotik |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
 |---------|-------------------|--------------|-------------|------|----------------|-------------|
 | ether1  | 192.168.2.1/24    | 192.168.2.1  | vmbr1       | net0 | vm-101 ether1  | vm-101 (ngMiktrotik) ether1 |
 | ether2  | -                 | -            | vmbr1       | net1 | vm-101 ether2  | vm-101 (ngMiktrotik) ether2 |
