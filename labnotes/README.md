@@ -126,16 +126,16 @@ please clear before brain explodes
 ## VRRP on hw and sw mikrotik
 - [https://help.mikrotik.com/docs/display/ROS/VRRP+Configuration+Examples](https://help.mikrotik.com/docs/display/ROS/VRRP+Configuration+Examples)
 
-### R1 nsMikrotik
+### R1 ngMikrotik on proxmox
 ```
 /ip address add address=192.168.254.194/24 interface=ether1
 /interface vrrp add interface=ether1 vrid=49 priority=254
 /ip address add address=192.168.2.1/32 interface=vrrp1
 ```
 
-### R2 nsbuMikrotik
+### R2 ngbuMikrotik on hardware
 ```
-/ip address add address=192.168.254.195/24 interface=ether1
+/ip address add address=192.168.254.124/24 interface=ether1
 /interface vrrp add interface=ether1 vrid=49
 /ip address add address=192.168.2.1/32 interface=vrrp1
 ```
