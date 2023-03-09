@@ -136,18 +136,18 @@ stateDiagram
 
 ### R1 ngMikrotik on proxmox
 ```
-/ip address add address=192.168.254.194/24 interface=ether1
+/ip address add address=192.168.2.11/24 interface=ether1
 /interface vrrp add interface=ether1 vrid=49 priority=254
 /ip address add address=192.168.2.1/32 interface=vrrp1
 ```
 
 ### R2 ngbuMikrotik on hardware
 ```
-/ip address add address=192.168.254.124/24 interface=ether1
+/ip address add address=192.168.2.12/24 interface=ether1-gateway
 /interface vrrp add interface=ether1 vrid=49
 /ip address add address=192.168.2.1/32 interface=vrrp1
 ```
-
+/
 ### Testing
 First of all, check if both routers have correct flags at VRRP interfaces. On router R1 it should look like this
 
