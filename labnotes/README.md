@@ -107,33 +107,53 @@ please clear before brain explodes
   ssh -p 22 admin@192.168.254.195
   ```
 
-## nsbuMikrotik h/w [https://192.168.254.194](https://192.168.254.194) 
+## nsMikrotik s/w
+- s/w [https://192.168.254.124](https://192.168.254.124) 
+- lan
+```
+ssh -p 22 admin@192.168.2.11
+``` 
+- wan
+```
+ssh -p 22 admin@192.168.254.125
+```
+
+| nsMikrotik |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
+|---------|-------------------|--------------|-------------|------|----------------|-------------|
+| ether1  | 192.168.254.1/24    | 192.168.2.1  | vmbr1       | net0 | vm-101 ether1  | vm-101 (ngMiktrotik) ether1 |
+| ether2  | -                 | -            | vmbr1       | net1 | vm-101 ether2  | vm-101 (ngMiktrotik) ether2 |
+| ether3  | -                 | -            | vmbr0       | net2 | vm-101 ether3  | vm-101 (ngMiktrotik) ether3 |
+ 
+## nsbuMikrotik h/w
+- h/w [https://192.168.254.125](https://192.168.254.125) admin What#Time 
+- lan
+```
+ssh -p 22 admin@192.168.2.12
+``` 
+- wan
+```
+ssh -p 22 admin@192.168.254.125
+```
 
 | nsbuMikrotik |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
 |---------|-------------------|--------------|-------------|------|----------------|-------------|
-| ether1  | 192.168.2.1/24    | 192.168.2.1  | vmbr1       | net0 | vm-101 ether1  | vm-101 (ngMiktrotik) ether1 |
+| ether1-gateway  | 192.168.254.1/24    | 192.168.2.1  | bridge-local       | net0 | vm-101 ether1  | vm-101 (ngMiktrotik) ether1 |
 | ether2  | -                 | -            | vmbr1       | net1 | vm-101 ether2  | vm-101 (ngMiktrotik) ether2 |
 | ether3  | -                 | -            | vmbr0       | net2 | vm-101 ether3  | vm-101 (ngMiktrotik) ether3 |
 
-- nsMikrotik 
-  - lan
-  ```
-  ssh -p 22 admin@192.168.2.1
-  ``` 
-  - wan
-  ```
-  ssh -p 22 admin@192.168.254.194
-  ```
-
+- Interfaces [http://192.168.254.124/webfig/#Interfaces.Interface](http://192.168.254.124/webfig/#Interfaces.Interface)
+- Addresses [http://192.168.254.124/webfig/#IP:Addresses](http://192.168.254.124/webfig/#IP:Addresses)
+- VRRP [http://192.168.254.124/webfig/#Interfaces.VRRP](http://192.168.254.124/webfig/#Interfaces.VRRP)
+- 
 ## VRRP on hw and sw mikrotik
 - [https://help.mikrotik.com/docs/display/ROS/VRRP+Configuration+Examples](https://help.mikrotik.com/docs/display/ROS/VRRP+Configuration+Examples)
 
 ```mermaid
-stateDiagram
-    [*] --> WAN<br>LAN : 192.168.254.0/24
-    WAN<br>LAN --> ng<br>Mikrotik : 192.168.2.11 <br> 192.168.2.1 vIP <br> 49 VRID <br> priority=100 <br> 00.00.5E.00.00.31 vMAC
-    WAN<br>LAN --> ngbu<br>Mikrotik : 192.168.2.12 <br> 192.168.2.1 vIP <br> 49 VRID <br> priority=254 <br> 00.00.5E.00.00.31 vMAC
-    ng<br>Mikrotik --> LAN<br>client : clinet 192.168.2.120/24
+stateDiagram 
+    [*] --> WAN<br>LAN : 192.168.254.0/24 
+    WAN<br>LAN --> ng<br>Mikrotik : 192.168.2.11 <br> 192.168.2.1 vIP <br> 49 VRID <br> priority=100 <br> 00.00.5E.00.00.31 vMAC 
+    WAN<br>LAN --> ngbu<br>Mikrotik : 192.168.2.12 <br> 192.168.2.1 vIP <br> 49 VRID <br> priority=254 <br> 00.00.5E.00.00.31 vMAC 
+    ng<br>Mikrotik --> LAN<br>client : clinet 192.168.2.120/24 
 ```
 
 ### R1 ngMikrotik on proxmox
