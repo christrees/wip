@@ -39,17 +39,19 @@ please clear before brain explodes
 | windstream | [https://173.191.244.125/](https://173.191.244.125/) | static | windstream public IP |
 |--------------|---------|------|-------------|
 | windstream | [http://192.168.254.254/](http://192.168.254.254/) | static | windstream gw |
-| nginx default | [http://192.168.6.103/](http://192.168.6.103/) | static | default nginx proxy page running in portainer |
-| nginx proxy admin | [http://192.168.6.103:81](http://192.168.6.103:81) | static | admin for nginx running in portainer |
+| ngbuMikrotik | [http://192.168.254.124/](http://192.168.254.124/) | dhcp-res | ns backup gw |
+| ngMikrotik | [http://192.168.254.125/](http://192.168.254.125/) | dhcp-res | ns gw |
+| ~~nginx default~~ | [http://192.168.6.103/](http://192.168.6.103/) | static | default nginx proxy page running in portainer |
+| ~~nginx proxy admin~~ | [http://192.168.6.103:81](http://192.168.6.103:81) | static | admin for nginx running in portainer |
 |--------------|---------|------|-------------|
-| proxmox admin | [https://192.168.6.103:8006](https://192.168.6.103:8006) | static | proxmox running on metal 192.168.2.3 IP |
+| ~~proxmox admin~~ | [https://192.168.6.103:8006](https://192.168.6.103:8006) | static | proxmox running on metal 192.168.2.3 IP |
 
 
 ## 192.168.2.0/24 gw [http://192.168.2.1/](http://192.168.2.1/)
   
 | web proxy    |   Link  | type | description |
 |--------------|---------|------|-------------|
-| ngMikrotik | [http://192.168.2.1/](http://192.168.2.1/) | static | mikrotik hw ng on subnet |
+| ngMikrotik | [http://192.168.2.1/](http://192.168.2.1/) | static | mikrotik vrrp ns gw |
 | truenas | [http://192.168.2.2/](http://192.168.2.2/) | static | truenas sg on subnet |
 | proxmox | [https://192.168.2.3:8006/](https://192.168.2.3:8006/) | static | proxmox cg subnet |
 | ~~nginx default~~ | [http://192.168.2.103/](http://192.168.2.103/) | static | ~~default nginx proxy page running in portainer~~ |
