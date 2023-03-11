@@ -3,8 +3,8 @@
 # WIP labnotes 
 please clear before brain explodes
 ## subpages in labnotes
-- [markdown-mermaid.md](./markdown-mermaid.md)
-- [mikrotik-test.md](./mikrotik-test.md)
+- [markdown-mermaid.md](./markdown-mermaid/)
+- [mikrotik-test.md](./mikrotik-test/)
 
 ## quick notes
 - document nginx proxy install
