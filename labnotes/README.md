@@ -106,6 +106,15 @@ please clear before brain explodes
   ```
   ssh -p 22 admin@192.168.254.195
   ```
+## nsMikrotik [port forward](https://help.mikrotik.com/docs/display/RKB/Port+forwarding)
+- IP -> Firewall | NAT tab
+- chain: dstnat
+- add dstnat - tcp - dst port: 8006 - in inter list: ether1-gateway actions: dst-nat - 192.168.2.3:8006 comment: proxmox port 8006 forward to 192.168.2.3:8006
+- add dstnat - tcp - dst port: 8004 - in inter list: ether1-gateway actions: dst-nat - 192.168.2.2:80   comment: truenas port 8004 forware to 192.168.2.2:80
+- add dstnat - tcp - dst port: 8002 - in inter list: ether1-gateway actions: dst-nat - 192.168.2.1:80   comment: mikrotik port 8002 forware to 192.168.2.1:80
+- proxmox [https://192.168.2.3:8006](https://192.168.2.3:8006)
+- truenas [https://192.168.2.3:8003](https://192.168.2.3:8003)
+- mikrotik not working [https://192.168.2.3:8002](https://192.168.2.3:8002)
 
 ## nsMikrotik s/w
 - s/w [https://192.168.254.124](https://192.168.254.124) 
@@ -120,7 +129,7 @@ ssh -p 22 admin@192.168.254.125
 
 | nsMikrotik |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
 |---------|-------------------|--------------|-------------|------|----------------|-------------|
-| ether1  | 192.168.254.1/24    | 192.168.2.1  | vmbr1       | net0 | vm-101 ether1  | vm-101 (ngMiktrotik) ether1 |
+| ether1  | 192.168.254.1/24  | 192.168.2.1  | vmbr1       | net0 | vm-101 ether1  | vm-101 (ngMiktrotik) ether1 |
 | ether2  | -                 | -            | vmbr1       | net1 | vm-101 ether2  | vm-101 (ngMiktrotik) ether2 |
 | ether3  | -                 | -            | vmbr0       | net2 | vm-101 ether3  | vm-101 (ngMiktrotik) ether3 |
  
