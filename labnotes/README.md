@@ -106,6 +106,7 @@ please clear before brain explodes
   ```
   ssh -p 22 admin@192.168.254.195
   ```
+
 ## nsMikrotik [port forward](https://help.mikrotik.com/docs/display/RKB/Port+forwarding)
 - IP -> Firewall | NAT tab
 - chain: dstnat
@@ -591,5 +592,20 @@ buadmin@bs01ds411:/volume1/pshare/tvNew$ sudo chown -R plex Ghosts\ \(2021\)/
 | LAN	192.168.2.1	| 9e:ac:9e:66:a4:59	| pfSense.home.arpa	Permanent	ethernet	| 
 | LAN	192.168.2.2	| 4a:35:41:f6:ba:c7	| truenas	Expires in 161 seconds	ethernet | 
 
+
+## catnas data sort
+
+### MediaVolume 4x6TB TrueNAS at [http://192.168.252.2/](http://192.168.252.2/)
+
+
+```
+df -lk  | grep D: | awk '{print "B0010B "$2" "$3" "$4}' >> /cygdrive/z/_backupLogs/B0010B.txt; du -sk --time * | awk '{print $4" "$1" "$2" B0010B"}' >> /cygdrive/z/_backupLogs/B0010B.txt
+```
+```
+df -lk  | grep D: | awk '{print "B0010B "$2" "$3" "$4}' >> /cygdrive/z/_backupLogs/B0010B.txt
+```
+```
+du -sk --time * | awk '{print $4" "$1" "$2" B0010B"}' >> /cygdrive/z/_backupLogs/B0010B.txt
+```
 
 the end
