@@ -691,7 +691,15 @@ robocopy c:\source \\srv-vm2\share /v /log:c:\it\logs.txt
 ```
 
 ```powereshell
-robocopy \\SG\CATMediaShare\11_CAT_Services D:\CATMediaShare\11_CAT_Services /s /e /log:D:\CATMediaShare\11_CAT_Services-log.txt
+robocopy \\SG\CATMediaShare\11_CAT_Services D:\CATMediaShare\11_CAT_Services /s /e /z /log:D:\CATMediaShare\11_CAT_Services-log.txt
 ```
+- /s - include empty dir
+- /e - everything including sub dir
+- /z - pick up where it left off on failure
+
+```powereshell
+robocopy \\SG\CATMediaShare\11_CAT_Services D:\CATMediaShare\11_CAT_Services /s /e /z /i 
+```
+- /i - test do not preform
 
 the end
