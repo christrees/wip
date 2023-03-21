@@ -689,4 +689,9 @@ if ($sourceFiles -eq $null){
 ```powershell
 robocopy c:\source \\srv-vm2\share /v /log:c:\it\logs.txt
 ```
+
+```powereshell
+robocopy \\SG\CATMediaShare\11_CAT_Services D:\CATMediaShare\11_CAT_Services /s /e /log:D:\CATMediaShare\11_CAT_Services-log.txt
+```
+
 the end
