@@ -22,8 +22,8 @@ sequenceDiagram
     projects->>garage: project zfs sync daily
     garage->>parking: garage zfs sync weekly
     parking->>lot in parking: project rsync archive
-    parking->>magma: inactive project archive parking lot assignment logs
-    magma->>projects: active project archive request process
+    parking->>magma: project archive parking lot assignment logs
+    magma->>projects: project hidden request process
     projects->>projects: project directory log and pointer update
     projects->>garage: active project remove data process
     garage->>garage: project directory log and pointer update
@@ -31,6 +31,16 @@ sequenceDiagram
     parking->>parking: project directory log and pointer update
     parking->>lot in parking: archive project confirmation check
     parking->>parking: archive project lot confirmation local
-    parking->>magma: archive project lot confirmation done
+    parking->>magma: project hidden lot confirmation done
+    magma->>projects: project storage reclaim
+    projects->>projects: project storage reclaim process
+    projects->>garage: project storage reclaim
+    garage->>garage: project storage reclaim process
+    garage->>parking: project storage reclaim
+    parking->>lot in parking: project storage archive lot3 check
+    parking->>parking: lot1 and lot2 check
+    parking->>parking: lot volume mirror break and offline disk
+    parking->>magma: project hidden lots offline done
+
    
 ```
