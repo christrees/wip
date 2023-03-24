@@ -20,13 +20,13 @@
 - DNS pfsense [http://192.168.254.1](http://192.168.254.254/) route to 192.168.252.0/23 subnet
 
 
-## 192.168.252.0/23 gw [http://192.168.252.1/](http://192.168.252.1/)
+## 192.168.252.0/23 gw [http://192.168.252.1/](http://192.168.252.1/) dns 192.168.253.254
   
 | web proxy    |   Link  | type | description |
 |--------------|---------|------|-------------|
-| ng | [http://192.168.252.1/](http://192.168.252.1/) | static | pfsense ns gw |
-| sg | [http://192.168.252.2/](http://192.168.252.2/) | static | truenas sg on subnet |
-| cg | [https://192.168.253.3:8006/](https://192.168.253.3:8006/) | static | proxmox cg subnet |
+| ng.gh.lan | [https://192.168.253.254/](https://192.168.253.254/) | static | pfsense ng on subnet |
+| sg.gh.lan | [https://192.168.252.2/](https://192.168.252.2/) | static | truenas sg on subnet |
+| cg.gh.lan | [https://192.168.253.3:8006/](https://192.168.253.3:8006/) | static | proxmox cg on subnet |
 | ~~nginx default~~ | [http://192.168.2.103/](http://192.168.2.103/) | static | ~~default nginx proxy page running in portainer~~ |
 | ~~nginx proxy admin~~ | [http://192.168.2.103:81](http://192.168.2.103:81) | macDHCP | ~~admin for nginx running in portainer~~ |
 | portainer admin | [http://192.168.2.103:9000](http://192.168.2.103:9000) | macDHCP | portainer admin on proxmox docker 103 |
