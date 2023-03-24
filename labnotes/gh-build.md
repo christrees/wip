@@ -34,13 +34,13 @@
 | ~~tnasplex web~~ | [http://192.168.2.2:32500](http://192.168.2.2:32500) | static | ~~32500 on IP plex on portainer~~ |
 | nswin11 | [http://192.168.2.195](http://192.168.2.195) | static | windows 11 vm-400 |
 
-## proxmox [https://192.168.252.3:8006/](https://192.168.252.3:8006/) phy and virtio
+## [cg network interfaces](https://192.168.252.3:8006/#v1:0:=node%2Fcg:4:11::::::) phy and virtio
 
 | cg Name |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
 |---------|-------------------|--------------|-------------|------|----------------|-------------|
-| enp60f0 | -                 | -            | -           | -    | Network Device | phy port left |
-| enp60f1 | -                 | -            | -           | -    | Network Device | phy port right |
-| vmbr0   | 192.168.2.3/24    | 192.168.2.1  | enp60f0     | -    | Linux Bridge   | vio bridge |
+| eno1 | -                 | -            | -           | -    | Network Device | phy port left |
+| enp11s0 | -                 | -            | -           | -    | Network Device | phy port right |
+| vmbr0   | 192.168.252.3/23    | 192.168.253.254  | eno1     | -    | Linux Bridge   | vio bridge |
 | vmbr1   | 192.168.254.0/24  | -            | enp60f1     | -    | Linux Bridge   | vio bridge |
 |---------|-------------------|--------------|-------------|------|----------------|-------------|
 | __ct-100__  | ssh -p 22 admin@192.168.2.100 |  gw          | pt/slv/brg  | ID   |  type          | description |
