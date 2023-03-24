@@ -1,5 +1,7 @@
+[edit](https://github.com/christrees/wip/edit/main/labnotes/storage-backup-archive.md)
 # Grasshorse project data lifecycle
 
+- project active or creation of new project
 ```mermaid
 sequenceDiagram
     participant artist
@@ -15,6 +17,10 @@ sequenceDiagram
     garage->>garage: garage zfs snapshot weekly
     garage->>parking: garage zfs sync weekly
     parking->>parking: parking zfs snapshot monthly
+```
+- project inactive and/or project release
+```mermaid
+sequenceDiagram
     artist->>projects: project final changes
     artist->>magma: project final checkin
     magma->>projects: project dailies / reviews / final
@@ -23,6 +29,10 @@ sequenceDiagram
     garage->>parking: garage zfs sync weekly
     parking->>lot in parking: project rsync archive
     parking->>magma: project archive parking lot assignment logs
+```
+- project hidden
+```mermaid
+sequenceDiagram
     magma->>projects: project hidden request process
     projects->>projects: project directory log and pointer update
     projects->>garage: active project remove data process
@@ -32,6 +42,11 @@ sequenceDiagram
     parking->>lot in parking: archive project confirmation check
     parking->>parking: archive project lot confirmation local
     parking->>magma: project hidden lot confirmation done
+    parking->>magma: project archive parking lot assignment logs
+```
+- project archive resource reclaim
+```mermaid
+sequenceDiagram 
     magma->>projects: project storage reclaim
     projects->>projects: project storage reclaim process
     projects->>garage: project storage reclaim
@@ -41,6 +56,4 @@ sequenceDiagram
     parking->>parking: lot1 and lot2 check
     parking->>parking: lot volume mirror break and offline disk
     parking->>magma: project hidden lots offline done
-
-   
 ```
