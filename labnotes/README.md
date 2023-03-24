@@ -3,8 +3,12 @@
 # WIP labnotes 
 please clear before brain explodes
 ## subpages in labnotes
+- [gh-build.md](./gh-build.md)
+- [storage-backup-archive.md](./storage-backup-archive.md)
 - [markdown-mermaid.md](./markdown-mermaid/)
 - [mikrotik-test.md](./mikrotik-test/)
+- [mikrotik-vrrp.md](./mikrotik-vrrp.md)
+
 
 ## quick notes
 - document nginx proxy install
