@@ -1,5 +1,6 @@
 [edit](https://github.com/christrees/wip/edit/main/labnotes/storage-backup-archive.md)
 # Grasshorse project data lifecycle
+based on [https://github.com/2cld/netstack/blob/master/docs/ops/backup/backup-diagram.md](https://github.com/2cld/netstack/blob/master/docs/ops/backup/backup-diagram.md)
 
 - project active or creation of new project
 ```mermaid
