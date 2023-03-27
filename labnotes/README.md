@@ -4,7 +4,7 @@
 please clear before brain explodes
 ## subpages in labnotes
 - [gh-build.md](./gh-build.md)
-- [storage-backup-archive.md](./storage-backup-archive.md)
+- [storage-backup-archive.md](./storage-backup-archive.md) based on [netstack backup](https://github.com/2cld/netstack/blob/master/docs/ops/backup/backup-diagram.md)
 - [markdown-mermaid.md](./markdown-mermaid/)
 - [mikrotik-test.md](./mikrotik-test/)
 - [mikrotik-vrrp.md](./mikrotik-vrrp.md)
