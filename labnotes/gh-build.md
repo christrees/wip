@@ -1,5 +1,6 @@
 [edit](https://github.com/christrees/wip/edit/main/labnotes/gh-build.md)
 ## gh backup build
+- based on [neststack proxmox](https://github.com/2cld/netstack/tree/master/docs/lan/compute/proxmox)
 
 ## gh.lan local 192.168.254.0/24 gw [http://192.168.254.254/](http://192.168.254.254/) 
 
