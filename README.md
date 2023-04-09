@@ -20,7 +20,10 @@ Work In Progress for christrees
   - Security video monitoring streaming
   - Node Red
   - Various IoT devices
-- create media storage map
+- create storage map
+  - backup index
+  - storage index
+  - media index
 - update backup docs [https://netstack.org/docs/ops/backup/](https://netstack.org/docs/ops/backup/)
   -  backup diagram [docs/ops/backup/backup-diagram.md](https://github.com/2cld/netstack/blob/master/docs/ops/backup/backup-diagram.md)
 - attempt zerotier rsync
