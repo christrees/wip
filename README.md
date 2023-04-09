@@ -44,5 +44,8 @@ Work In Progress for christrees
 - [win11 key electronicfirst](https://www.electronicfirst.com/ef-weekly-sale)
 - [tim dodd - visit spaceX](https://www.youtube.com/watch?v=aWvHrih-Juk)
 - [arch movies](https://www.youtube.com/watch?v=9zVifsmLMz8)
+- [proxmox hackntosh](https://www.youtube.com/watch?v=Dr5fTJPrHvA)
+- [1 -computational bounded 2 -persistant in time reality - ChatGPT and Mathmatica inventor](https://youtu.be/z5WZhCBRDpU?t=1402)
+- [Stephen Wolfram: ChatGPT, Dark Matter, & AI](https://www.youtube.com/watch?v=xHPQ_oSsJgg)
 - tbd
 
