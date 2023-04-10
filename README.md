@@ -24,6 +24,18 @@ Work In Progress for christrees
   - backup index
   - storage index
   - media index
+  - git-lfs [article](https://www.perforce.com/blog/vcs/how-git-lfs-works) [git-lfs github docs](https://docs.github.com/en/repositories/working-with-files/managing-large-files)
+  - git-sym [git-sym github](https://github.com/cdunn2001/git-sym)
+  - git-media [git-media github](https://github.com/alebedev/git-media)
+  - git-annex [git-annex branchable](https://git-annex.branchable.com/)
+  - git-bigstore [git-bigstore github](https://github.com/lionheart/git-bigstore)
+  - git-bigfiles [depricated github use git-lfs](https://github.com/beenje/git-bigfile)
+  - git-fat [references others github](https://github.com/jedbrown/git-fat)
+  - Check with Trink
+    - [rclone](https://rclone.org/) and [rclone union](https://rclone.org/union/)
+    - [celeste](https://github.com/hwittenborn/celeste) rust gui backed by rclone
+    - tbd
+  - tbd
 - update backup docs [https://netstack.org/docs/ops/backup/](https://netstack.org/docs/ops/backup/)
   -  backup diagram [docs/ops/backup/backup-diagram.md](https://github.com/2cld/netstack/blob/master/docs/ops/backup/backup-diagram.md)
 - attempt zerotier rsync
