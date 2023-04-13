@@ -35,11 +35,13 @@ Work In Progress for christrees
     - [rclone](https://rclone.org/) and [rclone union](https://rclone.org/union/)
     - [celeste](https://github.com/hwittenborn/celeste) rust gui backed by rclone
     - tbd
-  - [plex tools](https://www.purevpn.com/blog/best-plex-plugins/)
+  - [plex tools 10 best 2023](https://www.purevpn.com/blog/best-plex-plugins/)
+  - [plex xmltv](https://support.plex.tv/articles/using-an-xmltv-guide/)
+  - [plex xmltv export](https://docs.ibracorp.io/plex-meta-manager-1/tv-configuration)
   - tbd
 - update backup docs [https://netstack.org/docs/ops/backup/](https://netstack.org/docs/ops/backup/)
   -  backup diagram [docs/ops/backup/backup-diagram.md](https://github.com/2cld/netstack/blob/master/docs/ops/backup/backup-diagram.md)
-- attempt zerotier rsync
+- attempt zerotier rsync [netstack - backup](https://netstack.org/docs/ops/backup/)
 
 ## Projects
 - [https://wip.christrees.com/trinkcolab/](./trinkcolab/)
