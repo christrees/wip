@@ -35,6 +35,7 @@ Work In Progress for christrees
     - [rclone](https://rclone.org/) and [rclone union](https://rclone.org/union/)
     - [celeste](https://github.com/hwittenborn/celeste) rust gui backed by rclone
     - tbd
+  - [plex tools](https://www.purevpn.com/blog/best-plex-plugins/)
   - tbd
 - update backup docs [https://netstack.org/docs/ops/backup/](https://netstack.org/docs/ops/backup/)
   -  backup diagram [docs/ops/backup/backup-diagram.md](https://github.com/2cld/netstack/blob/master/docs/ops/backup/backup-diagram.md)
