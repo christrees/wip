@@ -44,6 +44,7 @@ Work In Progress for christrees
 - attempt zerotier rsync [netstack - backup](https://netstack.org/docs/ops/backup/)
 
 ## Projects
+- [https://wip.christrees.com/cfnetcleanup/](./cfnetcleanup/)
 - [https://wip.christrees.com/trinkcolab/](./trinkcolab/)
 - [https://wip.christrees.com/labnotes/](./labnotes/) - reading research notes to review and clear
 - [https://cf.christrees.com/ns/](https://cf.christrees.com/ns/) - local lab
