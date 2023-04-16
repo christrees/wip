@@ -1,14 +1,62 @@
-[edit]()
+[edit](https://github.com/christrees/wip/edit/main/cfnetcleanup/README.md)
 
 # cfnetcleanup
 
-- Reduce hardware in cf network
-- remove all plex servers except for bs01ds411
-- create trink container with access to plex server container for trinktv
-- create cat container with access to plex server container for cattv
-- these containers maybe running on bs01ds411 if possible ?
+- Reduce hardware in cf network [https://cf.christrees.com/ns/](https://cf.christrees.com/ns/)
+  - ----
+  - TODO move data off tnas [https://192.168.6.103:9090/](https://192.168.6.103:9090/) 
+  - TODO temp add new plex trinktv and point to NAS for data 
+  - TODO setup trink ssh to trinktv
+  - TODO test trink rsync
+  - TODO remove and replace or rebuild proxmox server with max mem and ?? GPU's ??
+  - TODO remove cattvwin10 and replace with virtual windows server on proxmox
+  - ---
+- remove all plex servers except for bs01ds411 [https://cf.christrees.com/ns/](https://cf.christrees.com/ns/)
+  - ----
+  - cattvwin10 at [http://test.christrees.com:32400/](http://test.christrees.com:32400/)
+  - cattvwin10 at [http://192.168.6.180:32400/](http://192.168.6.180:32400/)
+  - cattvwin10 at [http://10.147.17.1:32400/](http://10.147.17.1:32400/)
+  - remote cattvWin10 
+  - __status__ cattvwin10: running for trinktv access
+  - ----
+  - dockerplex at [http://test.christrees.com:32500/](http://test.christrees.com:32500/)
+  - dockerplex at [http://192.168.6.103:32400](http://192.168.6.103:32400)
+  - dockerplex at [http://192.168.2.103:32400/](http://192.168.2.103:32400/)
+  - portainter admin dockerplex [http://192.168.6.103:9000/](http://192.168.6.103:9000/) and [http://192.168.2.103:9000/](http://192.168.2.103:9000/)
+  - __status__ dockerplex: running no useage
+  - ----
+  - tnasplex at [http://test.christrees.com:32600/](http://test.christrees.com:32600/)
+  - tnasplex at [http://192.168.6.103:32500/](http://192.168.6.103:32500/)
+  - tnasplex at [http://192.168.2.103:32500/](http://192.168.2.103:32500/)
+  - admin tnas for tnasplex [https://192.168.6.103:9090/](https://192.168.6.103:9090/) and [http://192.168.2.2/](http://192.168.2.2/)
+  - __status__ tnasplex: running no useage
+  - ----
+- Verify bs02ds411 [https://cf.christrees.com/ns/](https://cf.christrees.com/ns/)
+  - ---
+  - [https://www.plex.tv/](https://www.plex.tv/)
+  - bs01ds411 at [http://test.christrees.com:32700/](http://test.christrees.com:32700/)
+  - bs01ds411 at [http://192.168.6.105:32400](http://192.168.6.105:32400)
+  - bs01ds411 at [http://192.168.2.105:32400](http://192.168.2.105:32400)
+  - admin bs01ds411 at [http://192.168.2.105:5000/](http://192.168.2.105:5000/)
+  - ---
 - netstack document for docker container on proxmox
+  - [https://netstack.org/docs/lan/compute/proxmox/](https://netstack.org/docs/lan/compute/proxmox/)
+  - []()
+  - []()
+  - []()
 - netstack document for plex docker container
+  - [https://netstack.org/docs/lan/compute/proxmox/](https://netstack.org/docs/lan/compute/proxmox/)
+  - []()
+  - []()
+  - []()
 - netstack document for media storage map
+  - []()
+  - []()
+  - []()
+  - []()
 - netstack document for docker GPU on proxmox
+  - []()
+  - []()
+  - []()
+  - []()
 
