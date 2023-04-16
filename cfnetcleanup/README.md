@@ -4,22 +4,20 @@
 
 - Reduce hardware in cf network [https://cf.christrees.com/ns/](https://cf.christrees.com/ns/)
   - ----
-  - DONE upgrade tnasplex via app upgrade on tnas [https://192.168.6.103:9090/](https://192.168.6.103:9090/) no issues
-  - check 2020 ssh route test.christrees.com:2020
+  - __DONE__ upgrade tnasplex via app upgrade on tnas [https://192.168.6.103:9090/](https://192.168.6.103:9090/) no issues
+  - __DONE__ check 2020 ssh route test.christrees.com:2020
     - test.christrees.com:2020 -> IPv4 IP Address	24.149.22.11 [status_connection](http://192.168.6.1/#/html/status/status_connection.html)
     - 2020 to 2020	192.168.6.103 TCP	2020 to 2020	All IP Addresses [advancedportforwarding](http://192.168.6.1/#/html/advanced/security/advanced_security_advancedportforwarding.html)
     - 192.168.6.103 port 2020 to 192.168.2.2 port 22 ssh [http://192.168.2.1/firewall_nat.php](http://192.168.2.1/firewall_nat.php)
     - I think I'll just put trinktv at current tnasplex for now as he leaves nothing on this
-  - Move Trink's plex recordings to tnasplex
+  - __DONE__ Move Trink's plex recordings to tnasplex
     - stopped plex on cattvWin10 and dockerplex
     - nuked a lot of autherized clients to force a reload (did not nuke the ones I though were firetv)
     - moved NBC News to Tnas should recored to same place tonight 5:30 pm 2023.04.16
     - verified it recorded to catdvr ausi gold ep
+  - TODO verify trink rsync
   - ----
   - TODO move data off tnas [https://192.168.6.103:9090/](https://192.168.6.103:9090/) 
-  - TODO temp add new plex trinktv and point to NAS for data 
-  - TODO setup trink ssh to trinktv
-  - TODO test trink rsync
   - TODO remove and replace or rebuild proxmox server with max mem and ?? GPU's ??
   - TODO remove cattvwin10 and replace with virtual windows server on proxmox
   - ---
