@@ -2,6 +2,7 @@
 
 # cfnetcleanup
 
+- [http://www.kaashoek.com/files/manual.htm](http://www.kaashoek.com/files/manual.htm)
 - Reduce hardware in cf network [https://cf.christrees.com/ns/](https://cf.christrees.com/ns/)
   - ----
   - __DONE__ upgrade tnasplex via app upgrade on tnas [https://192.168.6.103:9090/](https://192.168.6.103:9090/) no issues
