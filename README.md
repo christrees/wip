@@ -3,7 +3,9 @@
 Work In Progress for christrees
 
 ## Short term notes
+- Fix Stabilitrack [https://blog.christrees.com/fix/2010BuickLaCrosse](https://blog.christrees.com/fix/2010BuickLaCrosse)
 - Update sshpi5 laptop info to cat2net
+- Doc [TrinkDan Keyboard]()
 - Home Automation
   - Security video monitoring streaming
   - Node Red
