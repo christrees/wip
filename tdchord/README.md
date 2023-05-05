@@ -26,6 +26,7 @@
   - [https://zmk.dev/](https://zmk.dev/)
 - [https://github.com/nickcoutsos/keymap-editor](https://github.com/nickcoutsos/keymap-editor)
 - [https://www.kicad.org/](https://www.kicad.org/)
+- [game controller patent](https://www.patentlyapple.com/2020/12/microsoft-has-won-8-design-patents-covering-the-xbox-series-s-console-and-game-controllers-that-cover-those-for-vr-gaming.html)
 
 # Pictures [click here for all pictures](./tdchord-pictures)
 ![https://github.com/christrees/wip/blob/main/tdcord/signal-2023-05-04-09-49-14-351.jpg](./signal-2023-05-04-09-49-14-351.jpg)
