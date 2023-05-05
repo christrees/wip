@@ -3,13 +3,9 @@
 Work In Progress for christrees
 
 ## Short term notes
-- Fix Stabilitrack [https://blog.christrees.com/fix/2010BuickLaCrosse](https://blog.christrees.com/fix/2010BuickLaCrosse)
-- Update sshpi5 laptop info to cat2net
-- Doc [TrinkDan Cord Keyboard - tdchord](./tdchord/)
-- Home Automation
-  - Security video monitoring streaming
-  - Node Red
-  - Various IoT devices
+- WAIT: Sat 2pm apt - Fix Buick Issues [https://blog.christrees.com/fix/2010BuickLaCrosse](https://blog.christrees.com/fix/2010BuickLaCrosse)
+- DONE: ~~Update sshpi5 laptop info to cat2net~~
+- WAIT: for trink Doc [TrinkDan Cord Keyboard - tdchord](./tdchord/)
 - create storage map
   - backup index
   - storage index
@@ -32,6 +28,10 @@ Work In Progress for christrees
 - update backup docs [https://netstack.org/docs/ops/backup/](https://netstack.org/docs/ops/backup/)
   -  backup diagram [docs/ops/backup/backup-diagram.md](https://github.com/2cld/netstack/blob/master/docs/ops/backup/backup-diagram.md)
 - attempt zerotier rsync [netstack - backup](https://netstack.org/docs/ops/backup/)
+- Home Automation
+  - Security video monitoring streaming
+  - Node Red
+  - Various IoT devices
 
 ## On Hold
 - ON HOLD est Aug - Tax 2022 - probate resolution
