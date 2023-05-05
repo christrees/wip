@@ -27,7 +27,8 @@
 - [https://github.com/nickcoutsos/keymap-editor](https://github.com/nickcoutsos/keymap-editor)
 - [https://www.kicad.org/](https://www.kicad.org/)
 
-# Pictures [click here](./tdchord-pictures)
+# Pictures [click here for all pictures](./tdchord-pictures)
+![https://github.com/christrees/wip/blob/main/tdcord/signal-2023-05-04-09-49-14-351.jpg](./signal-2023-05-04-09-49-14-351.jpg)
 - ![]()
 - ![]()
 - ![]()
