@@ -1,3 +1,5 @@
+[edit](https://github.com/christrees/wip/edit/main/tdchord/README.md)
+
 # Trink Dan Chord keyboard project
 
 - Keyboard firmware development and test
@@ -8,7 +10,15 @@
   - need link to keys, pcb, case
 - Keyboard key layout, pcb and case generation
   - [https://ergogen.cache.works/](https://ergogen.cache.works/)
+  - use node to generate file
+    - node src/cli.js .
+    - js.cad file
+    - case.jscad -of stla -o case.stl 
+    - to create -> stl file
+    - PRUSA mini printer slicer
+    - config.yaml (the ergogen file)
   - [https://www.kicad.org/](https://www.kicad.org/)
+  - [freecad]()
   - need info on 3D conversion for case pring
 
 ---
