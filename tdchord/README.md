@@ -4,11 +4,13 @@
 
 - Keyboard firmware development and test
   - [https://zmk.dev/](https://zmk.dev/)
-  - need link to firmware and github generation
+  - need link to firmware and github generation [https://gitea.trink.com/trink/metawriter](https://gitea.trink.com/trink/metawriter)
 - Keyboard Prototype
   - [nice!nano](https://nicekeyboards.com/nice-nano)
-  - need link to keys, pcb, case
+  - need link to keys, pcb, case [https://typeractive.xyz/collections/all](https://typeractive.xyz/collections/all)
+  - corne case and pcb [https://typeractive.xyz/collections/kits](https://typeractive.xyz/collections/kits)
 - Keyboard key layout, pcb and case generation
+  - Reference process [https://flatfootfox.com](https://flatfootfox.com)
   - [https://ergogen.cache.works/](https://ergogen.cache.works/)
   - use node to generate file
     - node src/cli.js .
@@ -18,7 +20,7 @@
     - PRUSA mini printer slicer
     - config.yaml (the ergogen file)
   - [https://www.kicad.org/](https://www.kicad.org/)
-  - [freecad]()
+  - [https://www.freecad.org/features.php](https://www.freecad.org/features.phpm)
   - need info on 3D conversion for case pring
 
 ---
