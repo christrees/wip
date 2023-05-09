@@ -35,6 +35,7 @@ Work In Progress for christrees
     - [rclone](https://rclone.org/) and [rclone union](https://rclone.org/union/)
     - [celeste](https://github.com/hwittenborn/celeste) rust gui backed by rclone
     - [Union FS](https://en.wikipedia.org/wiki/UnionFS)
+    - [Merge FS - union type fs using git](https://github.com/trapexit/mergerfs)
     - tbd
   - [plex tools 10 best 2023](https://www.purevpn.com/blog/best-plex-plugins/)
   - [plex xmltv](https://support.plex.tv/articles/using-an-xmltv-guide/)
