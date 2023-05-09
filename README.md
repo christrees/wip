@@ -13,6 +13,7 @@ Work In Progress for christrees
   - ?? use flash ??
 - Spring lawn cf
 - Spring lawn wf
+- Apple II 5.25 floppy disk data transfer
 
 ## Short term notes
 - HOLD: Fix Buick Issues [https://blog.christrees.com/fix/2010BuickLaCrosse](https://blog.christrees.com/fix/2010BuickLaCrosse)
