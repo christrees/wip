@@ -75,6 +75,7 @@ Work In Progress for christrees
 - [tim dodd - visit spaceX](https://www.youtube.com/watch?v=aWvHrih-Juk)
 - [arch movies](https://www.youtube.com/watch?v=9zVifsmLMz8)
 - [proxmox hackntosh](https://www.youtube.com/watch?v=Dr5fTJPrHvA)
+- [proxmox hackntosh with GPU passthrough](https://www.youtube.com/watch?v=QFlhSOypPaw)
 - [1 -computational bounded 2 -persistant in time reality - ChatGPT and Mathmatica inventor](https://youtu.be/z5WZhCBRDpU?t=1402)
 - [Stephen Wolfram: ChatGPT, Dark Matter, & AI](https://www.youtube.com/watch?v=xHPQ_oSsJgg)
   - [https://www.wolfram.com/language/](https://www.wolfram.com/language/)
