@@ -18,17 +18,23 @@ Work In Progress for christrees
 - create storage map [https://netstack.org/docs/ops/backup/](https://netstack.org/docs/ops/backup/)
   - backup index
   - storage index
-  - media index
-  - git-lfs [article](https://www.perforce.com/blog/vcs/how-git-lfs-works) [git-lfs github docs](https://docs.github.com/en/repositories/working-with-files/managing-large-files)
-  - git-sym [git-sym github](https://github.com/cdunn2001/git-sym)
-  - git-media [git-media github](https://github.com/alebedev/git-media)
-  - git-annex [git-annex branchable](https://git-annex.branchable.com/)
-  - git-bigstore [git-bigstore github](https://github.com/lionheart/git-bigstore)
-  - git-bigfiles [depricated github use git-lfs](https://github.com/beenje/git-bigfile)
-  - git-fat [references others github](https://github.com/jedbrown/git-fat)
+  - media index 
+  - git-lfs 
+    - [article](https://www.perforce.com/blog/vcs/how-git-lfs-works) 
+    - [git-lfs github docs](https://docs.github.com/en/repositories/working-with-files/managing-large-files)
+    - [git-lfs explained](https://www.youtube.com/watch?v=006RUPVIP-c)
+    - [bfg repo cleaner - git history cleaner](https://rtyley.github.io/bfg-repo-cleaner/)
+  - other (do not use I think most are going to git-lfs)
+    - git-sym [git-sym github](https://github.com/cdunn2001/git-sym)
+    - git-media [git-media github](https://github.com/alebedev/git-media)
+    - git-annex [git-annex branchable](https://git-annex.branchable.com/)
+    - git-bigstore [git-bigstore github](https://github.com/lionheart/git-bigstore)
+    - git-bigfiles [depricated github use git-lfs](https://github.com/beenje/git-bigfile)
+    - git-fat [references others github](https://github.com/jedbrown/git-fat)
   - Check with Trink
     - [rclone](https://rclone.org/) and [rclone union](https://rclone.org/union/)
     - [celeste](https://github.com/hwittenborn/celeste) rust gui backed by rclone
+    - [Union FS](https://en.wikipedia.org/wiki/UnionFS)
     - tbd
   - [plex tools 10 best 2023](https://www.purevpn.com/blog/best-plex-plugins/)
   - [plex xmltv](https://support.plex.tv/articles/using-an-xmltv-guide/)
