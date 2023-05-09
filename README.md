@@ -3,8 +3,14 @@
 Work In Progress for christrees
 
 ## Short term projects
-- Repair garage trim
-- Repair threshold
+- Repair garage trim update in [fix/ahouse](https://blog.christrees.com/fix/ahouse/)
+  - nail in v-grove every 24"
+  - aul to start
+- Repair threshold update in [fix/ahouse](https://blog.christrees.com/fix/ahouse/)
+  - synthetic threshold
+  - foam insulation
+  - inspect damage
+  - ?? use flash ??
 - Spring lawn cf
 - Spring lawn wf
 
