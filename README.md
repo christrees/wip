@@ -19,6 +19,7 @@ Work In Progress for christrees
   - backup index
   - storage index
   - media index 
+  - Expand [ZFS pool tutorial](https://www.youtube.com/watch?v=11bWnvCwTOU)
   - git-lfs 
     - [article](https://www.perforce.com/blog/vcs/how-git-lfs-works) 
     - [git-lfs github docs](https://docs.github.com/en/repositories/working-with-files/managing-large-files)
