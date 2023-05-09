@@ -2,11 +2,20 @@
 # wip
 Work In Progress for christrees
 
+## Short term projects
+- Repair garage trim
+- Repair threshold
+- Spring lawn cf
+- Spring lawn wf
+
 ## Short term notes
-- WAIT: Sat 2pm apt - Fix Buick Issues [https://blog.christrees.com/fix/2010BuickLaCrosse](https://blog.christrees.com/fix/2010BuickLaCrosse)
-- DONE: ~~Update sshpi5 laptop info to cat2net~~
-- WAIT: for trink Doc [TrinkDan Cord Keyboard - tdchord](./tdchord/)
-- create storage map
+- HOLD: Fix Buick Issues [https://blog.christrees.com/fix/2010BuickLaCrosse](https://blog.christrees.com/fix/2010BuickLaCrosse)
+  - Midas apt did not help see link above for details
+  - Buy new battery, order new scan tools amz
+  - exchange vehicles 2010 and 2002 verify all sensors with new tools
+- DONE: trink Doc [TrinkDan Cord Keyboard - tdchord](./tdchord/)
+- HOLD: check with Steve/Brian and recreate [TrinkDan Cord Keyboard - tdchord](./tdchord/) as teaching tool
+- create storage map [https://netstack.org/docs/ops/backup/](https://netstack.org/docs/ops/backup/)
   - backup index
   - storage index
   - media index
