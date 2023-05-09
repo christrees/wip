@@ -3,22 +3,24 @@
 Work In Progress for christrees
 
 ## Short term projects
-- Repair garage trim update in [fix/ahouse](https://blog.christrees.com/fix/ahouse/)
+- DONE: 2023.05.09 12-5pm ~~Repair garage trim update in~~ [fix/ahouse](https://blog.christrees.com/fix/ahouse/)
   - nail in v-grove every 24"
   - aul to start
+  - North side need more nails but wasps were working it
 - Repair threshold update in [fix/ahouse](https://blog.christrees.com/fix/ahouse/)
   - synthetic threshold
   - foam insulation
   - inspect damage
   - ?? use flash ??
 - Spring lawn cf
-- Spring lawn wf
+- DONE: 2023.04.29 Brad and I ~~Spring lawn wf~~
 - Apple II 5.25 floppy disk data transfer
 
 ## Short term notes
 - HOLD: Fix Buick Issues [https://blog.christrees.com/fix/2010BuickLaCrosse](https://blog.christrees.com/fix/2010BuickLaCrosse)
-  - Midas apt did not help see link above for details
-  - Buy new battery, order new scan tools amz
+  - DONE: 2023.05.05 2pm FAIL ~~Midas apt did not help see link above for details~~
+  - DONE: 2023.05.08 at AZ ~~Buy new battery~~
+  - order new scan tools amz
   - exchange vehicles 2010 and 2002 verify all sensors with new tools
 - DONE: trink Doc [TrinkDan Cord Keyboard - tdchord](./tdchord/)
 - HOLD: check with Steve/Brian and recreate [TrinkDan Cord Keyboard - tdchord](./tdchord/) as teaching tool
