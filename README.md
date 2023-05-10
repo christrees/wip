@@ -3,6 +3,8 @@
 Work In Progress for christrees
 
 ## Short term projects
+- bs01ds411 is down
+- update plex mantainence stuff
 - DONE: 2023.05.09 12-5pm ~~Repair garage trim update in~~ [fix/ahouse](https://blog.christrees.com/fix/ahouse/)
   - nail in v-grove every 24"
   - aul to start
