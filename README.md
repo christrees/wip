@@ -1,25 +1,38 @@
 [edit](https://github.com/christrees/wip/edit/main/README.md)
 # wip
-Work In Progress for christrees
+Work In Progress
 
 ## Short term projects
+### basement electronic
 - bs01ds411 is down
 - update plex mantainence stuff
 - build and test obs chat [https://chat.christrees.com/](https://chat.christrees.com/)
   - [https://blog.christrees.com/wip/streamstudio](https://blog.christrees.com/wip/streamstudio)
   - Find better place to keep and maintain this
-- DONE: 2023.05.09 12-5pm ~~Repair garage trim update in~~ [fix/ahouse](https://blog.christrees.com/fix/ahouse/)
-  - nail in v-grove every 24"
-  - aul to start
-  - North side need more nails but wasps were working it
+  - build and configures donut day stream 
+- Figure out IRA transfer and RMD (est $2K/yr)
+- Figure out LLC banking and -> S-corp ( >$45K-100K/yr)
+
+### outside cf
+- Spring lawn cf
 - Repair threshold update in [fix/ahouse](https://blog.christrees.com/fix/ahouse/)
   - synthetic threshold
   - foam insulation
   - inspect damage
   - ?? use flash ??
-- Spring lawn cf
+- DONE: 2023.05.09 12-5pm ~~Repair garage trim update in~~ [fix/ahouse](https://blog.christrees.com/fix/ahouse/)
+  - nail in v-grove every 24"
+  - aul to start
+  - North side need more nails but wasps were working it
+
+### outside wf
+- Pick up mom's mail
+- Put new registration sticker on vechiles
+- pick up grill and lic plate for mom's car
+- Mow
+- Repair roof
+- Cleanup
 - DONE: 2023.04.29 Brad and I ~~Spring lawn wf~~
-- Apple II 5.25 floppy disk data transfer
 
 ## Short term notes
 - HOLD: Fix Buick Issues [https://blog.christrees.com/fix/2010BuickLaCrosse](https://blog.christrees.com/fix/2010BuickLaCrosse)
