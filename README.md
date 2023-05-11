@@ -10,7 +10,7 @@ Work In Progress
   - [https://blog.christrees.com/wip/streamstudio](https://blog.christrees.com/wip/streamstudio)
   - Find better place to keep and maintain this
   - build and configures donut day stream 
-- Figure out IRA transfer and RMD (est $2K/yr)
+- Figure out IRA transfer and RMD (est $2K/yr) [https://etradecalculators.wealthmsi.com/rmd](https://etradecalculators.wealthmsi.com/rmd)
 - Figure out LLC banking and -> S-corp ( >$45K-100K/yr)
 
 ### outside cf
