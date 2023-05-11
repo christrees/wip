@@ -104,6 +104,7 @@ Work In Progress
 - tbd
 
 ## notes to read or file
+- USB ai hw [https://coral.ai/docs/accelerator/get-started/#requirements](https://coral.ai/docs/accelerator/get-started/#requirements)
 - [zerotier and tailscale](https://news.ycombinator.com/item?id=27491133)
 - [https://vault.bitwarden.com/#/login](https://vault.bitwarden.com/#/login)
 - [win11 key electronicfirst](https://www.electronicfirst.com/ef-weekly-sale)
