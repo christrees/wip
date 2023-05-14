@@ -9,12 +9,20 @@ Work In Progress
 - build and test obs chat [https://chat.christrees.com/](https://chat.christrees.com/)
   - [https://blog.christrees.com/wip/streamstudio](https://blog.christrees.com/wip/streamstudio)
   - Find better place to keep and maintain this
-  - build and configures donut day stream 
+  - DONE: 2023.05.12 ~~build and configures donut day stream~~3
 - Figure out IRA transfer and RMD (est $2K/yr) [https://etradecalculators.wealthmsi.com/rmd](https://etradecalculators.wealthmsi.com/rmd)
 - Figure out LLC banking and -> S-corp ( >$45K-100K/yr)
+- Synder FH payment confirm
+- SRT payment confirm
+- WAHC payment confirm
+- gymnastic judging cord keyboard project (ask trink)
+  - chord keyboard for emma to using in judging
+  - app on phone for tdm judging
+  - app links judges for tdm data and score tally
+  - app uses phone's camera to create tdm reference for ml
 
 ### outside cf
-- Spring lawn cf
+- DONE: 2023.05.12 2pm-5pm ~~Spring lawn cf~~
 - Repair threshold update in [fix/ahouse](https://blog.christrees.com/fix/ahouse/)
   - synthetic threshold
   - foam insulation
@@ -26,9 +34,9 @@ Work In Progress
   - North side need more nails but wasps were working it
 
 ### outside wf
-- Pick up mom's mail
+- DONE: 2023.05.12 Carla ~~Pick up mom's mail~~
 - Put new registration sticker on vechiles
-- pick up grill and lic plate for mom's car
+- DONE: 2023.05.12 Carla ~~pick up grill and lic plate for mom's car~~
 - Mow
 - Repair roof
 - Cleanup
