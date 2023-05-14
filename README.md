@@ -4,8 +4,9 @@ Work In Progress
 
 ## Short term projects
 ### basement electronic
-- bs01ds411 is down
-- update plex mantainence stuff
+- DONE: 2023.05.14 just restarted ~~bs01ds411 is down~~
+- DONE: 2023.05.14 ~~update bs01ds411~~
+- setup maintance cf.christrees.com and gh.2cld.net
 - build and test obs chat [https://chat.christrees.com/](https://chat.christrees.com/)
   - [https://blog.christrees.com/wip/streamstudio](https://blog.christrees.com/wip/streamstudio)
   - Find better place to keep and maintain this
