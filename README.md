@@ -4,8 +4,6 @@ Work In Progress
 
 ## Short term projects
 ### basement electronic
-- DONE: 2023.05.14 just restarted ~~bs01ds411 is down~~
-- DONE: 2023.05.14 ~~update bs01ds411~~
 - setup maintance cf.christrees.com and gh.2cld.net
 - build and test obs chat [https://chat.christrees.com/](https://chat.christrees.com/)
   - [https://blog.christrees.com/wip/streamstudio](https://blog.christrees.com/wip/streamstudio)
@@ -21,9 +19,10 @@ Work In Progress
   - app on phone for tdm judging
   - app links judges for tdm data and score tally
   - app uses phone's camera to create tdm reference for ml
+- DONE: 2023.05.14 just restarted ~~bs01ds411 is down~~
+- DONE: 2023.05.14 ~~update bs01ds411~~
 
 ### outside cf
-- DONE: 2023.05.12 2pm-5pm ~~Spring lawn cf~~
 - Repair threshold update in [fix/ahouse](https://blog.christrees.com/fix/ahouse/)
   - synthetic threshold
   - foam insulation
@@ -33,15 +32,16 @@ Work In Progress
   - nail in v-grove every 24"
   - aul to start
   - North side need more nails but wasps were working it
+- DONE: 2023.05.12 2pm-5pm ~~Spring lawn cf~~
 
 ### outside wf
-- DONE: 2023.05.12 Carla ~~Pick up mom's mail~~
 - Put new registration sticker on vechiles
-- DONE: 2023.05.12 Carla ~~pick up grill and lic plate for mom's car~~
 - Mow
 - Repair roof
 - Cleanup
 - DONE: 2023.04.29 Brad and I ~~Spring lawn wf~~
+- DONE: 2023.05.12 Carla ~~Pick up mom's mail~~
+- DONE: 2023.05.12 Carla ~~pick up grill and lic plate for mom's car~~
 
 ## Short term notes
 - HOLD: Fix Buick Issues [https://blog.christrees.com/fix/2010BuickLaCrosse](https://blog.christrees.com/fix/2010BuickLaCrosse)
@@ -124,5 +124,6 @@ Work In Progress
 - [1 -computational bounded 2 -persistant in time reality - ChatGPT and Mathmatica inventor](https://youtu.be/z5WZhCBRDpU?t=1402)
 - [Stephen Wolfram: ChatGPT, Dark Matter, & AI](https://www.youtube.com/watch?v=xHPQ_oSsJgg)
   - [https://www.wolfram.com/language/](https://www.wolfram.com/language/)
+- [Body Fit stretches](https://www.youtube.com/@BodyFixExercises)
 - tbd
 
