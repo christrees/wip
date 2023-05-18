@@ -2,6 +2,15 @@
 # wip
 Work In Progress
 
+## Winfield
+- Pick up glasses
+- Drop off Death Certs to Jason
+- Pick up freeNAS gpu machine
+- Check with Larry (other side axel)
+- Mow
+- tbd
+
+
 ## Short term projects
 ### basement electronic
 - setup maintance cf.christrees.com and gh.2cld.net
