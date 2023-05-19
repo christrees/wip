@@ -8,7 +8,7 @@ Work In Progress
 - Pick up freeNAS gpu machine
 - Check with Larry (other side axel)
 - Mow
-- tbd
+- pick up mail 
 
 
 ## Short term projects
