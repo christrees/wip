@@ -4,6 +4,7 @@
 - [https://freemocap.org/](https://freemocap.org/)
 - [https://nawgj.org/wp-content/uploads/2021/07/Compulsory-FX-Score-Sheets-2.pdf](https://nawgj.org/wp-content/uploads/2021/07/Compulsory-FX-Score-Sheets-2.pdf)
 - [http://openptrack.org/overview-3d-skeleton-tracking-pose-recognition-with-opt/](http://openptrack.org/overview-3d-skeleton-tracking-pose-recognition-with-opt/)
+- [https://towardsai.net/p/machine-learning/detecting-bad-posture-with-machine-learning](https://towardsai.net/p/machine-learning/detecting-bad-posture-with-machine-learning)
 
 # Trink Dan Chord keyboard project
 
