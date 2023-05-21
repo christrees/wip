@@ -2,18 +2,27 @@
 # wip
 Work In Progress
 
+## Notes
+- setup proxmox gpu server
+- document backup indexes
+- private git (gitea)
+- voice notes
 ## Winfield
-- Pick up glasses
-- Drop off Death Certs to Jason
-- Pick up freeNAS gpu machine
-- Check with Larry (other side axel)
-- Mow
-- pick up mail 
+- DONE 2023.05.19 ~~Pick up glasses~~
+- DONE 2023.05.19 ~~Drop off Death Certs to Jason~~
+- DONE 2023.05.19 ~~Pick up freeNAS gpu machine~~
+- DONE 2023.05.19 ~~Check with Larry (other side axel)~~
+- DONE 2023.05.19 ~~Mow~~
+- no keys so skipped - pick up mail 
 
 
 ## Short term projects
+### backup stuff
+- backup scripts
+- maintainance docs
 ### basement electronic
-- setup maintance cf.christrees.com and gh.2cld.net
+- setup maintance [https://cf.christrees.com/](https://cf.christrees.com/)
+- setup maintance [https://gh.2cld.net/](https://gh.2cld.net/)
 - build and test obs chat [https://chat.christrees.com/](https://chat.christrees.com/)
   - [https://blog.christrees.com/wip/streamstudio](https://blog.christrees.com/wip/streamstudio)
   - Find better place to keep and maintain this
