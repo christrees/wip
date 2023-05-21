@@ -1,5 +1,9 @@
 [edit](https://github.com/christrees/wip/edit/main/tdchord/README.md)
 
+# Possible gymnastic judge chord kbrd for emma
+- [https://freemocap.org/](https://freemocap.org/)
+- [https://nawgj.org/wp-content/uploads/2021/07/Compulsory-FX-Score-Sheets-2.pdf](https://nawgj.org/wp-content/uploads/2021/07/Compulsory-FX-Score-Sheets-2.pdf)
+
 # Trink Dan Chord keyboard project
 
 - Keyboard firmware development and test
