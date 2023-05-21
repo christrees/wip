@@ -8,8 +8,18 @@
 - voice notes
 - talk to trink about emma project for [tdchord](./tdchord/)
 ### backup stuff
-- backup scripts
+- backup script
 - maintainance docs
+- [Chris backup chatGPT](https://chat.openai.com/c/05afaa07-749b-4ce8-b5fe-8967d1297f23)
+- Monitoring stuff
+  - [Keep an eye on your network - Observium Tutorial](https://www.youtube.com/watch?v=1rKRrFVXAgU&t=1110s)
+  - [https://www.observium.org/](https://www.observium.org/)
+  - [https://prometheus.io/docs/alerting/latest/alertmanager/](https://prometheus.io/docs/alerting/latest/alertmanager/)
+  - [Best Server Monitoring with Prometheus and Grafana using Node Exporter and cAdvisor](https://www.youtube.com/watch?v=RAqMP_NnGec)
+  - [https://medium.com/geekculture/how-to-monitor-docker-metrics-using-prometheus-grafana-707b970f1f06](https://medium.com/geekculture/how-to-monitor-docker-metrics-using-prometheus-grafana-707b970f1f06)
+  - [https://oss.oetiker.ch/smokeping/](https://oss.oetiker.ch/smokeping/)
+  - [Monitor Network Latency And Internet Speeds With Smokeping Running On A Synology NAS](https://www.youtube.com/watch?v=c4kw_Fcdmj4)
+  - [tbd]()
 ### basement electronic
 - setup maintance [https://cf.christrees.com/](https://cf.christrees.com/)
 - setup maintance [https://gh.2cld.net/](https://gh.2cld.net/)
@@ -17,7 +27,9 @@
   - [https://blog.christrees.com/wip/streamstudio](https://blog.christrees.com/wip/streamstudio)
   - Find better place to keep and maintain this
   - DONE: 2023.05.12 ~~build and configures donut day stream~~3
-- Figure out IRA transfer and RMD (est $2K/yr) [https://etradecalculators.wealthmsi.com/rmd](https://etradecalculators.wealthmsi.com/rmd)
+- Figure out IRA transfer and RMD (est $2K/yr) 
+  - [https://etradecalculators.wealthmsi.com/rmd](https://etradecalculators.wealthmsi.com/rmd)
+  - [https://www.investopedia.com/terms/t/taxbracket.asp](https://www.investopedia.com/terms/t/taxbracket.asp)
 - Figure out LLC banking and -> S-corp ( >$45K-100K/yr)
 - Synder FH payment confirm
 - SRT payment confirm
