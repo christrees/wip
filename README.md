@@ -1,22 +1,12 @@
 [edit](https://github.com/christrees/wip/edit/main/README.md)
-# wip
-Work In Progress
+# Work In Progress
 
-## Notes
+## Short term projects
 - setup proxmox gpu server
 - document backup indexes
 - private git (gitea)
 - voice notes
-## Winfield
-- DONE 2023.05.19 ~~Pick up glasses~~
-- DONE 2023.05.19 ~~Drop off Death Certs to Jason~~
-- DONE 2023.05.19 ~~Pick up freeNAS gpu machine~~
-- DONE 2023.05.19 ~~Check with Larry (other side axel)~~
-- DONE 2023.05.19 ~~Mow~~
-- no keys so skipped - pick up mail 
-
-
-## Short term projects
+- talk to trink about emma project for [tdchord](./tdchord/)
 ### backup stuff
 - backup scripts
 - maintainance docs
@@ -39,7 +29,6 @@ Work In Progress
   - app uses phone's camera to create tdm reference for ml
 - DONE: 2023.05.14 just restarted ~~bs01ds411 is down~~
 - DONE: 2023.05.14 ~~update bs01ds411~~
-
 ### outside cf
 - Repair threshold update in [fix/ahouse](https://blog.christrees.com/fix/ahouse/)
   - synthetic threshold
@@ -51,12 +40,18 @@ Work In Progress
   - aul to start
   - North side need more nails but wasps were working it
 - DONE: 2023.05.12 2pm-5pm ~~Spring lawn cf~~
-
 ### outside wf
 - Put new registration sticker on vechiles
+- locate all car keys
 - Mow
 - Repair roof
 - Cleanup
+- DONE 2023.05.19 ~~Pick up glasses~~
+- DONE 2023.05.19 ~~Drop off Death Certs to Jason~~
+- DONE 2023.05.19 ~~Pick up freeNAS gpu machine~~
+- DONE 2023.05.19 ~~Check with Larry (other side axel)~~
+- DONE 2023.05.19 ~~Mow~~
+- no keys so skipped - pick up mail 
 - DONE: 2023.04.29 Brad and I ~~Spring lawn wf~~
 - DONE: 2023.05.12 Carla ~~Pick up mom's mail~~
 - DONE: 2023.05.12 Carla ~~pick up grill and lic plate for mom's car~~
