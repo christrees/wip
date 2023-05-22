@@ -13,6 +13,7 @@
 - [Chris backup chatGPT](https://chat.openai.com/c/05afaa07-749b-4ce8-b5fe-8967d1297f23)
 - [https://python.langchain.com/en/latest/index.html](https://python.langchain.com/en/latest/index.html)
 - [LangChain Crash Course: Build a AutoGPT app in 25 minutes](https://www.youtube.com/watch?v=MlK6SIjcjE8)
+- [LangChain Explained in 13 Minutes | QuickStart Tutorial for Beginners](https://www.youtube.com/watch?v=aywZrzNaKjs)
 - Monitoring stuff
   - [Keep an eye on your network - Observium Tutorial](https://www.youtube.com/watch?v=1rKRrFVXAgU&t=1110s)
   - [https://www.observium.org/](https://www.observium.org/)
