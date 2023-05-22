@@ -11,6 +11,8 @@
 - backup script
 - maintainance docs
 - [Chris backup chatGPT](https://chat.openai.com/c/05afaa07-749b-4ce8-b5fe-8967d1297f23)
+- [https://python.langchain.com/en/latest/index.html](https://python.langchain.com/en/latest/index.html)
+- [LangChain Crash Course: Build a AutoGPT app in 25 minutes](https://www.youtube.com/watch?v=MlK6SIjcjE8)
 - Monitoring stuff
   - [Keep an eye on your network - Observium Tutorial](https://www.youtube.com/watch?v=1rKRrFVXAgU&t=1110s)
   - [https://www.observium.org/](https://www.observium.org/)
@@ -19,7 +21,7 @@
   - [https://medium.com/geekculture/how-to-monitor-docker-metrics-using-prometheus-grafana-707b970f1f06](https://medium.com/geekculture/how-to-monitor-docker-metrics-using-prometheus-grafana-707b970f1f06)
   - [https://oss.oetiker.ch/smokeping/](https://oss.oetiker.ch/smokeping/)
   - [Monitor Network Latency And Internet Speeds With Smokeping Running On A Synology NAS](https://www.youtube.com/watch?v=c4kw_Fcdmj4)
-  - [tbd]()
+  - [Netshoot Docker container for Docker compose networking host troubleshooting](https://www.youtube.com/watch?v=wqtEUFDdZXU)
 ### basement electronic
 - setup maintance [https://cf.christrees.com/](https://cf.christrees.com/)
 - setup maintance [https://gh.2cld.net/](https://gh.2cld.net/)
