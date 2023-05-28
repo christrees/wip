@@ -1,6 +1,15 @@
 markdown-mermaid
 [edit](https://github.com/christrees/wip/edit/main/labnotes/markdown-mermaid.md)
 
+## Reference
+- [Mermaid Live Editor Example](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNpVkM1qw0AMhF9F6NRC_AI-FBq7zSWlhebm9UF45eyS7A9rmRBsv3vXMYVWJ6H5RgwzYRc0Y4n9Ndw6Q0ngVCsPeV6byiQ7iKOhhaJ4mQ8s4ILn-wz7p0OAwYQYrT8_b_x-haCajivGIMb6y7JJ1cP_6XmGujlSlBDbv8rpFmZ4a-yXye__KyZxdr03PZU9FR0lqCi1uEPHyZHVOfq0GhSKYccKy7xqSheFyi-Zo1HC9913WEoaeYdj1CRcWzoncr9H1lZC-tiqeDSy_ACRQFrz)
+- [Mermaid Home Assistant Live Network](https://community.home-assistant.io/t/live-network-diagram-influxdb-grafana-mermaid/100956)
+- [Mermaid js converter github](https://github.com/superj80820/mermaid-js-converter/blob/master/example.md) and [Mermaid Converter how-to](https://github.com/superj80820/mermaid-js-converter#how-to-use)
+- [Mermaid cli](https://github.com/mermaidjs/mermaid.cli)
+- [Mermaid github include markdown files](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
+- tbd
+
+
 ### nested tables
 
 |                |ASCII                          |HTML                         |
