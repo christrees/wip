@@ -2,6 +2,10 @@
 # Work In Progress
 
 ## Short term projects
+- setup stadia [save article](https://www.theverge.com/23559284/google-stadia-controller-bluetooth-mode-how-to)
+- update passport [how to apply passport](https://travel.state.gov/content/travel/en/passports/how-apply/processing-times.html)
+- passport apply [form ds11.pdf](https://eforms.state.gov/Forms/ds11.pdf)
+- passport [apply in person](https://travel.state.gov/content/travel/en/passports/need-passport/apply-in-person.html)
 - setup proxmox gpu server
 - document backup indexes
 - private git (gitea)
