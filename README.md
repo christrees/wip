@@ -1,6 +1,20 @@
 [edit](https://github.com/christrees/wip/edit/main/README.md)
 # Work In Progress
 
+## Today 2023.06.13
+- check all payments
+- check email all accounts
+- document media locations from the last week
+- document and verify media configurations
+- document llc creation steps
+- review paper pile, document, schedule next maintainance
+- file share issue
+- setup vortex on macci and proxmox
+- remote check macci via google, zerotier and macremote
+- tivo/firetv record setup
+- silicondust setup
+- find battery lid and USB for wireless keyboards think they are in CF
+- tbd
 ## Short term projects
 - setup stadia [save article](https://www.theverge.com/23559284/google-stadia-controller-bluetooth-mode-how-to)
 - update passport [how to apply passport](https://travel.state.gov/content/travel/en/passports/how-apply/processing-times.html)
