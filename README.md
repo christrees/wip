@@ -14,7 +14,10 @@
 - tivo/firetv record setup
 - silicondust setup
 - find battery lid and USB for wireless keyboards think they are in CF
-- tbd
+- setup docker
+- setup HomeAutomation
+- setup NodeRed
+- setup Monitoring
 ## Short term projects
 - setup stadia [save article](https://www.theverge.com/23559284/google-stadia-controller-bluetooth-mode-how-to)
 - update passport [how to apply passport](https://travel.state.gov/content/travel/en/passports/how-apply/processing-times.html)
