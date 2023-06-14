@@ -142,6 +142,7 @@ ID	MAC Address	Current Status	Received Packets	Sent Packets
 ---
 
 ## cd dvd backup
+- [Ultimate DVD ripper - youtube](https://www.youtube.com/watch?v=fxd3_9GTRIU&t=924s)
 ```
 (base) cat@cats-Mac-mini backup % diskutil unmount /dev/disk2                
 Unmount failed for /dev/disk2
