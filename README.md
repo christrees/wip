@@ -18,6 +18,7 @@
 - setup HomeAutomation
 - setup NodeRed
 - setup Monitoring
+- [Michio Kaku: Quantum Computer](https://www.youtube.com/watch?v=qML7LnfQP4Q)
 ## Short term projects
 - setup stadia [save article](https://www.theverge.com/23559284/google-stadia-controller-bluetooth-mode-how-to)
 - update passport [how to apply passport](https://travel.state.gov/content/travel/en/passports/how-apply/processing-times.html)
