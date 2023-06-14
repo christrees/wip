@@ -141,4 +141,13 @@ ID	MAC Address	Current Status	Received Packets	Sent Packets
 
 ---
 
-- tbd
+## cd dvd backup
+```
+(base) cat@cats-Mac-mini backup % diskutil unmount /dev/disk2                
+Unmount failed for /dev/disk2
+(base) cat@cats-Mac-mini backup % dd if=/dev/disk2 of=test.iso bs=2048 status=progress
+dd: unknown operand status
+(base) cat@cats-Mac-mini backup % diskutil eject /dev/disk2                         
+Unable to find disk for /dev/disk2
+(base) cat@cats-Mac-mini backup % df -h
+```
