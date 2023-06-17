@@ -21,5 +21,6 @@ Purpose: Setup macci as media center for gus's main tv.
   - disk space
   - cpu load
   - Google Sheet
-- VirtualBox 
+- VirtualBox
+- Docker Desktop v2.4 [Docker Desktop v2.x archive](https://docs.docker.com/desktop/previous-versions/2.x-mac/)
 
