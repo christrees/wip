@@ -27,9 +27,9 @@
 | ~~sg.gus.lan~~ | [https://192.168.252.6/](https://192.168.252.6/) | static | truenas sg2 garage ? on subnet |
 | sg.gus.lan | [https://192.168.252.12/](https://192.168.252.12/) | static | truenas log ? on subnet |
 | ~~nginx default~~ | [http://192.168.2.103/](http://192.168.252.103/) | static | ~~default nginx proxy page running in portainer~~ |
-| ~~nginx proxy admin~~ | [http://192.168.2.103:81](http://192.168.252.103:81) | macDHCP | ~~admin for nginx running in portainer~~ |
-| portainer admin | [http://192.168.2.103:9000](http://192.168.252.12:10400) | docker | portainer admin on truenas docker |
-| gusPlex web | [http://192.168.2.103:32400](http://192.168.252.12:32400) | docker | 32400 on IP plex on portainer |
+| ~~nginx proxy admin~~ | [http://192.168.2.12:81](http://192.168.252.103:81) | macDHCP | ~~admin for nginx running in portainer~~ |
+| portainer admin | [http://192.168.252.12:10400](http://192.168.252.12:10400) | docker | portainer admin on truenas docker |
+| gusPlex web | [http://192.168.252.12:32400](http://192.168.252.12:32400) | docker | 32400 on IP plex on portainer |
 | gusHomer web | [http://192.168.252.12:10148](http://192.168.252.12:10148) | docker | gus.lan Home Page |
 
 - [https://my.zerotier.com/](https://my.zerotier.com/)
