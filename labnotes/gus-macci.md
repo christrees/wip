@@ -1,7 +1,12 @@
 [edit](https://github.com/christrees/wip/edit/main/labnotes/gus-macci.md)
 # macci setup for gus
+- macos: 10.13.6
+- CPU: Intel Core 2 Duo 2.66GHz
+- Mem: 8GB
+- Video: NVIDIA GeForce 320M 256MB
 Purpose: Setup macci as media center for gus's main tv.
 
+- Nuke OS and install proxmox via ventoy
 - Plex (as local application)
 - Media Storage
   - Media Index
@@ -16,4 +21,5 @@ Purpose: Setup macci as media center for gus's main tv.
   - disk space
   - cpu load
   - Google Sheet
-- VMWare
+- VirtualBox 
+
