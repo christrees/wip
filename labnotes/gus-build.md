@@ -26,8 +26,8 @@
 | cg.gus.lan | [https://192.168.252.3:8006/](https://192.168.252.3:8006/) | static | proxmox cg on subnet |
 | ~~sg.gus.lan~~ | [https://192.168.252.6/](https://192.168.252.6/) | static | truenas sg2 garage ? on subnet |
 | sg.gus.lan | [https://192.168.252.12/](https://192.168.252.12/) | static | truenas log ? on subnet |
-| ~~nginx default~~ | [http://192.168.2.103/](http://192.168.252.103/) | static | ~~default nginx proxy page running in portainer~~ |
-| ~~nginx proxy admin~~ | [http://192.168.2.12:81](http://192.168.252.103:81) | macDHCP | ~~admin for nginx running in portainer~~ |
+| nginx default | [http://192.168.252.12/](http://192.168.252.12/) | static | default nginx proxy page running in portainer |
+| nginx proxy admin | [http://192.168.252.12:81](http://192.168.252.12:81) | macDHCP | admin for nginx running in portainer |
 | portainer admin | [http://192.168.252.12:10400](http://192.168.252.12:10400) | docker | portainer admin on truenas docker |
 | gusPlex web | [http://192.168.252.12:32400](http://192.168.252.12:32400) | docker | 32400 on IP plex on portainer |
 | gusHomer web | [http://192.168.252.12:10178](http://192.168.252.12:10178/) | docker | gus.lan Home Page |
@@ -38,6 +38,11 @@
 ---
 ---
 
+## Installs on Truenas apps
+- NGINX Proxy Server
+  - [SSL certs NGINX Proxy Server - youtube](https://www.youtube.com/watch?v=qlcVx-k-02E)
+  - [tbd]()
+- [TrueCharts adding storage to apps](https://truecharts.org/manual/SCALE/guides/add-storage/)
 ## [cg network interfaces](https://192.168.252.3:8006/#v1:0:=node%2Fcg:4:11::::::) phy and virtio
 
 | cg Name |   CIDR            |  gw          | pt/slv/brg  | ID   |  type          | description |
