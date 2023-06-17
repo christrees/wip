@@ -30,7 +30,7 @@
 | ~~nginx proxy admin~~ | [http://192.168.2.12:81](http://192.168.252.103:81) | macDHCP | ~~admin for nginx running in portainer~~ |
 | portainer admin | [http://192.168.252.12:10400](http://192.168.252.12:10400) | docker | portainer admin on truenas docker |
 | gusPlex web | [http://192.168.252.12:32400](http://192.168.252.12:32400) | docker | 32400 on IP plex on portainer |
-| gusHomer web | [http://192.168.252.12:10148](http://192.168.252.12:10148) | docker | gus.lan Home Page |
+| gusHomer web | [http://192.168.252.12:10178](http://192.168.252.12:10178/) | docker | gus.lan Home Page |
 
 - [https://my.zerotier.com/](https://my.zerotier.com/)
 - tbd
