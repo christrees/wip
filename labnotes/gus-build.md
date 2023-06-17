@@ -151,3 +151,110 @@ dd: unknown operand status
 Unable to find disk for /dev/disk2
 (base) cat@cats-Mac-mini backup % df -h
 ```
+## Homer config.yml 2023.06.17 11am
+```yml
+---
+# Homepage configuration
+# See https://fontawesome.com/v5/search for icons options
+
+title: "gus.lan"
+subtitle: "Local network navigation"
+logo: "logo.png"
+icon: "fas fa-skull-crossbones" # Optional icon
+
+header: false
+footer: false #'<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
+
+# Optional theme customization
+theme: default
+colors:
+  light:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: "#3273dc"
+    link-hover: "#363636"
+  dark:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: "#3273dc"
+    link-hover: "#ffdd57"
+
+
+# Optional navbar
+# links: [] # Allows for navbar (dark mode, layout, and search) without any links
+links:
+  - name: "christrees github"
+    icon: "fab fa-github"
+    url: "https://github.com/christrees/wip"
+    target: "_blank" # optional html a tag target attribute
+  - name: "converse webpage"
+    icon: "fas fa-cloud"
+    url: "https://conversehouse.com/"
+  - name: "gus webpage"
+    icon: "fas fa-cloud"
+    url: "https://gus.conversehouse.com/"
+  # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
+  # see url field and assets/additional-page.yml.dist used in this example:
+  - name: "another page!"
+    icon: "fas fa-file-alt"
+    url: "#additional-page" 
+
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+services:
+  - name: "LAN subnet 192.168.0.0/24"
+    icon: "fas fa-wifi"
+    items:
+      - name: "gusPlex app - Local"
+        icon: "fas fa-tv"
+        subtitle: "Local Plex app"
+        tag: "app"
+        keywords: "self hosted plex"
+        url: "https://192.168.0.100:32400/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "gusPortainer app - Local"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Portainer admin"
+        tag: "app"
+        url: "https://192.168.0.100:10471"
+  - name: "Internet"
+    icon: "fas fa-cloud"
+    items:
+      - name: "converse webpage"
+        icon: "fas fa-cloud"
+        url: "https://conversehouse.com/"
+      - name: "gus webpage"
+        icon: "fas fa-cloud"
+        url: "https://gus.conversehouse.com/"
+      - name: "lurch rf.org"
+        logo: "assets/tools/sample.png"
+        subtitle: "External Web App"
+        tag: "app"
+        keywords: "external app"
+        url: "https://rf.org"
+
+#message:
+#  #url: https://b4bz.io
+#  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
+#  title: "gus.lan internal network"
+#  icon: "fa fa-grin"
+#  content: "Message Example. <br /> Find more information on <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>"
+
+```
