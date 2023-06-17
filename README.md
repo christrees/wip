@@ -12,6 +12,7 @@
 - setup vortex on macci and proxmox
 - remote check macci via google, zerotier and macremote
 - tivo/firetv record setup
+- tivo over zerotier
 - silicondust setup
 - find battery lid and USB for wireless keyboards think they are in CF
 - setup docker
@@ -19,6 +20,11 @@
 - setup NodeRed
 - setup Monitoring
 - [Michio Kaku: Quantum Computer](https://www.youtube.com/watch?v=qML7LnfQP4Q)
+- stream cameras [https://developer.scrypted.app/](https://developer.scrypted.app/)
+- [https://github.com/koush/scrypted](https://github.com/koush/scrypted)
+- [Free TV Over the Air with ATSC 3.0 / NexGenTV with HDHomerun Flex 4k](https://www.youtube.com/watch?v=P9hGipgLtng)
+- [https://kit.co/TechnoTim/smart-home-hubs-device](https://kit.co/TechnoTim/smart-home-hubs-devices)
+- [How to Replace macOS with Ubuntu](https://www.youtube.com/watch?v=LFgM5es3Aro)
 ## Short term projects
 - setup stadia [save article](https://www.theverge.com/23559284/google-stadia-controller-bluetooth-mode-how-to)
 - update passport [how to apply passport](https://travel.state.gov/content/travel/en/passports/how-apply/processing-times.html)
