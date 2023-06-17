@@ -12,7 +12,7 @@
 | gus.lan | [http://192.168.252.1/](http://192.168.252.1/) | static | mikrotik gw |
 
 - HOUSE DNS [http://192.168.0.1/HJHHETNAEUHIQKSA/userRpm/Index.htm](http://192.168.0.1/HJHHETNAEUHIQKSA/userRpm/Index.htm)
-- gus.lan DNS [https://192.168.252.1/services_unbound.php](https://192.168.252.1/services_unbound.php}
+- gus.lan DNS [https://192.168.252.1/services_unbound.php](https://192.168.252.1/services_unbound.php)
 - gus does not have control of this 24.217.248.77 cable modem
 - [https://whatismyipaddress.com/](https://whatismyipaddress.com/) [https://whatismyipaddress.com/ip/24.217.248.77](https://whatismyipaddress.com/ip/24.217.248.77)
 
