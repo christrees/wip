@@ -22,6 +22,7 @@
 - [Michio Kaku: Quantum Computer](https://www.youtube.com/watch?v=qML7LnfQP4Q)
 - stream cameras [https://developer.scrypted.app/](https://developer.scrypted.app/)
 - [https://github.com/koush/scrypted](https://github.com/koush/scrypted)
+- [NGINX proxy manager - ssl certs for local lan with reverse proxy](https://www.youtube.com/watch?v=qlcVx-k-02E)
 - [Free TV Over the Air with ATSC 3.0 / NexGenTV with HDHomerun Flex 4k](https://www.youtube.com/watch?v=P9hGipgLtng)
 - [https://kit.co/TechnoTim/smart-home-hubs-device](https://kit.co/TechnoTim/smart-home-hubs-devices)
 - [How to Replace macOS with Ubuntu](https://www.youtube.com/watch?v=LFgM5es3Aro)
