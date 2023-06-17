@@ -23,4 +23,5 @@ Purpose: Setup macci as media center for gus's main tv.
   - Google Sheet
 - VirtualBox
 - Docker Desktop v2.4 [Docker Desktop v2.x archive](https://docs.docker.com/desktop/previous-versions/2.x-mac/)
+- Plex [Media Server Download](https://www.plex.tv/media-server-downloads/)
 
