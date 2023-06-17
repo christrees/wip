@@ -22,16 +22,15 @@
 | web proxy    |   Link  | type | description |
 |--------------|---------|------|-------------|
 | ng.gus.lan | [https://192.168.252.1/](https://192.168.252.1/) | static | mikrotik ng on subnet |
-| sg.gus.lan | [https://192.168.252.2/](https://192.168.252.2/) | static | truenas sg on subnet |
+| ~~sg2.gus.lan~~ | [https://192.168.252.2/](https://192.168.252.2/) | static | truenas sg on subnet |
 | cg.gus.lan | [https://192.168.252.3:8006/](https://192.168.252.3:8006/) | static | proxmox cg on subnet |
-| sg2.gus.lan | [https://192.168.252.6/](https://192.168.252.6/) | static | truenas sg2 garage ? on subnet |
-| lot.gus.lan | [https://192.168.252.12/](https://192.168.252.12/) | static | truenas log ? on subnet |
-| ~~nginx default~~ | [http://192.168.2.103/](http://192.168.2.103/) | static | ~~default nginx proxy page running in portainer~~ |
-| ~~nginx proxy admin~~ | [http://192.168.2.103:81](http://192.168.2.103:81) | macDHCP | ~~admin for nginx running in portainer~~ |
-| ~~portainer admin~~ | [http://192.168.2.103:9000](http://192.168.2.103:9000) | macDHCP | portainer admin on proxmox docker 103 |
-| ~~dockerplex web~~ | [http://192.168.2.103:32400](http://192.168.2.103:32400) | ~~macDHCP | 32400 on IP plex on portainer~~ |
-| ~~tnasplex web~~ | [http://192.168.2.2:32500](http://192.168.2.2:32500) | static | ~~32500 on IP plex on portainer~~ |
-| catghwin10 | [http://192.168.252.10](http://192.168.252.10) | static | windows 10 cat zt 10.147.17.127 |
+| ~~sg.gus.lan~~ | [https://192.168.252.6/](https://192.168.252.6/) | static | truenas sg2 garage ? on subnet |
+| sg.gus.lan | [https://192.168.252.12/](https://192.168.252.12/) | static | truenas log ? on subnet |
+| ~~nginx default~~ | [http://192.168.2.103/](http://192.168.252.103/) | static | ~~default nginx proxy page running in portainer~~ |
+| ~~nginx proxy admin~~ | [http://192.168.2.103:81](http://192.168.252.103:81) | macDHCP | ~~admin for nginx running in portainer~~ |
+| portainer admin | [http://192.168.2.103:9000](http://192.168.252.12:10400) | docker | portainer admin on truenas docker |
+| gusPlex web | [http://192.168.2.103:32400](http://192.168.252.12:32400) | docker | 32400 on IP plex on portainer |
+| gusHomer web | [http://192.168.252.12:10148](http://192.168.252.12:10148) | docker | gus.lan Home Page |
 
 - [https://my.zerotier.com/](https://my.zerotier.com/)
 - tbd
