@@ -24,5 +24,11 @@ Purpose: Setup macci as media center for gus's main tv.
 - VirtualBox VirtualBox 5.1.26 and 5.2.0b1/2 run just fine on 10.13b#
   - [Virtual Box Old build](https://www.virtualbox.org/wiki/Download_Old_Builds) and [vb 5.1.26 mac](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1) for [mac intel vb 5.1.26 dmg](https://download.virtualbox.org/virtualbox/5.1.26/VirtualBox-5.1.26-117224-OSX.dmg)
 - Docker Desktop v2.4 [Docker Desktop v2.x archive](https://docs.docker.com/desktop/previous-versions/2.x-mac/)
+  - did not work Docker Desktop wants VT-x so core duo is no good
 - Plex [Media Server Download](https://www.plex.tv/media-server-downloads/)
+- [VortexBox](https://wiki.vortexbox.org/available_images)  root - vortexbox
+- [TrueCharts - youtube](https://www.youtube.com/@TrueCharts)
+- [TrueCharts - Nginx proxy manager](https://github.com/truecharts/charts/blob/master/charts/stable/nginx-proxy-manager/Chart.yaml)
+- [TureCharts - Nginx proxy manager chart](https://truecharts.org/charts/stable/nginx-proxy-manager/)
+- TrueCharts suggest trafik not Nginx proxy manager
 
