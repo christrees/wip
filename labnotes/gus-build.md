@@ -19,7 +19,7 @@
 
 ## gus.lan 192.168.252.0/24 gw [http://192.168.252.1/](http://192.168.252.1/) dns 192.168.252.1
 
-- cg (grasshorse)
+### cg (grasshorse)
 | web proxy    |   Link  | type | description |
 |--------------|---------|------|-------------|
 | ng.gus.lan | [https://192.168.252.1/](https://192.168.252.1/) | static | mikrotik ng on subnet |
@@ -33,7 +33,7 @@
 | gusPlex web | [http://192.168.252.12:32400](http://192.168.252.12:32400) | docker | 32400 on IP plex on portainer |
 | gusHomer web | [http://192.168.252.12:10178](http://192.168.252.12:10178/) | docker | gus.lan Home Page |
 
-- sl (macci)
+### sl (macci)
 | web proxy    |   Link  | type | description |
 |--------------|---------|------|-------------|
 | mikrotik | [https://192.168.252.1/](https://192.168.252.1/) | static | mikrotik ng on subnet |
