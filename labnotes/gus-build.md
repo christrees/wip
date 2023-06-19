@@ -2,7 +2,7 @@
 ## gus.lan backup build
 - based on [tbd]()
 
-## gus.lan local 192.168.252.0/24 gw [http://192.168.252.1/](http://192.168.252.1/) 
+## tplink local 192.168.0.0/24 gw [http://192.168.0.1/](http://192.168.0.1/) 
 
 | web proxy    |   Link  | type | description |
 |--------------|---------|------|-------------|
@@ -17,8 +17,9 @@
 - [https://whatismyipaddress.com/](https://whatismyipaddress.com/) [https://whatismyipaddress.com/ip/24.217.248.77](https://whatismyipaddress.com/ip/24.217.248.77)
 
 
-## 192.168.252.0/24 gw [http://192.168.252.1/](http://192.168.252.1/) dns 192.168.252.1
-  
+## gus.lan 192.168.252.0/24 gw [http://192.168.252.1/](http://192.168.252.1/) dns 192.168.252.1
+
+- cg (grasshorse)
 | web proxy    |   Link  | type | description |
 |--------------|---------|------|-------------|
 | ng.gus.lan | [https://192.168.252.1/](https://192.168.252.1/) | static | mikrotik ng on subnet |
@@ -31,6 +32,22 @@
 | portainer admin | [http://192.168.252.12:10400](http://192.168.252.12:10400) | docker | portainer admin on truenas docker |
 | gusPlex web | [http://192.168.252.12:32400](http://192.168.252.12:32400) | docker | 32400 on IP plex on portainer |
 | gusHomer web | [http://192.168.252.12:10178](http://192.168.252.12:10178/) | docker | gus.lan Home Page |
+
+- sl (macci)
+| web proxy    |   Link  | type | description |
+|--------------|---------|------|-------------|
+| mikrotik | [https://192.168.252.1/](https://192.168.252.1/) | static | mikrotik ng on subnet |
+| ~~sg2.gus.lan~~ | [https://192.168.252.2/](https://192.168.252.2/) | static | truenas sg on subnet |
+| sl.christrees.com | [https://192.168.252.13:8006/](https://192.168.252.13:8006/) | static | proxmox sl on subnet |
+| Nginx Proxy Manager | [http://192.168.252.26:81](http://192.168.252.26:81) | static | proxy sl on subnet |
+| Homer | [https://192.168.252.13:8006/](https://192.168.252.13:8006/) | static | Homer sl on subnet |
+| Portainer - Docker | [http://192.168.252.23:9000/](http://192.168.252.23:9000/) | static | portainer sl on subnet |
+| Plex | [http://192.168.252.24:32400/web](http://192.168.252.24:32400/web) | static | Plex sl on subnet |
+
+Nginx Proxy Manager         http://192.168.252.26:81
+Homer         http://192.168.252.25:8010/
+Plex   http://192.168.252.24:32400/web
+Portainer         http://192.168.252.23:9000/
 
 - [https://my.zerotier.com/](https://my.zerotier.com/)
 - tbd
