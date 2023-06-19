@@ -20,6 +20,7 @@
 ## gus.lan 192.168.252.0/24 gw [http://192.168.252.1/](http://192.168.252.1/) dns 192.168.252.1
 
 ### cg (grasshorse)
+
 | web proxy    |   Link  | type | description |
 |--------------|---------|------|-------------|
 | ng.gus.lan | [https://192.168.252.1/](https://192.168.252.1/) | static | mikrotik ng on subnet |
@@ -34,6 +35,7 @@
 | gusHomer web | [http://192.168.252.12:10178](http://192.168.252.12:10178/) | docker | gus.lan Home Page |
 
 ### sl (macci)
+
 | web proxy    |   Link  | type | description |
 |--------------|---------|------|-------------|
 | mikrotik | [https://192.168.252.1/](https://192.168.252.1/) | static | mikrotik ng on subnet |
@@ -44,10 +46,12 @@
 | Portainer - Docker | [http://192.168.252.23:9000/](http://192.168.252.23:9000/) | static | portainer sl on subnet |
 | Plex | [http://192.168.252.24:32400/web](http://192.168.252.24:32400/web) | static | Plex sl on subnet |
 
+```
 Nginx Proxy Manager         http://192.168.252.26:81
 Homer         http://192.168.252.25:8010/
 Plex   http://192.168.252.24:32400/web
 Portainer         http://192.168.252.23:9000/
+```
 
 - [https://my.zerotier.com/](https://my.zerotier.com/)
 - tbd
