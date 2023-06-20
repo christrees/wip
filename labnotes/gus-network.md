@@ -12,6 +12,12 @@
 | Portainer - Docker | [http://192.168.252.23:9000/](http://192.168.252.23:9000/) | static | portainer sl on subnet |
 | Plex | [http://192.168.0.99:32400/web](http://192.168.0.99:32400/web) | static | Plex sl on subnet |
 
+- proxmox using [https://netstack.org/docs/lan/compute/proxmox/](https://netstack.org/docs/lan/compute/proxmox/)
+- docker portainer
+  - ```
+    bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/docker.sh)"
+    ```
+  - [https://github.com/tteck/Proxmox/raw/main/ct/docker.sh](https://github.com/tteck/Proxmox/raw/main/ct/docker.sh)
 ### cg.gh.lan
 
 | web proxy    |   Link  | type | description |
@@ -21,3 +27,4 @@
 | Homer | [https://192.168.252.13:8006/](https://192.168.252.13:8006/) | static | Homer sl on subnet |
 | Portainer - Docker | [http://192.168.252.23:9000/](http://192.168.252.23:9000/) | static | portainer sl on subnet |
 | Plex | [http://192.168.0.99:32400/web](http://192.168.0.99:32400/web) | static | Plex sl on subnet |
+
