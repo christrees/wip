@@ -284,3 +284,11 @@ services:
 #  content: "Message Example. <br /> Find more information on <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>"
 
 ```
+## Windows 10 Laptop refresh
+- Uninstall TrendMicro
+- Uninstall McAfee (required Administrator account)
+- Uninstall Apple, zerotier, BP_ApplicationSecurity, Audible, T-Moble, 
+- Windows update
+- Clean boot [Microsoft clean boot](https://support.microsoft.com/en-us/topic/how-to-perform-a-clean-boot-in-windows-da2f9573-6eec-00ad-2f8a-a97a1807f3dd#ID0EBBD=Windows_10)
+- High CPU [Microsoft high cpu](https://answers.microsoft.com/en-us/windows/forum/all/high-cpu-usage-because-of-antimalware-service/b20c6fef-0ce1-4ad1-8874-f76c8a89523a)
+- tbd
