@@ -8,7 +8,8 @@
 - [x] Mow
 - [x] Passport Application
 - [x] document llc creation steps [farm-llc](https://blog.christrees.com/farm/llc)
-- [ ] backup data document
+- [x] backup data document [backup-catMediaShare](https://netstack.org/docs/ops/backup/backup-catMediaShare)
+- [x] media location document [Media Library](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=1436813512)
 - [ ] Take back cflib media
 - [ ] Pack for Winfield
   - battery
