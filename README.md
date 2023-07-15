@@ -2,12 +2,12 @@
 
 - daily [trinksync](https://gitea.trink.com/cat/trinkcatchat)
 - media sort [https://tv.2cld.net](https://tv.2cld.net)
-- document llc creation steps
 - setup stadia [save article](https://www.theverge.com/23559284/google-stadia-controller-bluetooth-mode-how-to)
 
 ## Cedar Falls ToDo
 - [x] Mow
 - [x] Passport Application
+- [x] document llc creation steps [farm-llc](https://blog.christrees.com/farm/llc)
 - [ ] backup data document
 - [ ] Take back cflib media
 - [ ] Pack for Winfield
@@ -18,7 +18,7 @@
 - [ ] Pack for SL
   - sleeping bag
   - camping cot
-  - dried fruit, garlic, apples
+  - dried fruit, garlic, apples, lemonds
   - hd tuner silicondust
   - macmini
   - surface
