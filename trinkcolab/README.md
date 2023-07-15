@@ -1,5 +1,5 @@
 [edit](https://github.com/christrees/wip/edit/main/trinkcolab/README.md)
-Colabrative projects with Trink
+Collaborative projects with Trink
 
 ## Trink sync
 Daily accountability sync with trink
@@ -12,6 +12,7 @@ cat wip daily
 - [ ] review gh coldstorage [https://gh.2cld.net/docs/coldstorage/](https://gh.2cld.net/docs/coldstorage/)
 - [ ] review cf infrastructure documents [https://cf.christrees.com](https://cf.christrees.com)
 - [ ] review cat/box on [https://gitea.trink.com](https://gitea.trink.com)
+- [ ] review trinkcolab move to [https://gitea.trink.com/cat/trinkcatchat](https://gitea.trink.com/cat/trinkcatchat) started 6 months ago ;-)
 
 ## trinkup Sat 2023.07.16 8:15 CST
 - [x] restart daily sync
