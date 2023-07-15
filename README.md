@@ -23,9 +23,13 @@
   - dell 1u server with disks proxmox/truenas/plex
       
 ## Winfield ToDo
+- [ ] Verify RealEstate Appraisal
+- [ ] Verify Stock Certs
+- [ ] Put lockbox certs back
+- [ ] Verify Keys
+- [ ] Get PortalTV from Braydon
 - [ ] Fix Shoe
 - [ ] Mow
-- [ ] Verify RealEstate Appraisal
 - [ ] Start Inventory Appraisal
 - [ ] Share google Picture arch
   - [ATreesInventory-Vehicles](https://photos.app.goo.gl/iRtCmhMinQegmbYf6)
