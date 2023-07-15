@@ -1,5 +1,15 @@
 [edit](https://github.com/christrees/wip/edit/main/README.md)
-# Work In Progress
+
+- daily trinksync [https://wip.christrees.com/trinkcolab/](./trinkcolab/)
+- media sort [https://tv.2cld.net](https://tv.2cld.net)
+
+
+# cat Work In Progress
+- [ ] Update this doc https://wip.christrees.com
+- [ ] Verify monitoring of plex.tv [https://tv.2cld.net](https://tv.2cld.net)
+- [ ] Verify plex infrastructure documents
+- [ ] Verify [https://gh.2cld.net/docs/coldstorage/](https://gh.2cld.net/docs/coldstorage/) 
+
 
 ## Today 2023.06.13
 - check all payments
