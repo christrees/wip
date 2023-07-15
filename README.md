@@ -12,6 +12,7 @@
   - battery
   - axile bearing repair for Buick
   - broken key
+  - lb key
 - [ ] Pack for SL
   - sleeping bag
   - camping cot
@@ -28,6 +29,7 @@
 - [ ] Put lockbox certs back
 - [ ] Verify Keys
 - [ ] Get PortalTV from Braydon
+- [ ] Apple ][ disk copy
 - [ ] Fix Shoe
 - [ ] Mow
 - [ ] Start Inventory Appraisal
@@ -37,6 +39,9 @@
   - [ATreesInventory-Furniture](https://photos.app.goo.gl/waKUfjM7TZVsJ8Bh8)
   - [ALStorageProject](https://photos.app.goo.gl/j7qVmphV8Mpxem5p7) <- started 3 years ago
 - [ ] Share google sheet [Inventory](https://docs.google.com/spreadsheets/d/1DKb3lPvvxENL9s3Xo8LNtRDORzgJTz41veKOQpennk4/edit#gid=1996244136)
+- [ ] Update [https://gh.2cld.net/docs/](https://gh.2cld.net/)
+- [ ] Create sl.2cld.net node
+- [ ] Create wf.2cld.net node
 
 ## SL ToDo
 - [ ] packup books and tin for Andi
