@@ -1,6 +1,8 @@
 [edit](https://github.com/christrees/wip/edit/main/trinkcolab/README.md)
 Collaborative projects with Trink
 
+- NOTE: moving to [https://gitea.trink.com/cat/trinkcatchat](https://gitea.trink.com/cat/trinkcatchat}
+ 
 ## Trink sync
 Daily accountability sync with trink
 - [ ] cat-> Verify and Review [mdt-wip daily]()
