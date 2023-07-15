@@ -11,6 +11,7 @@ cat wip daily
 - [ ] review plex infrastructure documents [https://tv.2cld.net/ops/plex](https://tv.2cld.net/ops/plex)
 - [ ] review gh coldstorage [https://gh.2cld.net/docs/coldstorage/](https://gh.2cld.net/docs/coldstorage/)
 - [ ] review cf infrastructure documents [https://cf.christrees.com](https://cf.christrees.com)
+- [ ] review cat/box on [https://gitea.trink.com](https://gitea.trink.com)
 
 ## trinkup Sat 2023.07.16 8:15 CST
 - [x] restart daily sync
