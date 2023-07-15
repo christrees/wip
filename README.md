@@ -1,23 +1,54 @@
 [edit](https://github.com/christrees/wip/edit/main/README.md)
 
-- daily trinksync [https://wip.christrees.com/trinkcolab/](./trinkcolab/)
+- daily [trinksync](https://gitea.trink.com/cat/trinkcatchat)
 - media sort [https://tv.2cld.net](https://tv.2cld.net)
 
+## Cedar Falls ToDo
+- [x] Mow
+- [x] Passport Application
+- [ ] backup data document
+- [ ] Take back cflib media
+- [ ] Pack for Winfield
+  - battery
+  - axile bearing repair for Buick
+  - broken key
+- [ ] Pack for SL
+  - sleeping bag
+  - camping cot
+  - dried fruit, garlic, apples
+  - hd tuner silicondust
+  - macmini
+  - surface
+  - monitor
+  - dell 1u server with disks proxmox/truenas/plex
+      
+## Winfield ToDo
+- [ ] Fix Shoe
+- [ ] Mow
+- [ ] Verify RealEstate Appraisal
+- [ ] Start Inventory Appraisal
+- [ ] Share google Picture arch
+  - [ATreesInventory-Vehicles](https://photos.app.goo.gl/iRtCmhMinQegmbYf6)
+  - [ATreesInventory-Tools]()
+  - [ATreesInventory-Furniture](https://photos.app.goo.gl/waKUfjM7TZVsJ8Bh8)
+  - [ALStorageProject](https://photos.app.goo.gl/j7qVmphV8Mpxem5p7) <- started 3 years ago
+- [ ] Share google sheet [Inventory](https://docs.google.com/spreadsheets/d/1DKb3lPvvxENL9s3Xo8LNtRDORzgJTz41veKOQpennk4/edit#gid=1996244136)
 
-# cat Work In Progress
-- [ ] Update this doc https://wip.christrees.com
-- [ ] Verify monitoring of plex.tv [https://tv.2cld.net](https://tv.2cld.net)
-- [ ] Verify plex infrastructure documents
-- [ ] Verify [https://gh.2cld.net/docs/coldstorage/](https://gh.2cld.net/docs/coldstorage/) 
-
-
+## SL ToDo
+- [ ] packup books and tin for Andi
+- [ ] get hand blender container
+- [ ] packup proxmox macmini
+- [ ] replace switch
+- [ ] doorbell camera ? use or remove
+- [ ] setup dell 1u proxmox/truenas/plex
+- [ ] setup silicondust hd and remove old one
 ## Today 2023.06.13
 - check all payments
 - check email all accounts
 - document media locations from the last week
 - document and verify media configurations
 - document llc creation steps
-- review paper pile, document, schedule next maintainance
+- review paper pile, document, schedule next maintenance
 - file share issue
 - setup vortex on macci and proxmox
 - remote check macci via google, zerotier and macremote
