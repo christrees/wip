@@ -10,12 +10,12 @@
 - [x] document llc creation steps [farm-llc](https://blog.christrees.com/farm/llc)
 - [x] backup data document [backup-catMediaShare](https://netstack.org/docs/ops/backup/backup-catMediaShare)
 - [x] media location document [Media Library](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=1436813512)
-- [ ] Take back cflib media
-- [ ] Pack for Winfield
-  - battery
-  - axile bearing repair for Buick
-  - broken key
-  - lb key
+- [x] Take back cflib media
+- [x] Pack for Winfield
+  - leave in cf battery
+  - in wf axile bearing repair for Buick
+  - in black bag broken key
+  - in wf lb key
 - [ ] Pack for SL
   - sleeping bag
   - camping cot
@@ -25,16 +25,17 @@
   - surface
   - monitor
   - dell 1u server with disks proxmox/truenas/plex
+  - firetv ?
       
 ## Winfield ToDo
 - [ ] Verify RealEstate Appraisal
 - [ ] Verify Stock Certs
 - [ ] Put lockbox certs back
-- [ ] Verify Keys
+- [x] Verify Keys 
 - [ ] Get PortalTV from Braydon
-- [ ] Apple ][ disk copy
-- [ ] Fix Shoe
-- [ ] Mow
+- [f] Apple ][ disk copy Apple III not working
+- [X] Fix Shoe
+- [X] Mow
 - [ ] Start Inventory Appraisal
 - [ ] Share google Picture arch
   - [ATreesInventory-Vehicles](https://photos.app.goo.gl/iRtCmhMinQegmbYf6)
@@ -54,6 +55,10 @@
 - [ ] doorbell camera ? use or remove
 - [ ] setup dell 1u proxmox/truenas/plex
 - [ ] setup silicondust hd and remove old one
+- [ ] verify dvr to plex
+- [ ] verify remote livetv via bobo dojo
+- [ ] FireTV or ?? for bobo dojo
+- [ ] setup direct dvr record to computer (vcr and tivo)
 
 
 ## Maintainance
