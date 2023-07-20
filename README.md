@@ -28,11 +28,15 @@
   - firetv ?
       
 ## Winfield ToDo
-- [ ] Verify RealEstate Appraisal
-- [ ] Verify Stock Certs
-- [ ] Put lockbox certs back
+- [x] Verify RealEstate Appraisal
+- [x] Verify Stock Certs
+      - talked to Clay Kathy Garris would have docs
+      - PMMIC $6.67 board share tender June 1, 2023 based on Dec 31, 2022 audit
+      - Check on Hughes Baker shares
+      - Verify bank shares were sold
+- [x] Put lockbox certs back
 - [x] Verify Keys 
-- [ ] Get PortalTV from Braydon
+- [wait till Brad's visit] Get PortalTV from Braydon
 - [f] Apple ][ disk copy Apple III not working
 - [X] Fix Shoe
 - [X] Mow
@@ -54,7 +58,7 @@
 - [ ] replace switch
 - [ ] doorbell camera ? use or remove
 - [ ] setup dell 1u proxmox/truenas/plex
-- [ ] setup silicondust hd and remove old one
+- [ ] setup silicon dust hd and remove old one
 - [ ] verify dvr to plex
 - [ ] verify remote livetv via bobo dojo
 - [ ] FireTV or ?? for bobo dojo
