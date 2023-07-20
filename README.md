@@ -27,7 +27,20 @@
   - dell 1u server with disks proxmox/truenas/plex
   - firetv ?
       
-## Winfield ToDo
+## Winfield Do
+- [x] Share google Picture arch
+  - [ATreesInventory-Vehicles](https://photos.app.goo.gl/iRtCmhMinQegmbYf6)
+  - [ATreesInventory-Tools]()
+  - [ATreesInventory-Furniture](https://photos.app.goo.gl/waKUfjM7TZVsJ8Bh8)
+  - [ALStorageProject](https://photos.app.goo.gl/j7qVmphV8Mpxem5p7) <- started 3 years ago
+- [x] Share google sheet [Inventory Appraisal](https://docs.google.com/spreadsheets/d/1DKb3lPvvxENL9s3Xo8LNtRDORzgJTz41veKOQpennk4)
+- [ ] Update [https://gh.2cld.net/docs/](https://gh.2cld.net/)
+- [ ] Create sl.2cld.net node
+- [ ] Create wf.2cld.net node
+- [wait till Brad's visit] Get PortalTV from Braydon
+
+## Winfield Done
+- [f] Apple ][ disk copy Apple III not working
 - [x] Verify RealEstate Appraisal
 - [x] Verify Stock Certs
       - talked to Clay Kathy Garris would have docs
@@ -36,20 +49,8 @@
       - Verify bank shares were sold
 - [x] Put lockbox certs back
 - [x] Verify Keys 
-- [wait till Brad's visit] Get PortalTV from Braydon
-- [f] Apple ][ disk copy Apple III not working
 - [X] Fix Shoe
 - [X] Mow
-- [ ] Start Inventory Appraisal
-- [ ] Share google Picture arch
-  - [ATreesInventory-Vehicles](https://photos.app.goo.gl/iRtCmhMinQegmbYf6)
-  - [ATreesInventory-Tools]()
-  - [ATreesInventory-Furniture](https://photos.app.goo.gl/waKUfjM7TZVsJ8Bh8)
-  - [ALStorageProject](https://photos.app.goo.gl/j7qVmphV8Mpxem5p7) <- started 3 years ago
-- [ ] Share google sheet [Inventory](https://docs.google.com/spreadsheets/d/1DKb3lPvvxENL9s3Xo8LNtRDORzgJTz41veKOQpennk4/edit#gid=1996244136)
-- [ ] Update [https://gh.2cld.net/docs/](https://gh.2cld.net/)
-- [ ] Create sl.2cld.net node
-- [ ] Create wf.2cld.net node
 
 ## SL ToDo
 - [ ] packup books and tin for Andi
