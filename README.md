@@ -4,53 +4,20 @@
 - media sort [https://tv.2cld.net](https://tv.2cld.net)
 - setup stadia [save article](https://www.theverge.com/23559284/google-stadia-controller-bluetooth-mode-how-to)
 
-## Cedar Falls ToDo
-- [x] Mow
-- [x] Passport Application
-- [x] document llc creation steps [farm-llc](https://blog.christrees.com/farm/llc)
-- [x] backup data document [backup-catMediaShare](https://netstack.org/docs/ops/backup/backup-catMediaShare)
-- [x] media location document [Media Library](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=1436813512)
-- [x] Take back cflib media
-- [x] Pack for Winfield
-  - leave in cf battery
-  - in wf axile bearing repair for Buick
-  - in black bag broken key
-  - in wf lb key
-- [ ] Pack for SL
-  - sleeping bag
-  - camping cot
-  - dried fruit, garlic, apples, lemonds
-  - hd tuner silicondust
-  - macmini
-  - surface
-  - monitor
-  - dell 1u server with disks proxmox/truenas/plex
-  - firetv ?
+- [ ] update [farm-llc](https://blog.christrees.com/farm/llc)
+- [ ] update [backup-catMediaShare](https://netstack.org/docs/ops/backup/backup-catMediaShare)
+- [ ] update [Media Library](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=1436813512)
       
-## Winfield Do
-- [x] Share google Picture arch
+## Winfield
+- [ ] update Inventory [Inventory Appraisal](https://docs.google.com/spreadsheets/d/1DKb3lPvvxENL9s3Xo8LNtRDORzgJTz41veKOQpennk4)
   - [ATreesInventory-Vehicles](https://photos.app.goo.gl/iRtCmhMinQegmbYf6)
   - [ATreesInventory-Tools]()
   - [ATreesInventory-Furniture](https://photos.app.goo.gl/waKUfjM7TZVsJ8Bh8)
   - [ALStorageProject](https://photos.app.goo.gl/j7qVmphV8Mpxem5p7) <- started 3 years ago
-- [x] Share google sheet [Inventory Appraisal](https://docs.google.com/spreadsheets/d/1DKb3lPvvxENL9s3Xo8LNtRDORzgJTz41veKOQpennk4)
 - [ ] Update [https://gh.2cld.net/docs/](https://gh.2cld.net/)
 - [ ] Create sl.2cld.net node
 - [ ] Create wf.2cld.net node
-- [wait till Brad's visit] Get PortalTV from Braydon
-
-## Winfield Done
-- [f] Apple ][ disk copy Apple III not working
-- [x] Verify RealEstate Appraisal
-- [x] Verify Stock Certs
-      - talked to Clay Kathy Garris would have docs
-      - PMMIC $6.67 board share tender June 1, 2023 based on Dec 31, 2022 audit
-      - Check on Hughes Baker shares
-      - Verify bank shares were sold
-- [x] Put lockbox certs back
-- [x] Verify Keys 
-- [X] Fix Shoe
-- [X] Mow
+- [ ] Get PortalTV from Braydon
 
 ## SL ToDo
 - [ ] packup books and tin for Andi
