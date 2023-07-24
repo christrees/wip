@@ -30,7 +30,9 @@
 - [ ] verify dvr to plex
 - [ ] verify remote livetv via bobo dojo
 - [ ] FireTV or ?? for bobo dojo
-- [ ] setup direct dvr record to computer (vcr and tivo)
+- [ ] setup direct dvr record to the computer (vcr and tivo)
+- [ ] clean up lable gus room cables
+- [ ] setup gus for music cd clone
 
 
 ## Maintainance
