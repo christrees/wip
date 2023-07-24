@@ -21,17 +21,17 @@
 
 ## SL ToDo
 - [ ] packup books and tin for Andi
-- [ ] get hand blender container
-- [ ] packup proxmox macmini
+- [x] get hand blender container
+- [x] packup proxmox macmini
 - [ ] replace switch
 - [ ] doorbell camera ? use or remove
 - [ ] setup dell 1u proxmox/truenas/plex
-- [ ] setup silicon dust hd and remove old one
+- [x] setup silicon dust hd and remove old one
 - [ ] verify dvr to plex
 - [ ] verify remote livetv via bobo dojo
 - [ ] FireTV or ?? for bobo dojo
 - [ ] setup direct dvr record to the computer (vcr and tivo)
-- [ ] clean up lable gus room cables
+- [ ] clean up label gus room cables
 - [ ] setup gus for music cd clone
 
 
