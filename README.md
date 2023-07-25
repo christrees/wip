@@ -1,12 +1,17 @@
 [edit](https://github.com/christrees/wip/edit/main/README.md)
 
 - daily [trinksync](https://gitea.trink.com/cat/trinkcatchat)
-- media sort [https://tv.2cld.net](https://tv.2cld.net)
 - setup stadia [save article](https://www.theverge.com/23559284/google-stadia-controller-bluetooth-mode-how-to)
 
-- [ ] update [farm-llc](https://blog.christrees.com/farm/llc)
-- [ ] update [backup-catMediaShare](https://netstack.org/docs/ops/backup/backup-catMediaShare)
-- [ ] update [Media Library](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=1436813512)
+- create llc [farm-llc](https://blog.christrees.com/farm/llc)
+  - [ ] FH Klopfenstein Farms, LLC (farm land) op bs
+  - [ ] Winfield Holdings, LLC (rentals) op bs
+  - [ ] Trees AES, LLC (services) op bs
+  - [ ] Looseleaf Solutions, LLC (SaaS)
+
+- media sort [https://tv.2cld.net](https://tv.2cld.net)
+- update [backup-catMediaShare](https://netstack.org/docs/ops/backup/backup-catMediaShare)
+- update [Media Library](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=1436813512)
       
 ## Winfield
 - [ ] update Inventory [Inventory Appraisal](https://docs.google.com/spreadsheets/d/1DKb3lPvvxENL9s3Xo8LNtRDORzgJTz41veKOQpennk4)
@@ -27,11 +32,14 @@
 - [x] doorbell camera ? use or remove
 - [ ] setup dell 1u proxmox/truenas/plex
 - [x] setup silicon dust hd and remove old one
-- [ ] verify dvr to plex
+- [x] verify dvr to plex
 - [ ] verify remote livetv via bobo dojo
 - [f] FireTV or ?? for bobo dojo
 - [ ] setup direct dvr record to the computer (vcr and tivo)
 - [ ] clean up label gus room cables
+- [x] Net map [https://sl.2cld.net/docs/](https://sl.2cld.net/docs/)
+- [x] Data map [https://tv.2cld.net/](https://tv.2cld.net/)
+- [ ] move cd shelves to sr
 - [ ] setup gus for music cd clone
 
 
