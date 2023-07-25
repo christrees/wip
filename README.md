@@ -23,13 +23,13 @@
 - [ ] packup books and tin for Andi
 - [x] get hand blender container
 - [x] packup proxmox macmini
-- [ ] replace switch
-- [ ] doorbell camera ? use or remove
+- [x] replace switch
+- [x] doorbell camera ? use or remove
 - [ ] setup dell 1u proxmox/truenas/plex
 - [x] setup silicon dust hd and remove old one
 - [ ] verify dvr to plex
 - [ ] verify remote livetv via bobo dojo
-- [ ] FireTV or ?? for bobo dojo
+- [f] FireTV or ?? for bobo dojo
 - [ ] setup direct dvr record to the computer (vcr and tivo)
 - [ ] clean up label gus room cables
 - [ ] setup gus for music cd clone
