@@ -26,21 +26,20 @@
 
 ## SL ToDo
 - [ ] packup books and tin for Andi
+- [ ] setup dell 1u proxmox/truenas/plex
 - [x] get hand blender container
 - [x] packup proxmox macmini
 - [x] replace switch
 - [x] doorbell camera ? use or remove
-- [ ] setup dell 1u proxmox/truenas/plex
 - [x] setup silicon dust hd and remove old one
 - [x] verify dvr to plex
-- [ ] verify remote livetv via bobo dojo
-- [f] FireTV or ?? for bobo dojo
-- [ ] setup direct dvr record to the computer (vcr and tivo)
-- [ ] clean up label gus room cables
+- [x] verify remote livetv via bobo dojo
+- [x] steve gave him a roku ~~FireTV or ??~~ for bobo dojo
 - [x] Net map [https://sl.2cld.net/docs/](https://sl.2cld.net/docs/)
 - [x] Data map [https://tv.2cld.net/](https://tv.2cld.net/)
-- [ ] move cd shelves to sr
+- [x] move cd shelves to sr
 - [ ] setup gus for music cd clone
+- [ ] clean up label gus room cables
 
 
 ## Maintainance
