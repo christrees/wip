@@ -3,6 +3,23 @@
 - daily [trinksync](https://gitea.trink.com/cat/trinkcatchat)
 - setup stadia [save article](https://www.theverge.com/23559284/google-stadia-controller-bluetooth-mode-how-to)
 
+---
+
+- [https://wip.christrees.com/labnotes/](https://wip.christrees.com/labnotes/) move to [tbd]()
+  - [gh-build](https://wip.christrees.com/labnotes/gh-build) move to [tbd]()
+  - [gus-build](https://wip.christrees.com/labnotes/gus-build) move to [tbd]()
+  - [gus-macci](https://wip.christrees.com/labnotes/gus-macci) move to [tbd]()
+  - [gus-network](https://wip.christrees.com/labnotes/gus-network) move to [tbd]()
+  - [markdown-mermaid](https://wip.christrees.com/labnotes/markdown-mermaid) move to [tbd]()
+  - [mikrotik-test](https://wip.christrees.com/labnotes/mikrotik-test) move to [tbd]()
+  - [mikrotik-vrrp](https://wip.christrees.com/labnotes/mikrotik-vrrp) move to [tbd]()
+  - [storage-backup-archive](https://wip.christrees.com/labnotes/storage-backup-archive) move to [tbd]()
+  - [tbd]() move to [tbd]()
+- [https://wip.christrees.com/cfnetcleanup/](https://wip.christrees.com/cfnetcleanup/) move to [tbd]()
+  - [plexdatasort](https://wip.christrees.com/cfnetcleanup/plexdatasort/) move to [tbd]()
+  - [tbd]() move to [tbd]()
+  - [tbd]() move to [tbd]()
+
 - create llc [farm-llc](https://blog.christrees.com/farm/llc)
   - [ ] FH Klopfenstein Farms, LLC (farm land) op bs
   - [ ] Winfield Holdings, LLC (rentals) op bs
