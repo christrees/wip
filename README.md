@@ -37,13 +37,14 @@
   - [ATreesInventory-Furniture](https://photos.app.goo.gl/waKUfjM7TZVsJ8Bh8)
   - [ALStorageProject](https://photos.app.goo.gl/j7qVmphV8Mpxem5p7) <- started 3 years ago
 - [ ] Update [https://gh.2cld.net/docs/](https://gh.2cld.net/)
-- [ ] Create sl.2cld.net node
-- [ ] Create wf.2cld.net node
+- [ ] Create cf.2cld.net node and doc
+- [ ] Create sl.2cld.net node and doc
+- [ ] Create wf.2cld.net node and doc
 - [ ] Get PortalTV from Braydon
 
 ## SL ToDo
-- [ ] packup books and tin for Andi
-- [ ] setup dell 1u proxmox/truenas/plex
+- [x] packup books and tin for Andi
+- [f] setup dell 1u proxmox/truenas/plex
 - [x] get hand blender container
 - [x] packup proxmox macmini
 - [x] replace switch
@@ -55,8 +56,8 @@
 - [x] Net map [https://sl.2cld.net/docs/](https://sl.2cld.net/docs/)
 - [x] Data map [https://tv.2cld.net/](https://tv.2cld.net/)
 - [x] move cd shelves to sr
-- [ ] setup gus for music cd clone
-- [ ] clean up label gus room cables
+- [x] setup gus for music cd clone
+- [f] clean up label gus room cables
 
 
 ## Maintainance
