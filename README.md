@@ -36,10 +36,10 @@
   - [ATreesInventory-Tools]()
   - [ATreesInventory-Furniture](https://photos.app.goo.gl/waKUfjM7TZVsJ8Bh8)
   - [ALStorageProject](https://photos.app.goo.gl/j7qVmphV8Mpxem5p7) <- started 3 years ago
-- [ ] Update [https://gh.2cld.net/docs/](https://gh.2cld.net/)
-- [ ] Create cf.2cld.net node and doc
-- [ ] Create sl.2cld.net node and doc
-- [ ] Create wf.2cld.net node and doc
+- [x] Update [https://gh.2cld.net/docs/](https://gh.2cld.net/) cold storage in Aug
+- [x] Create cf.2cld.net node and doc
+- [x] Create sl.2cld.net node and doc
+- [f] Create wf.2cld.net node and doc - kill
 - [ ] Get PortalTV from Braydon
 
 ## SL ToDo
