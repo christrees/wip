@@ -5,25 +5,6 @@
 
 ---
 
-## trinkup Mon 2023.08.07 8:15 CST
-cat wip daily
-- [x] Skidplate Repair 
-- [ ] Packup DataCenter stuff and move to cf
-- [ ] Visit downtown Cedar Falls
-- [ ] Winfield packup
-	- cfPlex win11
-	- cat macmini
-	- macci
-	- nsDiskstation
-	- bs01ds411
-	- Qnap TS-431
-	- backup drive container
-	- cfPlex Chassis
-	- FoodBox (dried fruit)
-	- DrinkBox
-	- XBox
-	- AiroBed
-	- Refrig stuff ?
 
 ## Other
 
