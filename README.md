@@ -26,7 +26,14 @@
 - HOLD: Fix Buick Issues [https://blog.christrees.com/fix/2010BuickLaCrosse](https://blog.christrees.com/fix/2010BuickLaCrosse)
   - verify all vehicle sensors with new tools
   - put in right side axle and hub
-    
+ 
+## Grasshorse pickup
+- [ ] Parts mainly memory for 1u's
+- [ ] garage / lot / MediaShare array
+- [ ] As many HD's as possible (recycle and reuse)
+- [ ] TV's guitar
+- [ ] Start Ebay for-sale process
+
 ## Other
 
 - [https://wip.christrees.com/labnotes/](https://wip.christrees.com/labnotes/) move to [tbd]()
