@@ -22,17 +22,12 @@
   - [ATreesInventory-Tools]()
   - [ATreesInventory-Furniture](https://photos.app.goo.gl/waKUfjM7TZVsJ8Bh8)
   - [ALStorageProject](https://photos.app.goo.gl/j7qVmphV8Mpxem5p7) <- started 3 years ago
-- [ ] Get PortalTV from Braydon
+- [x] Get PortalTV from Braydon
+- [ ] Get PortalTV remote from Barb Phelps
+- [ ] Get TV remote from grasshorse
 - HOLD: Fix Buick Issues [https://blog.christrees.com/fix/2010BuickLaCrosse](https://blog.christrees.com/fix/2010BuickLaCrosse)
   - verify all vehicle sensors with new tools
   - put in right side axle and hub
- 
-## Grasshorse pickup
-- [ ] Parts mainly memory for 1u's
-- [ ] garage / lot / MediaShare array
-- [ ] As many HD's as possible (recycle and reuse)
-- [ ] TV's guitar
-- [ ] Start Ebay for-sale process
 
 ## Other
 
