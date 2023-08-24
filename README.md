@@ -2,6 +2,7 @@
 
 - daily [trinksync](https://gitea.trink.com/cat/trinkcatchat)
 - setup stadia [save article](https://www.theverge.com/23559284/google-stadia-controller-bluetooth-mode-how-to)
+- [weather records](https://www.weather.gov/dvn/climategraph_month_image_table_mli)
 
 ---
 
