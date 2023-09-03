@@ -6,11 +6,7 @@
 
 ---
 
-- create llc [farm-llc](https://blog.christrees.com/farm/llc)
-  - [ ] FH Klopfenstein Farms, LLC (farm land) op bs
-  - [ ] Winfield Holdings, LLC (rentals) op bs
-  - [ ] Trees AES, LLC (services) op bs
-  - [ ] Looseleaf Solutions, LLC (SaaS)
+- create llc [farm-llc-create](https://blog.christrees.com/farm/llc-create)
 - Taxes 2022 and 2023
 - Figure out IRA transfer and RMD (est $2K/yr) 
   - [https://etradecalculators.wealthmsi.com/rmd](https://etradecalculators.wealthmsi.com/rmd)
@@ -18,12 +14,6 @@
 - Figure out LLC banking and -> S-corp ( >$45K-100K/yr)
 
 ## Winfield
-- [ ] update Inventory [Inventory Appraisal](https://docs.google.com/spreadsheets/d/1DKb3lPvvxENL9s3Xo8LNtRDORzgJTz41veKOQpennk4)
-  - [ATreesInventory-Vehicles](https://photos.app.goo.gl/iRtCmhMinQegmbYf6)
-  - [ATreesInventory-Tools]()
-  - [ATreesInventory-Furniture](https://photos.app.goo.gl/waKUfjM7TZVsJ8Bh8)
-  - [ALStorageProject](https://photos.app.goo.gl/j7qVmphV8Mpxem5p7) <- started 3 years ago
-- [x] Get PortalTV from Braydon
 - [ ] Get PortalTV remote from Barb Phelps
 - [ ] Get TV remote from grasshorse
 - HOLD: Fix Buick Issues [https://blog.christrees.com/fix/2010BuickLaCrosse](https://blog.christrees.com/fix/2010BuickLaCrosse)
