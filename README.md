@@ -1,4 +1,4 @@
-[edit](https://github.com/christrees/wip/edit/main/README.md)
+[edit](https://github.com/christrees/wip/edit/main/README.md) - [wip overview](./overview/README.md)
 
 - [coreweave](https://www.coreweave.com/)
 - [NVidia CoreWeave collateralized debt investment](https://www.reuters.com/technology/coreweave-raises-23-billion-debt-collateralized-by-nvidia-chips-2023-08-03/)
