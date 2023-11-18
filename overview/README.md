@@ -13,7 +13,7 @@
 - update active projects [cat2net](https://docs.google.com/spreadsheets/d/1LdyZlFieSd_1APTbG0QahfwZgqBaA9PigO9_5SPSkmk/edit#gid=1059973145)
 - reveiw atrees status and update [ATrees](https://docs.google.com/spreadsheets/d/1sVNsv94ElpAdqkYESXIWeJblifBpcVuhkhG20xJYIB0/edit#gid=0)
 - Email Sara (print sign copy) prelim
-  - DONE - print out Application for Fees
+  - <span style="color:green">DONE</span> - print out Application for Fees
   - Get signatures
   - copy and send
   - Put spreadsheet together
