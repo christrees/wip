@@ -15,19 +15,24 @@
 - Email Sara (print sign copy) prelim
   - <span style="color:green">DONE</span> - print out Application for Fees
   - <span style="color:green">DONE</span> - Get signatures
-  - copy and send
+  - <span style="color:green">DONE</span> - copy and send
   - Put spreadsheet together
   - <span style="color:green">DONE</span> - In the ATrees Estate folder - Find Petroleum marketers stock cert stuff
 - pay final utilities
   - <span style="color:green">DONE</span> - pay 19.83 on 11/17/23 should be last payment for Alan Trees
   - <span style="color:green">DONE</span> - pay 115.80 on 11/17/23 should be last payment for Alan Trees
 - confirm new utilities for Chris Trees
-  - setup online account
+  - <span style="color:green">DONE</span> - setup online account
   - attach credit card
 - confirm walmart
   - setup online account
   - figure out how to use promotional credit
 - confirm banks (FHKlop, TreesAES, THTwig, Cat9, CATServices)
+  - FH Klopfenstein Farms
+  - TreesAES
+  - TH Twig LLC
+  - Cat9 (moved lockbox to auto pay)
+  - CATServices (frozen)
 - send bank LLC letters
   - <span style="color:green">DONE</span> - make up letterhead
   - <span style="color:green">DONE</span> - print and sign letters
