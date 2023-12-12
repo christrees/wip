@@ -1,5 +1,6 @@
 [edit](https://github.com/christrees/wip/edit/main/README.md) - [wip overview](./overview/README.md)
 
+<!-- Move to arch project
 - [coreweave](https://www.coreweave.com/)
 - [NVidia CoreWeave collateralized debt investment](https://www.reuters.com/technology/coreweave-raises-23-billion-debt-collateralized-by-nvidia-chips-2023-08-03/)
 
@@ -14,3 +15,4 @@ What popped into my head was LLM for healthcare..
 - [AI in Radiology](https://www.insideprecisionmedicine.com/news-and-features/how-artificial-intelligence-is-driving-changes-in-radiology/)
 
 All of this requires the LLM model to interface with local data that is not exposed along with all localized ai bias feedback that could be used.  
+-->
