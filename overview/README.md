@@ -5,7 +5,7 @@
 - [cfcleanup](../cfcleanup/README.md)
 - [labnotes](../labnotes/README.md)
 - [trink](../trink/README.md)
-- [tbd]()
+- [gus](../gus/README.md)
 - [tbd]()
 
 ## wip notes
