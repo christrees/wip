@@ -2,6 +2,7 @@
 
 wip gus project notes
 
+- Update [Google Docs - Media Library](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=0)
 - Clean up Plex Libs
   - Plex client menu naming
   - Plex storage and server naming
