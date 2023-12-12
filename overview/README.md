@@ -1,17 +1,7 @@
 [edit - update](https://github.com/christrees/wip/edit/main/overview/README.md)
 
-## wip links
-
-- [cfcleanup](../cfcleanup/README.md)
-- [labnotes](../labnotes/README.md)
-- [trink](../trink/README.md)
-- [gus](../gus/README.md)
-- [tbd]()
-
 ## wip notes
-- need to clean up wip
-- update active projects [cat2net](https://docs.google.com/spreadsheets/d/1LdyZlFieSd_1APTbG0QahfwZgqBaA9PigO9_5SPSkmk/edit#gid=1059973145)
-- reveiw atrees status and update [ATrees](https://docs.google.com/spreadsheets/d/1sVNsv94ElpAdqkYESXIWeJblifBpcVuhkhG20xJYIB0/edit#gid=0)
+
 - pull firetv rewind from wf basement
 - <span style="color:green">DONE</span> - ~~Email Sara (print sign copy) prelim~~
   - <span style="color:green">DONE</span> - print out Application for Fees
@@ -48,3 +38,27 @@
 - clean up workspace
 - update gh.2cld.net ... maybe setup jft, cci ?
 - get info about storage build-out
+
+
+---
+## wip links
+
+- Collaborative projects
+  - [trink](../trink/README.md)
+  - [gus](../gus/README.md)
+  - [gh.2cld.net - Jennings](https://gh.2cld.net)
+- [catcheck maintenance checks](../catcheck/README.md)
+  - [catcheck - overviewllc](../catcheck/overviewllc.md)
+  - [catcheck - cat9llc](../catcheck/cat9llc.md)
+  - [Cat2F](https://docs.google.com/spreadsheets/d/1382WcfE1DW9HHGs8X-FMLSfgMehtGwmcZ3txJa8u6ek/edit#gid=0)
+  - [CT2Fin](https://docs.google.com/spreadsheets/d/1hlxnjkryHsRNVQaTE9gVng9phxLfvqVa35zdAm7FHYQ/edit#gid=1078278403)
+  - [Cat2Net](https://docs.google.com/spreadsheets/d/1LdyZlFieSd_1APTbG0QahfwZgqBaA9PigO9_5SPSkmk/edit#gid=1059973145)
+  - [CatghDC](https://docs.google.com/spreadsheets/d/1cPcjizKYg8XDHQctY8t1wBhW3g6rClCJ6O_DGaXIscI/edit#gid=1621592935)
+  - [Media Library](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=0)
+  - [AT2Fin](https://docs.google.com/spreadsheets/d/1sVNsv94ElpAdqkYESXIWeJblifBpcVuhkhG20xJYIB0/edit#gid=0)
+  - update active projects [cat2net](https://docs.google.com/spreadsheets/d/1LdyZlFieSd_1APTbG0QahfwZgqBaA9PigO9_5SPSkmk/edit#gid=1059973145)
+  - review atrees status and update [ATrees](https://docs.google.com/spreadsheets/d/1sVNsv94ElpAdqkYESXIWeJblifBpcVuhkhG20xJYIB0/edit#gid=0)
+- Random wip projects to cleanup
+  - [cfcleanup](../cfcleanup/README.md)
+  - [labnotes](../labnotes/README.md)
+- [tbd]()
