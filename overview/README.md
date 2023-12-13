@@ -2,13 +2,34 @@
 
 ## wip notes
 
+- Deliver Sara (print sign copy) final~~
+  - Get signatures
+  - copy signature page
+  - deliver to Sara with checks
+- confirm new utilities for Chris Trees
+  - <span style="color:green">DONE</span> - setup online account
+  - attach credit card
+  - Pay utility
+- confirm walmart
+  - setup online account
+  - figure out how to use promotional credit
+- Confirm phone bill and payment
 - pull firetv rewind from wf basement
+- prep nas kit
+  - mini based
+  - 1u based
+  - qnap based
+  - synology based
+  - look for machine at gh to buy and use
+- clean up workspace
+- setup inventory database stuff
+- setup ebay to sell stuff (for me at least)
+- update gh.2cld.net ... maybe setup jft, cci ?
+- get info about storage build-out
 
+---
+---
 
-- <span style="color:green">DONE</span> - Deliver Sara (print sign copy) prelim~~
-  - <span style="color:green">DONE</span> - print out Application for Fees
-  - <span style="color:green">DONE</span> - Get signatures
-  - <span style="color:green">DONE</span> - copy and send
 - <span style="color:green">DONE</span> - ~~Email Sara (print sign copy) prelim~~
   - <span style="color:green">DONE</span> - print out Application for Fees
   - <span style="color:green">DONE</span> - Get signatures
@@ -18,12 +39,6 @@
 - <span style="color:green">DONE</span> - ~~pay final utilities~~
   - <span style="color:green">DONE</span> - pay 19.83 on 11/17/23 should be last payment for Alan Trees
   - <span style="color:green">DONE</span> - pay 115.80 on 11/17/23 should be last payment for Alan Trees
-- confirm new utilities for Chris Trees
-  - <span style="color:green">DONE</span> - setup online account
-  - attach credit card
-- confirm walmart
-  - setup online account
-  - figure out how to use promotional credit
 - <span style="color:green">DONE</span> - ~~confirm banks (FHKlop, TreesAES, THTwig, Cat9, CATServices)~~
   - <span style="color:green">DONE</span> - FH Klopfenstein Farms
   - <span style="color:green">DONE</span> - TreesAES
@@ -38,12 +53,6 @@
 - <span style="color:green">DONE</span> - ~~USDA fill out and email~~
   - <span style="color:green">DONE</span> - print out USDA paperwork
   - <span style="color:green">DONE</span> - fill out and sign
-- setup inventory database stuff
-- setup ebay to sell stuff (for me at least)
-- ask andi about wall/ceiling coverage
-- clean up workspace
-- update gh.2cld.net ... maybe setup jft, cci ?
-- get info about storage build-out
 
 
 ---
