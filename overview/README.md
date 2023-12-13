@@ -3,6 +3,12 @@
 ## wip notes
 
 - pull firetv rewind from wf basement
+
+
+- <span style="color:green">DONE</span> - Deliver Sara (print sign copy) prelim~~
+  - <span style="color:green">DONE</span> - print out Application for Fees
+  - <span style="color:green">DONE</span> - Get signatures
+  - <span style="color:green">DONE</span> - copy and send
 - <span style="color:green">DONE</span> - ~~Email Sara (print sign copy) prelim~~
   - <span style="color:green">DONE</span> - print out Application for Fees
   - <span style="color:green">DONE</span> - Get signatures
