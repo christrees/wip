@@ -23,12 +23,17 @@
   - Setup a Google [https://fi.google.com](https://fi.google.com/account?pli=1) for 3192576873 just need pin ?
   - tbd
 - pull firetv rewind from wf basement
-- prep nas kit
+- get UPS from basement office to take to sl
+- find catghwin10 to take to sl (I think at grasshorse)
+- find cattvWin10 to take to sl (this may be a VM)
+- NAS kit [tbd link]()
   - mini based
   - 1u based
   - qnap based
   - synology based
-  - look for machine at gh to buy and use
+  - look for machine at gh to buy and use in sl
+- Workstation kit [tbd link]()
+- Network kit [tbd link]()
 - clean up workspace
 - setup inventory database stuff
 - setup ebay to sell stuff (for me at least)
