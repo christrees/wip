@@ -19,7 +19,9 @@
   - did online chat... set service ticket for 06305467 visit on 12/19 before 5pm
   - added Brian Carla and myself as contacts
   - Had Brad and Clint test interent... was not working
-  - 
+  - Looked into porting number [https://www.windstreamenterprise.com/porting/](https://www.windstreamenterprise.com/porting/) need a pin
+  - Setup a Google [https://fi.google.com](https://fi.google.com/account?pli=1) for 3192576873 just need pin ?
+  - tbd
 - pull firetv rewind from wf basement
 - prep nas kit
   - mini based
