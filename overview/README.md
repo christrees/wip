@@ -34,6 +34,9 @@
   - look for machine at gh to buy and use in sl
 - Workstation kit [tbd link]()
 - Network kit [tbd link]()
+- TV kit [tbd]()
+- Travel kit [tbd]()
+- Farm kit [tbd]()
 - clean up workspace
 - setup inventory database stuff
 - setup ebay to sell stuff (for me at least)
