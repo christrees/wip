@@ -6,14 +6,20 @@
   - Get signatures
   - copy signature page
   - deliver to Sara with checks
-- confirm new utilities for Chris Trees
+- confirm walmart for Alice Trees  somehow just need to make sure this is dead
   - <span style="color:green">DONE</span> - setup online account
-  - attach credit card
-  - Pay utility
-- confirm walmart
-  - setup online account
-  - figure out how to use promotional credit
-- Confirm phone bill and payment
+  - <span style="color:green">DONE</span> - figure out how to use promotional credit
+    - Tried to use for oilchange but card would not work
+    - Probably need to call
+- Confirm phone bill and payment - [https://www.windstream.com/](https://www.windstream.com/)
+  - called on 11/20 ? thought they were going to stop internet 
+  - 12/15 billing was for 151.78
+  - online showed 44 ?
+  - called support.. they hung up after 31.19 sec
+  - did online chat... set service ticket for 06305467 visit on 12/19 before 5pm
+  - added Brian Carla and myself as contacts
+  - Had Brad and Clint test interent... was not working
+  - 
 - pull firetv rewind from wf basement
 - prep nas kit
   - mini based
@@ -30,6 +36,11 @@
 ---
 ---
 
+- confirm new utilities for Chris Trees [https://www.alliantenergy.com/](https://www.alliantenergy.com/)
+  - <span style="color:green">DONE</span> - setup online account
+  - <span style="color:green">DONE</span> - attach credit card
+  - <span style="color:green">DONE</span> - Pay utility
+  - <span style="color:green">DONE</span> - Setup Autopay (Priceline)
 - <span style="color:green">DONE</span> - ~~Email Sara (print sign copy) prelim~~
   - <span style="color:green">DONE</span> - print out Application for Fees
   - <span style="color:green">DONE</span> - Get signatures
