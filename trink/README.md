@@ -8,6 +8,7 @@
 - Plex fixes [tbd]()
   - avoid plex clients
   - plex api via web-asm ? rust
+  - plex / infrastructure monitors
   - clean up media files
 - Something AI workflow [tbd]()
   - commodity trading monitor
