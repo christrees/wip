@@ -16,3 +16,24 @@
 - [tbd]()
 - [tbd]()
 - [tbd]()
+
+## Project proposals
+
+### Gymnastic Judging [tbd-github]()
+- 5 key board with wrist rest and phone holder
+- Phone Application with video recording and judge marks timecode
+- Possible AI and inverse kinodynamics
+- Output standard judging sheets
+
+### Trink hat [tbd-github]()
+- pocket keyboard
+- Phone Application that can syn timecodes with video device
+- Phone Application records timecode for indexing
+
+### Catalog.it phone grip [tbd-github]()
+- keyboard with phone holder
+- Phone Application with video record and timecodes
+- Application can output media and metadata to Catalog.it
+
+### Gus control
+- keyboard and sensors configured for motion and leverage
