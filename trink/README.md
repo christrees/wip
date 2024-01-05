@@ -13,7 +13,7 @@
 - Something AI workflow [tbd]()
   - commodity trading monitor
   - video scan / edit tools
-- [tbd]()
+- cfDVR schedule shows delete an/or access
 - [tbd]()
 - [tbd]()
 
