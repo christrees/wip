@@ -2,10 +2,10 @@
 
 ## wip notes
 
-- Deliver Sara (print sign copy) final~~
-  - Get signatures
-  - copy signature page
-  - deliver to Sara with checks
+- Collect Alice Trees Tax info and contact Sara
+  - ETrade IRA Distribution
+  - Klop Farms 1099 for 25000
+  - Social Security payment
 - confirm walmart for Alice Trees  somehow just need to make sure this is dead
   - <span style="color:green">DONE</span> - setup online account
   - <span style="color:green">DONE</span> - figure out how to use promotional credit
@@ -22,8 +22,6 @@
   - Looked into porting number [https://www.windstreamenterprise.com/porting/](https://www.windstreamenterprise.com/porting/) need a pin
   - Setup a Google [https://fi.google.com](https://fi.google.com/account?pli=1) for 3192576873 just need pin ?
   - tbd
-- pull firetv rewind from wf basement
-- get UPS from basement office to take to sl
 - find catghwin10 to take to sl (I think at grasshorse)
   - 1u dell 32GB
   - C: catghwin10 250GB, D: 2TB, E: 4TB
@@ -58,6 +56,10 @@
 ---
 ---
 
+- ~~Deliver Sara (print sign copy) final~~
+  - <span style="color:green">DONE</span> - Get signatures
+  - <span style="color:green">DONE</span> - copy signature page
+  - <span style="color:green">DONE</span> - deliver to Sara with checks Done 2024.01.26
 - confirm new utilities for Chris Trees [https://www.alliantenergy.com/](https://www.alliantenergy.com/)
   - <span style="color:green">DONE</span> - setup online account
   - <span style="color:green">DONE</span> - attach credit card
