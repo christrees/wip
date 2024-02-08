@@ -1,7 +1,7 @@
 [edit - update](https://github.com/christrees/wip/edit/main/overview/README.md)
 
 ## wip notes
-- [HomeBuilder Blender Addon](https://creativedesigner3d.github.io/home_builder_3_docs/01_getting_started/)
+- [HomeBuilder Blender Addon](https://creativedesigner3d.github.io/home_builder_3_docs/01_getting_started/) and [HomeBuilder youtube](https://www.youtube.com/@andrewpeel1996/videos)
 - Subfloor heating [youtube link](https://www.youtube.com/watch?v=w6wo2URorG4)
 - [TLA Video Course](https://lamport.azurewebsites.net/video/videos.html)
 - Collect and file Alice Trees Tax
