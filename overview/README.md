@@ -1,8 +1,9 @@
 [edit - update](https://github.com/christrees/wip/edit/main/overview/README.md)
 
 ## wip notes
-
-- Collect Alice Trees Tax info and contact Sara
+- Subfloor heating [youtube link](https://www.youtube.com/watch?v=w6wo2URorG4)
+- [TLA Video Course](https://lamport.azurewebsites.net/video/videos.html)
+- Collect and file Alice Trees Tax
   - ETrade IRA Distribution
   - Klop Farms 1099 for 25000
   - Social Security payment
