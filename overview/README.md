@@ -3,7 +3,9 @@
 ## wip notes
 - [HomeBuilder Blender Addon](https://creativedesigner3d.github.io/home_builder_3_docs/01_getting_started/) and [HomeBuilder youtube](https://www.youtube.com/@andrewpeel1996/videos)
 - Subfloor heating [youtube link](https://www.youtube.com/watch?v=w6wo2URorG4)
-- [TLA Video Course](https://lamport.azurewebsites.net/video/videos.html)
+- TLA+
+  - [TLA+ Home Page](https://lamport.azurewebsites.net/tla/tla.html)
+  - [TLA+ Video Course](https://lamport.azurewebsites.net/video/videos.html)
 - Collect and file Alice Trees Tax
   - ETrade IRA Distribution
   - Klop Farms 1099 for 25000
