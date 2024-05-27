@@ -10,10 +10,10 @@
   - food
   - Netstack
   - farm
-- [wip ghadmin - Joplin]()
-  - [ntbot]()
-  - [macos]()
-  - [zerotier]()
+- [wip ghadmin - Joplin](joplin://x-callback-url/openNote?id=3a175760afef4ce5ac22a638681e661b)
+  - [ntbot](joplin://x-callback-url/openNote?id=79ebe35e358e4dbd985623cba56daa29)
+  - [macos](joplin://x-callback-url/openNote?id=a70d378166a64232941f463401a9ee2a)
+  - [zerotier](joplin://x-callback-url/openNote?id=428d38dce09e4e7b822bb4468ffa38c3)
   - ai-notes
   - Blender-Projects
   - catMovieMove
