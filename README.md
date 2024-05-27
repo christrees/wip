@@ -1,6 +1,6 @@
 [edit](https://github.com/christrees/wip/edit/main/README.md) 
 
-- [wip christrees - Joplin](joplin://x-callback-url/openNote?id=c6c5f2d2005a40b99492ee449291bcfa)
+- [wip christrees](joplin://x-callback-url/openNote?id=c6c5f2d2005a40b99492ee449291bcfa)
 - [wip ghadmin - Joplin]()
 
 - [wip overview](./overview/README.md)
