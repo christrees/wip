@@ -39,6 +39,7 @@
 - [tc 4:41](https://youtu.be/vy7oLhlHnKo?t=281) Repeat on other side
 - [tc 5:36](https://youtu.be/vy7oLhlHnKo?t=336) Test - 1.5 ft lift should stay up
     - [Amazon Part Genie 25605R.S Chain Drive Inner Slide](https://www.amazon.com/Genie-25605R-S-Chain-Drive-Inner/dp/B000JFBOT2) tbd
+    - [Amazon Part Torsion bar winding tool](https://www.amazon.com/Premium-Winding-Non-Slip-Diameter-Torsion/dp/B07HHVC1BQ)
     - [tc ]() tbd
     - [tc ]() tbd
 
