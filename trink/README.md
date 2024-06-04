@@ -1,5 +1,8 @@
 [edit](https://github.com/christrees/wip/edit/main/trink/README.md)
 
+## Random Review
+- LLM stuff https://github.com/danielmiessler/fabric
+- Rust VM manager https://github.com/cloud-hypervisor/cloud-hypervisor
 - Stupid complex things like
   - [Alexa Bar](https://www.youtube.com/watch?v=hS2t1lE9l5Y)
   - Trink Note
