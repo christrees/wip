@@ -1,6 +1,7 @@
 [edit](https://github.com/christrees/wip/edit/main/trink/README.md)
 
 ## Random Review
+- Robot Mower https://openmower.de/docs/getting-started/
 - LLM stuff https://github.com/danielmiessler/fabric
 - Rust VM manager https://github.com/cloud-hypervisor/cloud-hypervisor
 - GrapheneOS https://grapheneos.org/
