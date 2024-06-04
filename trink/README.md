@@ -1,9 +1,20 @@
 [edit](https://github.com/christrees/wip/edit/main/trink/README.md)
 
 ## Random Review
-- Think I want to do https://github.com/michael/editable-website mainly for sharesites I have to deal with comments?
-- Robot Mower https://openmower.de/docs/getting-started/ github https://github.com/ClemensElflein/OpenMower?tab=readme-ov-file
+- Do https://github.com/michael/editable-website mainly for shared sites I have to deal with, comments?
+- Put qubes OS on something
+	- how much cpu does it take
+	- using local monitors
+	- how old of laptop would work
+- Figure out mac issue turn into proxmox server ?
+	- proxmox on mac
+	- casa os on mac
+	- guac on casa os
+	- use local monitors on proxmox
+- photo scan llm https://mylio.com/#organize
+- Robot Mower https://openmower.de/docs/getting-started/ github is https://github.com/ClemensElflein/OpenMower?tab=readme-ov-file
 - LLM stuff https://github.com/danielmiessler/fabric
+  - Idea of medical journalling with fabric
 - Rust VM manager https://github.com/cloud-hypervisor/cloud-hypervisor
 - Rust VMM https://opensource.com/article/19/3/rust-virtual-machine
 - GrapheneOS https://grapheneos.org/
