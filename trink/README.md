@@ -1,9 +1,10 @@
 [edit](https://github.com/christrees/wip/edit/main/trink/README.md)
 
 ## Random Review
-- Robot Mower https://openmower.de/docs/getting-started/
+- Robot Mower https://openmower.de/docs/getting-started/ github https://github.com/ClemensElflein/OpenMower?tab=readme-ov-file
 - LLM stuff https://github.com/danielmiessler/fabric
 - Rust VM manager https://github.com/cloud-hypervisor/cloud-hypervisor
+- Rust VMM https://opensource.com/article/19/3/rust-virtual-machine
 - GrapheneOS https://grapheneos.org/
 - qubes https://www.qubes-os.org/
 - Stupid complex things like
