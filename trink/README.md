@@ -3,6 +3,8 @@
 ## Random Review
 - LLM stuff https://github.com/danielmiessler/fabric
 - Rust VM manager https://github.com/cloud-hypervisor/cloud-hypervisor
+- GrapheneOS https://grapheneos.org/
+- qubes https://www.qubes-os.org/
 - Stupid complex things like
   - [Alexa Bar](https://www.youtube.com/watch?v=hS2t1lE9l5Y)
   - Trink Note
@@ -17,6 +19,8 @@
   - commodity trading monitor
   - video scan / edit tools
 - cfDVR schedule shows delete an/or access
+- plex monitoring
+- https://robotec.ai/how-we-built-a-robotic-simulation-in-open-3d-engine/
 - [tbd]()
 - [tbd]()
 
