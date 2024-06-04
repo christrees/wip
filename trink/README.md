@@ -1,6 +1,7 @@
 [edit](https://github.com/christrees/wip/edit/main/trink/README.md)
 
 ## Random Review
+- Think I want to do https://github.com/michael/editable-website mainly for sharesites I have to deal with comments?
 - Robot Mower https://openmower.de/docs/getting-started/ github https://github.com/ClemensElflein/OpenMower?tab=readme-ov-file
 - LLM stuff https://github.com/danielmiessler/fabric
 - Rust VM manager https://github.com/cloud-hypervisor/cloud-hypervisor
