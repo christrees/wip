@@ -10,6 +10,7 @@
   - food
   - Netstack
   - farm
+  - [ ] tbd [link]()
 - [wip ghadmin - Joplin](joplin://x-callback-url/openNote?id=3a175760afef4ce5ac22a638681e661b)
   - [ntbot](joplin://x-callback-url/openNote?id=79ebe35e358e4dbd985623cba56daa29)
   - [macos](joplin://x-callback-url/openNote?id=a70d378166a64232941f463401a9ee2a)
@@ -22,29 +23,16 @@
   - TypeScript Tutorial
   - React-Native notes
   - Flutter notes
-
+  - [ ] tbd [link]()
 - [wip overview](./overview/README.md)
   - [wip trink](https://wip.christrees.com/trink/)
   - [wip gus](https://wip.christrees.com/gus/)
   - [wip gh](https://gh.2cld.net/)
-
-
-### Garage Door Repair [youtube](https://www.youtube.com/watch?v=vy7oLhlHnKo)
-- [tc 1:27](https://youtu.be/vy7oLhlHnKo?t=87) Vice Grip Shaft to keep spool tight and Rail to prevent runaway door
-- [tc ]() Mark location of spring clamp on shaft
-- [tc 2:24](https://youtu.be/vy7oLhlHnKo?t=144) Take tension off set screws
-- [tc 3:03](https://youtu.be/vy7oLhlHnKo?t=183) Put 3 - 1/4 turns in spring
-- [tc 3:41](https://youtu.be/vy7oLhlHnKo?t=221) tap spring clamp back out to Mark on made earlier on shaft
-- [tc 4:09](https://youtu.be/vy7oLhlHnKo?t=249) Tighten set screws 1/4 turn after initial resistance
-- [tc 4:41](https://youtu.be/vy7oLhlHnKo?t=281) Repeat on other side
-- [tc 5:36](https://youtu.be/vy7oLhlHnKo?t=336) Test - 1.5 ft lift should stay up
-    - [Amazon Part Genie 25605R.S Chain Drive Inner Slide](https://www.amazon.com/Genie-25605R-S-Chain-Drive-Inner/dp/B000JFBOT2) tbd
-    - [Amazon Part Torsion bar winding tool](https://www.amazon.com/Premium-Winding-Non-Slip-Diameter-Torsion/dp/B07HHVC1BQ)
-    - [tc ]() tbd
-    - [tc ]() tbd
-
+  - [ ] tbd [link]()
 - Should be clearing and putting confirmed info into long term project space
 - notes below
+- [ ] endtbd [link]()
+
 <!-- Move to arch project
 - [coreweave](https://www.coreweave.com/)
 - [NVidia CoreWeave collateralized debt investment](https://www.reuters.com/technology/coreweave-raises-23-billion-debt-collateralized-by-nvidia-chips-2023-08-03/)
