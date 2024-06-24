@@ -25,14 +25,15 @@
   - Flutter notes
   - [ ] tbd [link]()
 - [wip overview](./overview/README.md)
-  - [wip trink](https://wip.christrees.com/trink/)
-  - [wip gus](https://wip.christrees.com/gus/)
-  - [wip gh](https://gh.2cld.net/)
+  - [wip.christrees.com/trink/](https://wip.christrees.com/trink/)
+  - [wip.christrees.com/gus/](https://wip.christrees.com/gus/)
+  - [gh.2cld.net/](https://gh.2cld.net/)
+  - [wip.2cld.net](https://wip.2cld.net/)
   - [ ] tbd [link]()
-- Should be clearing and putting confirmed info into long term project space
-- notes below
 - [ ] endtbd [link]()
 
+### Notes below
+- Should be clearing and putting confirmed info into long term project space
 <!-- Move to arch project
 - [coreweave](https://www.coreweave.com/)
 - [NVidia CoreWeave collateralized debt investment](https://www.reuters.com/technology/coreweave-raises-23-billion-debt-collateralized-by-nvidia-chips-2023-08-03/)
