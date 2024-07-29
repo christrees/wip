@@ -50,3 +50,5 @@ What popped into my head was LLM for healthcare..
 
 All of this requires the LLM model to interface with local data that is not exposed along with all localized ai bias feedback that could be used.  
 -->
+
+- [test Inventory link](https://youtube.com/shorts/OVdSmFhmkRw?si=Y48qSaf8bR5POCZx)
