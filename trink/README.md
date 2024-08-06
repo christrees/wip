@@ -1,4 +1,12 @@
 [edit](https://github.com/christrees/wip/edit/main/trink/README.md)
+## Must Review
+- PWA [microsoft pwa builder demos](https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/demo-pwas)
+- PWA movie list [pwa app](https://quirky-rosalind-ac1e65.netlify.app/) and [github repo](https://github.com/captainbrosset/movies-db-pwa)
+- PWA geotrack [pwa app](https://captainbrosset.github.io/mytracks/) and [github repo](https://github.com/captainbrosset/mytracks)
+- FreeCad pinball print to lib via CyberTruck (or trinks workflow on a cybertruck VM)
+- PWA note app with chord keyboard, voice type and video record
+- HomeAssistant on TrueNAS with security camera object detect, one switch, one light
+- Ninja Trader API with some trade algo
 
 ## Random Review
 - Do https://github.com/michael/editable-website mainly for shared sites I have to deal with, comments?
