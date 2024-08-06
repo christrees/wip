@@ -1,5 +1,15 @@
 [edit](https://github.com/christrees/wip/edit/main/trink/README.md)
 ## Must Review
+- git and edit on android https://termux.dev/en/
+- Once Termux is installed, you can install Git using the following commands:
+```
+apt install git
+Type y when prompted
+Use the command apt install git git --version
+Use git --help to see the help
+Use termux pkg install git
+Read the doc in termux by using git help git
+```
 - PWA [microsoft pwa builder demos](https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/demo-pwas)
 - PWA movie list [pwa app](https://quirky-rosalind-ac1e65.netlify.app/) and [github repo](https://github.com/captainbrosset/movies-db-pwa)
 - PWA geotrack [pwa app](https://captainbrosset.github.io/mytracks/) and [github repo](https://github.com/captainbrosset/mytracks)
