@@ -1,6 +1,7 @@
 [edit](https://github.com/christrees/wip/edit/main/trink/README.md)
 ## Must Review
 - git and edit on android https://termux.dev/en/
+- Install git using termux https://www.techrepublic.com/article/how-to-install-git-on-android/
 - Once Termux is installed, you can install Git using the following commands:
 ```
 apt install git
