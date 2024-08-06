@@ -7,6 +7,7 @@
 - PWA note app with chord keyboard, voice type and video record
 - HomeAssistant on TrueNAS with security camera object detect, one switch, one light
 - Ninja Trader API with some trade algo
+- One of the above or go find the local bike/hike trails 
 
 ## Random Review
 - Do https://github.com/michael/editable-website mainly for shared sites I have to deal with, comments?
