@@ -34,6 +34,7 @@
 
 ### Notes below
 - Should be clearing and putting confirmed info into long term project space
+
 <!-- Move to arch project
 - [coreweave](https://www.coreweave.com/)
 - [NVidia CoreWeave collateralized debt investment](https://www.reuters.com/technology/coreweave-raises-23-billion-debt-collateralized-by-nvidia-chips-2023-08-03/)
@@ -52,3 +53,6 @@ All of this requires the LLM model to interface with local data that is not expo
 -->
 
 - [test Inventory link](https://youtube.com/shorts/OVdSmFhmkRw?si=Y48qSaf8bR5POCZx)
+- [temu test](https://www.ups.com/track?track=yes&trackNums=1ZC6K347YW93354511&loc=en_&requester=ST/trackdetails)
+- tbd [tbdlink]()
+- [ ] tbd [tbdlink]()
