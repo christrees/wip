@@ -29,6 +29,7 @@
   - [wip.christrees.com/gus/](https://wip.christrees.com/gus/)
   - [gh.2cld.net/](https://gh.2cld.net/)
   - [wip.2cld.net](https://wip.2cld.net/)
+  - https://tautulli.com/
   - [ ] tbd [link]()
 - [ ] endtbd [link]()
 
