@@ -54,5 +54,6 @@ All of this requires the LLM model to interface with local data that is not expo
 
 - [test Inventory link](https://youtube.com/shorts/OVdSmFhmkRw?si=Y48qSaf8bR5POCZx)
 - [temu test](https://www.ups.com/track?track=yes&trackNums=1ZC6K347YW93354511&loc=en_&requester=ST/trackdetails)
-- tbd [tbdlink]()
+- Sketchup simple house [How to Model a House in SketchUp Free 10 EASY Steps](https://www.youtube.com/watch?v=LXpXVAgRLV0)
 - [ ] tbd [tbdlink]()
+- tbd [tbdlink]()
