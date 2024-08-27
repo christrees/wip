@@ -59,5 +59,13 @@ All of this requires the LLM model to interface with local data that is not expo
 - https://drive.google.com/drive/quota
 - https://github.com/meichthys/foss_photo_libraries
 - https://piwigo.org/
+- From Joplin christrees
+  - Editable website for general stuff https://github.com/michael/editable-website
+	- https://github.com/itswadesh/svelte-commerce/tree/master
+	- https://svelte.dev/
+	- svelte templates https://www.sveltesociety.dev/templates#svelte-commerce
+	- svelte tutoral https://learn.svelte.dev/tutorial/welcome-to-svelte
+	- svelte https://www.youtube.com/@JoyofCodeDev/videos
+- google maps app issue [link](https://support.google.com/maps/answer/14169818?visit_id=638538019279778931-1855716688&p=maps_odlh&rd=1)
 - [ ] tbd [tbdlink]()
 - tbd [tbdlink]()
