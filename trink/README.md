@@ -1,5 +1,24 @@
 [edit](https://github.com/christrees/wip/edit/main/trink/README.md)
-## Must Review
+
+## joplin clearout
+- [ ] look at fabric https://github.com/danielmiessler/fabric
+- [ ] look at ntfy https://github.com/binwiederhier/ntfy
+- [ ] look at nix https://nixos.org/
+- [ ] Doc for Steve using nix and https://docs.rackn.io/stable/resources/labs/
+- [ ] Ping trink about Devin https://www.cognition.ai/blog/introducing-devin
+- [ ] Ping trink about promt cache https://www.anthropic.com/news/prompt-caching
+- [ ] Ping trink about https://www.1x.tech/careers#open-roles
+- [ ] Ping trink about https://protocol.bryanjohnson.com/#routine-measurement
+- [ ] Ping trink about VaultWarden (rust)
+- [ ] look at https://www.trink.com/ for
+    - [ ] https://goaccess.io/get-started/
+    - [ ] https://arnaudr.io/2020/08/10/goaccess-14-a-detailed-tutorial/
+- [ ] homepage https://www.youtube.com/watch?v=mC3tjysJ01E
+- [ ] homepage https://technotim.live/posts/homepage-dashboard/
+- [ ] ai tool workflow https://www.youtube.com/watch?v=kDcM_xwmP3Q
+- [ ] tbd
+
+## older 
 - git and edit on android https://termux.dev/en/
 - Install git using termux https://www.techrepublic.com/article/how-to-install-git-on-android/
 - Once Termux is installed, you can install Git using the following commands:
