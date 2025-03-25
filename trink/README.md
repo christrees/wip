@@ -1,5 +1,22 @@
 [edit](https://github.com/christrees/wip/edit/main/trink/README.md)
 
+# Daily
+Review and summary
+## 2025.03.25
+- Propose: Looseleaf in RUST
+  - Goal: Learn RUST and complete HWPC app in RUST
+  - Step 1: Project Plan in https://gitea.trink.com/trink/<name>
+## 2025.03.24
+- Do as much as practical in a rust core?
+- https://medium.com/@lipa_btc/rust-for-native-mobile-development-b8a4b82720bf
+- Finding old shit.... conclusion: would be good to review, but rewrite?
+- trink synology backup drives were 3TB (look when get home)
+- https://github.com/looseleaf
+
+
+---
+Older stuff
+
 ## joplin clearout
 - [ ] look at fabric https://github.com/danielmiessler/fabric
 - [ ] look at ntfy https://github.com/binwiederhier/ntfy
