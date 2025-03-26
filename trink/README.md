@@ -3,9 +3,14 @@
 # Daily
 Review and summary
 ## 2025.03.25
-- Propose: Looseleaf in RUST
-  - Goal: Learn RUST and complete HWPC app in RUST
-  - Step 1: Project Plan in https://gitea.trink.com/trink/<name>
+- Chris need to get gitea.trink.com working and understand why it didn't
+- Propose: Looseleaf in RUST to seach for crypto
+  - Goal: Learn RUST and find crypto
+  - Step 1: rust walk in https://gitea.trink.com/trink/<name>
+    - Walk disks, physical and vm
+    - tbd
+- tbd
+  
 ## 2025.03.24
 - Do as much as practical in a rust core?
 - https://medium.com/@lipa_btc/rust-for-native-mobile-development-b8a4b82720bf
