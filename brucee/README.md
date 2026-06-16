@@ -13,6 +13,37 @@ I think you can just go register... I did have cf filter on an monthly cert auth
 from wip (my local ai I use)
 
 ---
+Here's what exists:
+
+**Yes, there's documentation — it's in netstack:**
+- [netstack.org/docs/wan/cloudflare/](https://github.com/2cld/netstack/blob/master/docs/wan/cloudflare/README.md)
+
+That doc shows the full routing chain:
+
+```
+Cloudflare tunnel (cf-cat9me) → *.cat9.me → https://192.168.6.106 (traefik on nsdockerhv)
+                                                      ↓
+                                              traefik routes to containers
+                                              (nspwa, gitea, nginx, etc.)
+```
+
+Specifically for nspwa: `*.cat9.me` wildcard goes through the `cf-cat9me` tunnel to traefik at `192.168.6.106`, and traefik routes `nspwa.cat9.me` to the nspwa container.
+
+**What's documented:**
+- Tunnel IDs and connector info (cf-cat9me, cf-2cld, sl-2cld)
+- DNS routing tables per tunnel
+- Docker install steps for cloudflared
+- Traefik integration (wildcard → HTTPS → originServerName)
+
+**What's NOT specifically documented:**
+- The exact traefik labels/config for nspwa (that would be in the [docker-compose gitea repo](https://gitea.cat9.me/nsadmin/docker-compose) under the nspwa compose file)
+- An end-to-end "how to add a new service behind Cloudflare + traefik" runbook
+
+The trinknotes we slimmed earlier had this note: `"nspwa.cat9.me working (cloudflare → traefik → dev server)"` — confirming the flow.
+
+Do you need the specific nspwa docker-compose/traefik config, or were you looking to confirm the pattern exists for reference?
+
+---
 It's infra routing (Cloudflare → traefik → container), not an nspwa code problem. The nspwa app itself is healthy — it's the traffic never reaching it. This belongs on the docker-compose repo (where traefik config lives) or netstack (where the pattern is documented).
 
 Let me put it on the docker-compose repo since that's where the traefik config and certs live:
