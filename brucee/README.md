@@ -13,6 +13,9 @@ I think you can just go register... I did have cf filter on an monthly cert auth
 from wip (my local ai I use)
 
 ---
+Do we have a document that explains how we use cloudflare to expose nspwa?
+
+---
 Here's what exists:
 
 **Yes, there's documentation — it's in netstack:**
