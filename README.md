@@ -1,14 +1,8 @@
-# WIP Daily - Wednesday 2026-08-12
+# WIP Daily — Thursday 2026-08-13
 
 [wip.christrees.com](https://wip.christrees.com) | [wip.2cld.net](https://wip.2cld.net) (private)
 
-## Today
-**Top 3 Priorities for Wednesday, Aug 12:**
-1. `cat9-wip` → daily cron report (06:00)
-2. `cat9-wip` → daily standup (06:30)
-3. `cat9-wip` → LLC: 1040 CTrees federal filing (due Oct 15) (08:00)
-
-**Schedule:**
+## Schedule
 
 | Time | Code | What |
 |------|------|------|
@@ -21,52 +15,36 @@
 | 17:00 | `cat9-hwpc` | SLA: confirm hwpc-rp always-up + backup + recovery path |
 | 19:00 | `chris` | andi, cb, bastion tuchi |
 
-**❓ Unknown codes (need routing or are typos):**
-- `cat9-ops-wf` "cat9-ops-wf storage index" — known code? typo? new project?
-- `cat9-ops-wf` "cat9-ops-wf storage index" — known code? typo? new project?
+---
+
+## Status
+
+| Site | Nodes | Tunnels | Backup | Last Check |
+|------|-------|---------|--------|-----------|
+| cf | 3/3 UP | ✅ healthy (4 conns) | ✅ 20260811-0200 OK | 2026-08-12 |
+| sl | 1/1 UP | ✅ down (0 conns) | ✅ receiving | 2026-08-12 |
+| wf | 1/1 UP | — | ❌ offline | 2026-08-12 |
 
 ---
-<details>
-<summary><strong>Ticklers (context-triggered)</strong></summary>
 
- **@location:**
- - @location:winfield @person:clay - Tell Clay (Pilot Grove Bank) about intended LLC structure, life insurance component, and FHKlopFarms land bid interest
- - @location:winfield @project:cat9-hwpc - Repair Ron's laptop charger
- - @location:winfield @project:cat9-dev - Index old drives (wind-down task). Plug in, run index script on devwin10, label, shelf. Pattern: netstack.org/docs/ops/storage-index/
- - @location:winfield @project:cat9-dev - Find/merge old drive label Google Sheet into wf storage-index. Sheet: https://docs.google.com/spreadsheets/d/1V3boDxhP30T13M4oGIrFH-O6BwVpyrrN2XqiZgNCmTM/ . Old QR labels pointed to lls.2cld.net/sg/bs4. First physical label sheet exists somewhere at wf.
+## Active Epics
 
- **@person:**
- - @person:kenton @project:cat9-treesaes - Schedule backhoe repair (Joe's backhoe, useful for restoration)
- - @person:kenton @project:cat9-treesaes - Ask to use his press to fix endloader forks
- - @person:eric-sander - Ping some Sunday just to catch up
-
- **@date:**
- - @date:DAILY @project:cat9-hwpc - RED ALERT: hwpc-rp database (route_tickets.db) has NO automated backup. Manual only. If cat9fin dies, data is lost. Blocked on: buadmin on cat9fin.
- - @date:2026-08-04 @project:cat9-treesaes - Stock cert tendering — follow up with Gayle OVERDUE (was due 2026-07-31). 7890 shares @ $9.41/share submitted. No response confirmed yet — reach out now.
- - @date:2026-08-04 @project:cat9-dev - ns-account bill-pull: resume on voice-bot-scaffold branch. Last commit: e4d0ce4 (2026-07-28 merge). Check where bill-pull feature stands before next session.
-
- **@project (unscheduled):**
- - @project:cat9-treesaes - Clear out slant-side-shed so we can work on equipment
- - @project:cat9-fhklop - Research recap bid + figure out how to buy Buffington land
- - @project:cat9-fletchmc - Research recap bid for HWPC to grow company
- - @project:cat9-wip - Separation of concerns: clean up docs/ to properly separate wip/christrees/cat9/client layers (Multi-Brain prevention). Use contract-map.md as source of truth.
- - @project:cat9-dev - cg2 RAM upgrade: research DDR3 for ASUS P9X79 WS (8 slots, quad-channel, currently 1x8GB). Also clean up sde (old cfplex Win10 passthrough) for re-use.
- - @project:cat9-dev - Review service monitoring patterns: reconcile nsadmin vs buadmin keys, known_hosts on first connect, update netstack cross-platform-monitoring-pattern with lessons learned.
- - @project:cat9-dev - Metrics collection pattern: time-series resource data (CPU/RAM/IO over time), log retention policy, Proxmox pvestatd vs Prometheus. Document in netstack.
- - @project:cat9-dev - nsgctime: replace dotenvx with plain dotenv 16.x (removes ad spam in script output). `.local/scripts` already fixed (2026-06-16). nsgctime repo still on dotenv 16 but the nsgctime node_modules may have dotenvx remnants — verify and clean.
- - @project:chris - Audit christrees GitHub repos: list all, categorize as active/archive/delete. Many old company/experiment repos. Decide per repo. Only active ones get added to Wip monitoring. Do during a free `chris` day.
-
-</details>
+- **TreesAES Renovation** (`cat9-treesaes`) — [Rental-ready](https://github.com/2cld/trees-aes/milestone/1) 0/3
+- **HWPC Operations** (`cat9-hwpc`) — [HWPC Ops](https://github.com/2cld/hwpc/milestone/1) 3/6
+- **WF Site Ops** (`cat9-ops-wf`) — [Site Ops v1](https://github.com/2cld/wf/milestone/2) 4/6
+- **Cleanup LLCs** (`cat9-llc`) — [LLC Accounting](https://github.com/2cld/wip/milestone/2) 0/4
+- **SL Ops** (`cat9-ops-sl`) — [SL Site Ops](https://github.com/2cld/sl/milestone/1) 1/2
 
 ---
 
 ## Quick Links
 
-- [netstack.org](https://netstack.org) - patterns + architecture
+- [netstack.org](https://netstack.org) — patterns + architecture
 - [cf.2cld.net](https://cf.2cld.net) | [sl.2cld.net](https://sl.2cld.net) | [wf.2cld.net](https://wf.2cld.net)
-- [th-twig.2cld.net](https://th-twig.2cld.net) - renovation tracking
-- [trees-aes.2cld.net](https://trees-aes.2cld.net) - TreesAES LLC
-- [gitea.cat9.me](https://gitea.cat9.me) - private repos
+- [th-twig.2cld.net](https://th-twig.2cld.net) — renovation tracking
+- [trees-aes.2cld.net](https://trees-aes.2cld.net) — TreesAES LLC
+- [hwpc.2cld.net](https://hwpc.2cld.net) — HWPC operations
+- [gitea.cat9.me](https://gitea.cat9.me) — private repos
 
 ---
-*Auto-generated by Wip morning-update. Last push: 2026-08-12 07:25*
+*Auto-generated by Wip morning-update. Last push: 2026-08-13 10:26*
